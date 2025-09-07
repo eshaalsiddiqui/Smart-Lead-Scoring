@@ -1,0 +1,1001 @@
+lead_id,company_name,contact_name,email,job_title,industry,company_size,region,source_channel,decision_maker,created_date,last_activity,last_touch,page_views_7d,emails_opened_30d,calls_last_30d,days_in_pipeline,deal_size_estimate,lead_score,conversion_probability,converted
+LEAD_000001,E-commerce Company 1,Contact 1,contact1@company1.com,VP Sales,E-commerce,5000+,APAC,paid,False,2025-05-08,2025-06-06,content_download,5,2,2,15,1305,47,0.47,0
+LEAD_000002,SaaS Company 2,Contact 2,contact2@company2.com,Sales Manager,SaaS,51-200,NA,paid,True,2025-04-12,2025-04-19,email_open,3,4,1,54,1052,47,0.47,1
+LEAD_000003,E-commerce Company 3,Contact 3,contact3@company3.com,CTO,E-commerce,5000+,APAC,direct,True,2024-11-07,2024-11-22,trial_signup,7,2,2,135,7993,60,0.603,1
+LEAD_000004,Manufacturing Company 4,Contact 4,contact4@company4.com,Operations Manager,Manufacturing,51-200,LATAM,referral,True,2025-05-01,2025-05-02,webinar,4,3,0,96,929,25,0.259,0
+LEAD_000005,SaaS Company 5,Contact 5,contact5@company5.com,IT Director,SaaS,5000+,EU,organic,False,2025-04-19,2025-05-08,pricing_page,5,1,1,103,3556,52,0.526,1
+LEAD_000006,E-commerce Company 6,Contact 6,contact6@company6.com,Sales Manager,E-commerce,5000+,NA,organic,False,2024-12-13,2025-01-06,case_study_view,7,0,3,123,28490,64,0.645,1
+LEAD_000007,Finance Company 7,Contact 7,contact7@company7.com,VP Sales,Finance,1-10,LATAM,organic,False,2025-01-15,2025-02-12,pricing_page,9,0,3,9,115,62,0.625,0
+LEAD_000008,Healthcare Company 8,Contact 8,contact8@company8.com,Sales Manager,Healthcare,1001-5000,LATAM,referral,True,2024-10-14,2024-10-31,trial_signup,8,6,3,115,5489,84,0.848,0
+LEAD_000009,Healthcare Company 9,Contact 9,contact9@company9.com,Operations Manager,Healthcare,5000+,EU,organic,True,2025-02-14,2025-03-07,demo_request,1,0,3,116,2837,68,0.682,1
+LEAD_000010,SaaS Company 10,Contact 10,contact10@company10.com,CTO,SaaS,51-200,MEA,paid,True,2025-04-09,2025-05-05,webinar,13,5,1,115,943,63,0.637,0
+LEAD_000011,E-commerce Company 11,Contact 11,contact11@company11.com,CFO,E-commerce,1-10,MEA,referral,True,2025-01-01,2025-01-23,product_tour,7,5,3,92,620,52,0.527,1
+LEAD_000012,Healthcare Company 12,Contact 12,contact12@company12.com,Marketing Director,Healthcare,201-1000,NA,direct,True,2025-04-16,2025-05-12,demo_request,8,2,0,176,1427,56,0.567,0
+LEAD_000013,SaaS Company 13,Contact 13,contact13@company13.com,CEO,SaaS,5000+,LATAM,paid,False,2024-10-19,2024-11-08,product_tour,1,1,2,12,8395,46,0.46,1
+LEAD_000014,SaaS Company 14,Contact 14,contact14@company14.com,IT Director,SaaS,1-10,NA,organic,False,2025-04-21,2025-05-10,email_open,3,1,2,164,772,42,0.428,0
+LEAD_000015,Healthcare Company 15,Contact 15,contact15@company15.com,Operations Manager,Healthcare,11-50,APAC,organic,False,2024-11-02,2024-11-26,contact_form,8,3,2,123,945,56,0.564,1
+LEAD_000016,Consulting Company 16,Contact 16,contact16@company16.com,IT Director,Consulting,5000+,MEA,social,False,2025-06-25,2025-07-21,content_download,6,1,1,145,695,36,0.362,0
+LEAD_000017,SaaS Company 17,Contact 17,contact17@company17.com,Operations Manager,SaaS,201-1000,EU,organic,True,2025-04-07,2025-05-04,product_tour,4,2,0,58,210,30,0.309,0
+LEAD_000018,SaaS Company 18,Contact 18,contact18@company18.com,VP Sales,SaaS,51-200,MEA,paid,False,2024-11-27,2024-12-15,case_study_view,6,2,3,161,2315,67,0.678,1
+LEAD_000019,Finance Company 19,Contact 19,contact19@company19.com,VP Sales,Finance,5000+,NA,referral,False,2024-10-29,2024-11-28,email_open,7,0,0,95,2167,36,0.365,0
+LEAD_000020,Retail Company 20,Contact 20,contact20@company20.com,VP Sales,Retail,11-50,EU,referral,False,2025-07-11,2025-07-25,demo_request,11,3,3,30,1516,74,0.745,1
+LEAD_000021,Healthcare Company 21,Contact 21,contact21@company21.com,VP Sales,Healthcare,5000+,NA,direct,False,2025-02-13,2025-02-23,webinar,3,0,1,25,856,36,0.368,1
+LEAD_000022,SaaS Company 22,Contact 22,contact22@company22.com,Sales Manager,SaaS,1-10,NA,paid,True,2024-10-04,2024-11-01,product_tour,8,4,1,47,589,47,0.471,1
+LEAD_000023,Healthcare Company 23,Contact 23,contact23@company23.com,Marketing Director,Healthcare,201-1000,NA,referral,False,2025-04-27,2025-05-21,webinar,4,1,1,13,497,39,0.399,0
+LEAD_000024,SaaS Company 24,Contact 24,contact24@company24.com,CEO,SaaS,51-200,EU,direct,False,2024-11-07,2024-11-15,trial_signup,7,1,2,79,3651,68,0.683,0
+LEAD_000025,Finance Company 25,Contact 25,contact25@company25.com,CTO,Finance,51-200,NA,paid,True,2025-07-22,2025-08-03,content_download,4,2,2,130,2119,56,0.56,0
+LEAD_000026,Manufacturing Company 26,Contact 26,contact26@company26.com,IT Director,Manufacturing,51-200,EU,direct,False,2025-07-31,2025-08-23,webinar,7,2,1,89,2073,42,0.425,0
+LEAD_000027,E-commerce Company 27,Contact 27,contact27@company27.com,CEO,E-commerce,51-200,NA,direct,True,2025-02-12,2025-03-07,demo_request,7,6,5,5,1061,91,0.913,1
+LEAD_000028,Healthcare Company 28,Contact 28,contact28@company28.com,Marketing Director,Healthcare,51-200,EU,referral,False,2025-01-17,2025-01-25,content_download,7,0,2,111,1444,57,0.573,0
+LEAD_000029,Manufacturing Company 29,Contact 29,contact29@company29.com,VP Sales,Manufacturing,1-10,EU,paid,True,2024-10-01,2024-10-27,case_study_view,10,5,2,91,157,46,0.469,0
+LEAD_000030,Healthcare Company 30,Contact 30,contact30@company30.com,CEO,Healthcare,5000+,EU,organic,True,2025-06-19,2025-06-30,pricing_page,4,0,1,62,1654,44,0.443,0
+LEAD_000031,Finance Company 31,Contact 31,contact31@company31.com,CTO,Finance,11-50,APAC,social,False,2024-09-14,2024-10-02,email_open,1,0,0,87,1338,13,0.138,1
+LEAD_000032,SaaS Company 32,Contact 32,contact32@company32.com,Operations Manager,SaaS,11-50,APAC,social,False,2025-04-28,2025-05-27,trial_signup,9,1,0,2,185,51,0.515,0
+LEAD_000033,E-commerce Company 33,Contact 33,contact33@company33.com,CTO,E-commerce,1-10,LATAM,organic,True,2024-11-20,2024-11-25,pricing_page,6,0,0,4,644,22,0.223,0
+LEAD_000034,Finance Company 34,Contact 34,contact34@company34.com,CTO,Finance,1001-5000,EU,paid,True,2025-09-04,2025-09-06,demo_request,2,1,2,122,417,59,0.594,1
+LEAD_000035,SaaS Company 35,Contact 35,contact35@company35.com,CFO,SaaS,201-1000,NA,referral,False,2025-06-24,2025-07-05,trial_signup,7,1,3,61,1276,83,0.834,1
+LEAD_000036,Retail Company 36,Contact 36,contact36@company36.com,Sales Manager,Retail,201-1000,NA,referral,False,2025-06-03,2025-06-05,webinar,9,2,2,151,2022,60,0.604,1
+LEAD_000037,Manufacturing Company 37,Contact 37,contact37@company37.com,CTO,Manufacturing,1-10,NA,paid,True,2025-05-11,2025-06-07,contact_form,9,2,3,55,42,59,0.593,1
+LEAD_000038,E-commerce Company 38,Contact 38,contact38@company38.com,Operations Manager,E-commerce,5000+,NA,referral,True,2025-03-18,2025-04-01,ad_click,3,0,1,68,857,31,0.312,0
+LEAD_000039,SaaS Company 39,Contact 39,contact39@company39.com,Operations Manager,SaaS,1-10,EU,direct,True,2024-10-23,2024-10-27,product_tour,6,3,1,3,2496,39,0.39,1
+LEAD_000040,Healthcare Company 40,Contact 40,contact40@company40.com,IT Director,Healthcare,51-200,EU,direct,False,2025-02-23,2025-03-22,product_tour,3,0,1,29,839,34,0.342,0
+LEAD_000041,Education Company 41,Contact 41,contact41@company41.com,CFO,Education,51-200,NA,referral,True,2025-02-08,2025-03-04,pricing_page,9,6,3,45,1452,73,0.731,0
+LEAD_000042,SaaS Company 42,Contact 42,contact42@company42.com,Business Analyst,SaaS,1001-5000,LATAM,referral,True,2025-03-13,2025-04-01,contact_form,0,0,2,113,7452,46,0.46,1
+LEAD_000043,Retail Company 43,Contact 43,contact43@company43.com,CTO,Retail,1-10,NA,organic,True,2025-06-18,2025-06-25,product_tour,9,3,1,58,383,41,0.411,0
+LEAD_000044,SaaS Company 44,Contact 44,contact44@company44.com,Business Analyst,SaaS,1001-5000,EU,referral,True,2025-01-29,2025-02-27,ad_click,9,3,2,12,3543,66,0.665,1
+LEAD_000045,SaaS Company 45,Contact 45,contact45@company45.com,Business Analyst,SaaS,51-200,EU,referral,False,2025-03-30,2025-04-06,webinar,2,1,1,117,771,38,0.385,1
+LEAD_000046,Healthcare Company 46,Contact 46,contact46@company46.com,Marketing Director,Healthcare,201-1000,EU,referral,False,2025-05-06,2025-05-21,pricing_page,2,0,0,54,1309,30,0.301,0
+LEAD_000047,Healthcare Company 47,Contact 47,contact47@company47.com,VP Sales,Healthcare,1-10,EU,direct,True,2025-03-13,2025-03-14,ad_click,6,1,4,58,405,61,0.619,0
+LEAD_000048,SaaS Company 48,Contact 48,contact48@company48.com,CEO,SaaS,1-10,NA,direct,False,2025-02-12,2025-02-25,case_study_view,6,1,0,97,556,28,0.28,0
+LEAD_000049,Retail Company 49,Contact 49,contact49@company49.com,CTO,Retail,51-200,APAC,paid,False,2025-04-19,2025-05-19,ad_click,3,2,1,12,1953,28,0.284,1
+LEAD_000050,Manufacturing Company 50,Contact 50,contact50@company50.com,CFO,Manufacturing,5000+,NA,organic,False,2025-08-04,2025-08-16,email_open,8,1,2,118,2695,54,0.549,0
+LEAD_000051,Healthcare Company 51,Contact 51,contact51@company51.com,CEO,Healthcare,11-50,APAC,paid,False,2024-09-18,2024-09-19,case_study_view,5,0,1,59,210,33,0.333,1
+LEAD_000052,Real Estate Company 52,Contact 52,contact52@company52.com,CTO,Real Estate,5000+,NA,social,False,2025-01-03,2025-01-05,case_study_view,4,0,1,5,917,33,0.338,0
+LEAD_000053,Education Company 53,Contact 53,contact53@company53.com,VP Sales,Education,51-200,APAC,direct,False,2025-01-13,2025-01-21,trial_signup,12,4,1,141,1890,58,0.587,1
+LEAD_000054,Finance Company 54,Contact 54,contact54@company54.com,Operations Manager,Finance,1-10,NA,organic,False,2025-06-14,2025-06-26,product_tour,8,4,4,107,468,75,0.756,1
+LEAD_000055,E-commerce Company 55,Contact 55,contact55@company55.com,CFO,E-commerce,1-10,EU,direct,False,2024-11-29,2024-12-18,email_open,8,3,1,56,2085,35,0.354,0
+LEAD_000056,Retail Company 56,Contact 56,contact56@company56.com,VP Sales,Retail,51-200,NA,organic,False,2025-02-14,2025-02-24,contact_form,6,0,2,69,500,49,0.493,1
+LEAD_000057,SaaS Company 57,Contact 57,contact57@company57.com,IT Director,SaaS,1-10,APAC,organic,False,2025-06-02,2025-06-30,contact_form,10,5,4,97,96,86,0.862,1
+LEAD_000058,SaaS Company 58,Contact 58,contact58@company58.com,CEO,SaaS,1001-5000,NA,direct,False,2025-01-20,2025-02-10,trial_signup,7,4,0,55,6588,54,0.549,0
+LEAD_000059,Consulting Company 59,Contact 59,contact59@company59.com,CTO,Consulting,11-50,EU,paid,False,2025-08-03,2025-08-11,pricing_page,3,3,0,66,1541,24,0.249,0
+LEAD_000060,E-commerce Company 60,Contact 60,contact60@company60.com,VP Sales,E-commerce,5000+,LATAM,organic,False,2025-06-09,2025-06-15,webinar,6,0,1,66,2761,36,0.365,0
+LEAD_000061,Consulting Company 61,Contact 61,contact61@company61.com,CTO,Consulting,51-200,EU,direct,False,2025-06-20,2025-06-21,ad_click,5,0,1,60,1041,27,0.272,1
+LEAD_000062,Retail Company 62,Contact 62,contact62@company62.com,Product Manager,Retail,51-200,NA,paid,False,2024-12-31,2025-01-11,email_open,4,2,1,164,484,33,0.33,0
+LEAD_000063,Education Company 63,Contact 63,contact63@company63.com,Marketing Director,Education,11-50,EU,paid,True,2025-01-01,2025-01-23,contact_form,3,3,3,139,139,49,0.492,1
+LEAD_000064,SaaS Company 64,Contact 64,contact64@company64.com,Business Analyst,SaaS,11-50,APAC,organic,False,2024-11-14,2024-11-22,webinar,8,0,3,145,218,66,0.664,0
+LEAD_000065,Healthcare Company 65,Contact 65,contact65@company65.com,Business Analyst,Healthcare,201-1000,NA,social,False,2025-08-01,2025-08-26,contact_form,7,3,1,112,199,51,0.514,1
+LEAD_000066,SaaS Company 66,Contact 66,contact66@company66.com,Marketing Director,SaaS,1-10,APAC,social,True,2025-06-21,2025-07-05,case_study_view,9,2,1,114,1166,38,0.387,0
+LEAD_000067,SaaS Company 67,Contact 67,contact67@company67.com,VP Sales,SaaS,5000+,APAC,organic,True,2024-10-20,2024-11-19,contact_form,5,0,2,50,12251,56,0.568,0
+LEAD_000068,Finance Company 68,Contact 68,contact68@company68.com,IT Director,Finance,51-200,EU,paid,False,2024-12-01,2024-12-23,webinar,7,2,2,66,2029,59,0.594,0
+LEAD_000069,Retail Company 69,Contact 69,contact69@company69.com,CEO,Retail,1001-5000,NA,paid,False,2024-09-10,2024-10-05,email_open,6,1,1,57,301,38,0.389,0
+LEAD_000070,Manufacturing Company 70,Contact 70,contact70@company70.com,Product Manager,Manufacturing,1-10,NA,paid,True,2025-07-22,2025-08-11,ad_click,3,1,3,94,18,44,0.446,1
+LEAD_000071,Finance Company 71,Contact 71,contact71@company71.com,CEO,Finance,201-1000,MEA,organic,False,2024-10-27,2024-11-24,pricing_page,3,0,0,118,2072,33,0.334,0
+LEAD_000072,E-commerce Company 72,Contact 72,contact72@company72.com,Operations Manager,E-commerce,11-50,LATAM,paid,True,2025-09-05,2025-10-04,content_download,5,3,1,152,976,31,0.319,1
+LEAD_000073,SaaS Company 73,Contact 73,contact73@company73.com,Operations Manager,SaaS,11-50,NA,direct,True,2025-01-26,2025-02-09,trial_signup,3,0,2,143,2389,58,0.585,0
+LEAD_000074,Real Estate Company 74,Contact 74,contact74@company74.com,CTO,Real Estate,11-50,APAC,organic,False,2024-10-19,2024-11-14,content_download,3,2,0,152,842,22,0.228,1
+LEAD_000075,Manufacturing Company 75,Contact 75,contact75@company75.com,Sales Manager,Manufacturing,51-200,NA,direct,True,2025-04-26,2025-05-02,email_open,5,0,3,68,436,55,0.553,0
+LEAD_000076,Technology Company 76,Contact 76,contact76@company76.com,Business Analyst,Technology,1001-5000,NA,social,False,2025-07-19,2025-07-28,trial_signup,9,2,2,143,8145,75,0.752,1
+LEAD_000077,Retail Company 77,Contact 77,contact77@company77.com,CFO,Retail,11-50,LATAM,direct,True,2025-01-17,2025-01-20,email_open,11,2,2,25,2204,52,0.524,0
+LEAD_000078,E-commerce Company 78,Contact 78,contact78@company78.com,IT Director,E-commerce,11-50,LATAM,organic,False,2025-02-03,2025-02-09,webinar,11,10,2,175,444,61,0.612,0
+LEAD_000079,Retail Company 79,Contact 79,contact79@company79.com,VP Sales,Retail,1001-5000,NA,direct,True,2025-04-01,2025-04-02,ad_click,4,0,1,145,12196,37,0.37,1
+LEAD_000080,Consulting Company 80,Contact 80,contact80@company80.com,Product Manager,Consulting,201-1000,EU,organic,False,2024-11-18,2024-12-15,email_open,4,1,0,28,2542,27,0.278,0
+LEAD_000081,Retail Company 81,Contact 81,contact81@company81.com,Product Manager,Retail,11-50,LATAM,organic,False,2024-11-07,2024-11-21,trial_signup,1,2,1,120,217,28,0.286,0
+LEAD_000082,SaaS Company 82,Contact 82,contact82@company82.com,Product Manager,SaaS,51-200,MEA,organic,True,2025-05-24,2025-06-11,content_download,8,1,1,179,6888,48,0.485,1
+LEAD_000083,Healthcare Company 83,Contact 83,contact83@company83.com,CEO,Healthcare,201-1000,MEA,organic,True,2025-07-10,2025-07-12,contact_form,10,5,3,37,852,76,0.767,0
+LEAD_000084,Finance Company 84,Contact 84,contact84@company84.com,Marketing Director,Finance,1-10,APAC,paid,False,2025-01-31,2025-02-14,webinar,8,2,1,68,1979,41,0.418,0
+LEAD_000085,Finance Company 85,Contact 85,contact85@company85.com,CEO,Finance,5000+,EU,organic,True,2025-06-12,2025-07-01,case_study_view,2,1,6,101,1347,63,0.633,0
+LEAD_000086,SaaS Company 86,Contact 86,contact86@company86.com,CTO,SaaS,11-50,LATAM,paid,True,2024-09-13,2024-09-17,webinar,5,2,1,161,4818,42,0.426,1
+LEAD_000087,Technology Company 87,Contact 87,contact87@company87.com,Operations Manager,Technology,11-50,NA,direct,True,2025-01-06,2025-02-04,product_tour,7,0,0,6,943,30,0.305,1
+LEAD_000088,Real Estate Company 88,Contact 88,contact88@company88.com,VP Sales,Real Estate,11-50,LATAM,paid,True,2025-08-13,2025-08-17,email_open,3,0,0,131,1014,12,0.12,0
+LEAD_000089,E-commerce Company 89,Contact 89,contact89@company89.com,Sales Manager,E-commerce,5000+,EU,paid,True,2024-09-11,2024-09-30,demo_request,7,0,2,54,3022,67,0.673,0
+LEAD_000090,E-commerce Company 90,Contact 90,contact90@company90.com,Operations Manager,E-commerce,1001-5000,MEA,direct,False,2025-03-14,2025-03-31,webinar,11,1,5,63,788,81,0.814,0
+LEAD_000091,SaaS Company 91,Contact 91,contact91@company91.com,CTO,SaaS,51-200,APAC,direct,True,2024-09-29,2024-10-10,webinar,4,0,1,1,1151,42,0.429,0
+LEAD_000092,SaaS Company 92,Contact 92,contact92@company92.com,CTO,SaaS,11-50,EU,paid,True,2024-09-19,2024-09-25,webinar,1,2,1,144,4228,36,0.36,0
+LEAD_000093,SaaS Company 93,Contact 93,contact93@company93.com,Product Manager,SaaS,1001-5000,EU,paid,False,2024-09-18,2024-10-11,trial_signup,9,4,3,30,11942,87,0.878,1
+LEAD_000094,E-commerce Company 94,Contact 94,contact94@company94.com,Marketing Director,E-commerce,1-10,APAC,paid,False,2025-07-10,2025-07-21,case_study_view,3,0,1,162,395,18,0.189,0
+LEAD_000095,Consulting Company 95,Contact 95,contact95@company95.com,IT Director,Consulting,11-50,MEA,social,True,2025-04-05,2025-04-10,demo_request,1,1,0,175,413,24,0.247,0
+LEAD_000096,SaaS Company 96,Contact 96,contact96@company96.com,CTO,SaaS,11-50,MEA,referral,False,2025-05-28,2025-06-25,case_study_view,0,0,4,100,681,61,0.612,0
+LEAD_000097,Manufacturing Company 97,Contact 97,contact97@company97.com,Business Analyst,Manufacturing,11-50,APAC,referral,False,2025-04-22,2025-05-13,trial_signup,13,3,4,12,1302,87,0.873,1
+LEAD_000098,E-commerce Company 98,Contact 98,contact98@company98.com,VP Sales,E-commerce,201-1000,EU,paid,False,2025-02-10,2025-02-26,demo_request,5,5,6,59,646,84,0.847,1
+LEAD_000099,Healthcare Company 99,Contact 99,contact99@company99.com,IT Director,Healthcare,201-1000,EU,direct,False,2025-06-15,2025-07-11,ad_click,6,2,1,57,1922,44,0.445,1
+LEAD_000100,SaaS Company 100,Contact 100,contact100@company100.com,Sales Manager,SaaS,51-200,EU,direct,True,2024-11-13,2024-12-05,demo_request,5,3,3,75,2224,80,0.804,0
+LEAD_000101,Real Estate Company 101,Contact 101,contact101@company101.com,Operations Manager,Real Estate,201-1000,MEA,organic,True,2025-05-16,2025-06-10,content_download,13,5,6,156,3752,87,0.879,1
+LEAD_000102,Healthcare Company 102,Contact 102,contact102@company102.com,CEO,Healthcare,1001-5000,NA,paid,True,2024-11-03,2024-11-30,case_study_view,2,0,2,91,1216,48,0.486,0
+LEAD_000103,Real Estate Company 103,Contact 103,contact103@company103.com,VP Sales,Real Estate,1-10,LATAM,organic,False,2025-03-20,2025-03-29,case_study_view,11,1,2,68,260,44,0.443,1
+LEAD_000104,Retail Company 104,Contact 104,contact104@company104.com,Sales Manager,Retail,1-10,APAC,direct,False,2025-08-04,2025-09-02,trial_signup,5,5,2,3,88,46,0.468,1
+LEAD_000105,Education Company 105,Contact 105,contact105@company105.com,Sales Manager,Education,201-1000,LATAM,referral,True,2025-07-27,2025-08-19,product_tour,8,3,0,139,695,31,0.313,0
+LEAD_000106,Education Company 106,Contact 106,contact106@company106.com,Marketing Director,Education,1-10,EU,organic,False,2024-09-09,2024-09-26,demo_request,2,0,2,141,134,42,0.421,1
+LEAD_000107,Manufacturing Company 107,Contact 107,contact107@company107.com,CEO,Manufacturing,201-1000,EU,paid,False,2025-03-18,2025-03-19,demo_request,1,0,2,134,1071,52,0.521,1
+LEAD_000108,Healthcare Company 108,Contact 108,contact108@company108.com,Operations Manager,Healthcare,1-10,MEA,paid,True,2024-11-04,2024-12-04,webinar,9,1,2,97,417,50,0.505,1
+LEAD_000109,SaaS Company 109,Contact 109,contact109@company109.com,Operations Manager,SaaS,11-50,APAC,social,False,2025-02-22,2025-03-21,email_open,6,0,1,66,1479,39,0.399,0
+LEAD_000110,Manufacturing Company 110,Contact 110,contact110@company110.com,CFO,Manufacturing,11-50,NA,social,False,2025-08-24,2025-09-05,contact_form,5,1,2,150,287,52,0.521,0
+LEAD_000111,E-commerce Company 111,Contact 111,contact111@company111.com,CTO,E-commerce,11-50,EU,organic,False,2025-03-03,2025-04-01,ad_click,5,1,3,166,286,52,0.524,1
+LEAD_000112,Manufacturing Company 112,Contact 112,contact112@company112.com,CTO,Manufacturing,5000+,EU,referral,False,2025-01-22,2025-02-06,ad_click,8,0,1,58,1239,43,0.434,0
+LEAD_000113,E-commerce Company 113,Contact 113,contact113@company113.com,Sales Manager,E-commerce,51-200,NA,organic,False,2024-12-29,2025-01-22,webinar,4,0,3,58,720,59,0.597,0
+LEAD_000114,Consulting Company 114,Contact 114,contact114@company114.com,CFO,Consulting,1-10,LATAM,organic,False,2025-02-06,2025-02-28,product_tour,4,1,5,23,108,52,0.528,0
+LEAD_000115,SaaS Company 115,Contact 115,contact115@company115.com,Product Manager,SaaS,1001-5000,APAC,paid,True,2025-01-18,2025-02-01,product_tour,10,3,2,151,1166,71,0.715,0
+LEAD_000116,E-commerce Company 116,Contact 116,contact116@company116.com,VP Sales,E-commerce,51-200,NA,paid,False,2024-12-08,2025-01-07,product_tour,3,2,2,157,8852,47,0.472,0
+LEAD_000117,SaaS Company 117,Contact 117,contact117@company117.com,CEO,SaaS,51-200,NA,paid,False,2024-12-01,2024-12-30,contact_form,6,7,3,73,2333,79,0.792,0
+LEAD_000118,Healthcare Company 118,Contact 118,contact118@company118.com,Sales Manager,Healthcare,11-50,APAC,paid,False,2025-04-15,2025-04-29,webinar,2,0,1,66,76,27,0.278,0
+LEAD_000119,E-commerce Company 119,Contact 119,contact119@company119.com,Product Manager,E-commerce,11-50,EU,direct,False,2025-04-03,2025-04-11,contact_form,1,1,3,58,730,47,0.478,1
+LEAD_000120,SaaS Company 120,Contact 120,contact120@company120.com,CTO,SaaS,201-1000,EU,organic,True,2025-08-18,2025-09-15,case_study_view,9,0,1,80,1125,53,0.53,1
+LEAD_000121,Real Estate Company 121,Contact 121,contact121@company121.com,VP Sales,Real Estate,11-50,EU,direct,False,2025-07-19,2025-08-13,webinar,10,3,2,125,96,55,0.555,1
+LEAD_000122,Education Company 122,Contact 122,contact122@company122.com,CEO,Education,11-50,LATAM,paid,False,2025-03-12,2025-04-08,trial_signup,4,1,0,144,1305,29,0.299,0
+LEAD_000123,Healthcare Company 123,Contact 123,contact123@company123.com,VP Sales,Healthcare,1-10,NA,referral,False,2025-01-23,2025-02-13,webinar,1,0,3,171,2121,44,0.44,0
+LEAD_000124,E-commerce Company 124,Contact 124,contact124@company124.com,CTO,E-commerce,51-200,NA,social,True,2024-12-27,2025-01-15,content_download,8,2,3,93,518,66,0.662,1
+LEAD_000125,SaaS Company 125,Contact 125,contact125@company125.com,Business Analyst,SaaS,51-200,EU,social,True,2025-03-06,2025-03-26,pricing_page,7,3,3,45,3788,79,0.793,0
+LEAD_000126,Technology Company 126,Contact 126,contact126@company126.com,Operations Manager,Technology,1-10,NA,organic,False,2025-06-26,2025-07-01,product_tour,5,1,1,138,358,32,0.325,0
+LEAD_000127,Real Estate Company 127,Contact 127,contact127@company127.com,VP Sales,Real Estate,11-50,NA,organic,True,2025-07-19,2025-07-27,trial_signup,7,1,2,128,2387,57,0.578,1
+LEAD_000128,SaaS Company 128,Contact 128,contact128@company128.com,Business Analyst,SaaS,51-200,NA,paid,True,2025-08-09,2025-09-03,contact_form,11,0,3,89,378,79,0.799,0
+LEAD_000129,Healthcare Company 129,Contact 129,contact129@company129.com,Business Analyst,Healthcare,201-1000,EU,social,False,2024-09-12,2024-09-26,pricing_page,3,2,1,166,2239,45,0.457,1
+LEAD_000130,Retail Company 130,Contact 130,contact130@company130.com,Product Manager,Retail,11-50,NA,organic,True,2025-05-28,2025-06-14,content_download,3,5,2,58,1799,42,0.426,0
+LEAD_000131,Retail Company 131,Contact 131,contact131@company131.com,Marketing Director,Retail,51-200,NA,referral,False,2024-09-07,2024-10-05,case_study_view,7,0,3,158,457,57,0.58,0
+LEAD_000132,Manufacturing Company 132,Contact 132,contact132@company132.com,Business Analyst,Manufacturing,11-50,NA,organic,True,2024-12-30,2025-01-11,demo_request,4,0,4,177,142,73,0.731,1
+LEAD_000133,SaaS Company 133,Contact 133,contact133@company133.com,Business Analyst,SaaS,51-200,EU,direct,False,2025-01-21,2025-01-27,webinar,10,3,0,48,319,47,0.472,1
+LEAD_000134,Manufacturing Company 134,Contact 134,contact134@company134.com,CFO,Manufacturing,11-50,NA,organic,False,2025-08-12,2025-08-25,case_study_view,6,0,2,66,1537,43,0.437,0
+LEAD_000135,SaaS Company 135,Contact 135,contact135@company135.com,Product Manager,SaaS,201-1000,EU,referral,False,2025-05-01,2025-05-07,product_tour,8,3,2,122,5569,63,0.636,1
+LEAD_000136,SaaS Company 136,Contact 136,contact136@company136.com,Sales Manager,SaaS,1001-5000,APAC,direct,False,2025-04-02,2025-04-10,webinar,8,0,2,79,3731,66,0.663,1
+LEAD_000137,Retail Company 137,Contact 137,contact137@company137.com,Marketing Director,Retail,11-50,NA,paid,True,2024-11-04,2024-11-21,pricing_page,7,1,0,47,3303,30,0.301,0
+LEAD_000138,Real Estate Company 138,Contact 138,contact138@company138.com,Sales Manager,Real Estate,51-200,APAC,direct,False,2025-05-03,2025-05-16,contact_form,3,1,1,32,1345,33,0.331,1
+LEAD_000139,Finance Company 139,Contact 139,contact139@company139.com,CFO,Finance,1-10,LATAM,paid,True,2024-12-23,2024-12-27,product_tour,11,1,2,94,534,52,0.525,1
+LEAD_000140,Consulting Company 140,Contact 140,contact140@company140.com,Sales Manager,Consulting,11-50,LATAM,referral,False,2025-03-18,2025-03-26,product_tour,1,1,0,160,1752,10,0.106,0
+LEAD_000141,Retail Company 141,Contact 141,contact141@company141.com,CFO,Retail,11-50,MEA,direct,True,2025-07-17,2025-07-20,case_study_view,4,1,1,25,389,23,0.236,0
+LEAD_000142,Retail Company 142,Contact 142,contact142@company142.com,CFO,Retail,1-10,NA,paid,False,2025-08-05,2025-08-21,email_open,4,0,0,108,983,13,0.136,0
+LEAD_000143,SaaS Company 143,Contact 143,contact143@company143.com,CFO,SaaS,1-10,EU,organic,False,2025-03-05,2025-03-20,trial_signup,7,0,0,151,116,40,0.407,0
+LEAD_000144,Healthcare Company 144,Contact 144,contact144@company144.com,VP Sales,Healthcare,11-50,EU,organic,False,2024-12-31,2025-01-14,ad_click,6,1,3,73,1829,52,0.525,0
+LEAD_000145,Retail Company 145,Contact 145,contact145@company145.com,VP Sales,Retail,201-1000,LATAM,referral,False,2025-06-21,2025-07-09,content_download,3,2,0,163,827,19,0.199,0
+LEAD_000146,Healthcare Company 146,Contact 146,contact146@company146.com,VP Sales,Healthcare,11-50,NA,referral,False,2025-06-16,2025-07-03,contact_form,3,0,4,50,698,65,0.657,1
+LEAD_000147,Finance Company 147,Contact 147,contact147@company147.com,Business Analyst,Finance,201-1000,EU,social,True,2025-08-18,2025-09-17,ad_click,4,4,2,89,846,54,0.545,1
+LEAD_000148,SaaS Company 148,Contact 148,contact148@company148.com,CEO,SaaS,11-50,NA,referral,False,2025-02-01,2025-03-01,email_open,11,6,4,100,120,90,0.908,0
+LEAD_000149,E-commerce Company 149,Contact 149,contact149@company149.com,CEO,E-commerce,1-10,NA,organic,True,2025-08-27,2025-09-23,content_download,6,3,2,123,438,46,0.466,1
+LEAD_000150,E-commerce Company 150,Contact 150,contact150@company150.com,CEO,E-commerce,1-10,EU,paid,False,2025-08-12,2025-08-20,ad_click,4,0,0,127,273,12,0.128,0
+LEAD_000151,E-commerce Company 151,Contact 151,contact151@company151.com,VP Sales,E-commerce,1-10,APAC,paid,False,2025-07-02,2025-07-05,content_download,5,2,2,42,157,37,0.376,1
+LEAD_000152,Manufacturing Company 152,Contact 152,contact152@company152.com,Sales Manager,Manufacturing,201-1000,LATAM,paid,False,2025-06-12,2025-07-01,contact_form,12,4,8,122,4734,86,0.864,1
+LEAD_000153,Finance Company 153,Contact 153,contact153@company153.com,IT Director,Finance,11-50,LATAM,organic,False,2025-07-09,2025-08-07,webinar,4,5,3,169,1178,58,0.583,1
+LEAD_000154,E-commerce Company 154,Contact 154,contact154@company154.com,CEO,E-commerce,1-10,EU,referral,False,2024-10-15,2024-10-17,ad_click,6,0,0,31,438,17,0.173,0
+LEAD_000155,SaaS Company 155,Contact 155,contact155@company155.com,Marketing Director,SaaS,11-50,APAC,paid,True,2025-02-25,2025-03-09,ad_click,6,5,5,117,547,75,0.757,1
+LEAD_000156,Finance Company 156,Contact 156,contact156@company156.com,CFO,Finance,5000+,EU,organic,False,2025-06-04,2025-06-09,product_tour,10,1,1,42,3790,52,0.529,0
+LEAD_000157,SaaS Company 157,Contact 157,contact157@company157.com,Sales Manager,SaaS,1-10,APAC,organic,False,2025-06-11,2025-07-10,webinar,4,0,3,71,294,53,0.534,0
+LEAD_000158,Education Company 158,Contact 158,contact158@company158.com,VP Sales,Education,1-10,MEA,referral,False,2025-02-13,2025-02-27,trial_signup,3,3,0,63,578,22,0.229,0
+LEAD_000159,Healthcare Company 159,Contact 159,contact159@company159.com,CTO,Healthcare,1-10,NA,social,False,2025-03-28,2025-04-11,case_study_view,3,0,1,175,142,26,0.264,0
+LEAD_000160,E-commerce Company 160,Contact 160,contact160@company160.com,VP Sales,E-commerce,201-1000,MEA,organic,False,2024-10-22,2024-11-04,trial_signup,5,1,2,54,4636,60,0.601,1
+LEAD_000161,Manufacturing Company 161,Contact 161,contact161@company161.com,IT Director,Manufacturing,51-200,EU,referral,False,2025-07-16,2025-08-06,case_study_view,6,0,1,84,1384,37,0.374,0
+LEAD_000162,Manufacturing Company 162,Contact 162,contact162@company162.com,Product Manager,Manufacturing,51-200,EU,social,False,2025-04-19,2025-05-12,ad_click,1,0,1,66,752,22,0.228,1
+LEAD_000163,Education Company 163,Contact 163,contact163@company163.com,Marketing Director,Education,51-200,EU,paid,False,2024-12-03,2024-12-16,webinar,9,2,2,10,2743,55,0.551,1
+LEAD_000164,Retail Company 164,Contact 164,contact164@company164.com,CFO,Retail,1-10,APAC,social,False,2025-01-25,2025-02-03,case_study_view,5,1,2,99,199,34,0.349,0
+LEAD_000165,SaaS Company 165,Contact 165,contact165@company165.com,VP Sales,SaaS,201-1000,APAC,organic,False,2025-07-21,2025-07-23,pricing_page,8,1,1,69,1292,56,0.56,0
+LEAD_000166,Consulting Company 166,Contact 166,contact166@company166.com,IT Director,Consulting,11-50,APAC,social,True,2025-02-27,2025-03-22,webinar,3,1,4,146,277,60,0.609,0
+LEAD_000167,Healthcare Company 167,Contact 167,contact167@company167.com,CFO,Healthcare,1-10,NA,organic,False,2025-03-03,2025-03-06,pricing_page,8,1,2,172,389,53,0.537,1
+LEAD_000168,Finance Company 168,Contact 168,contact168@company168.com,VP Sales,Finance,11-50,EU,organic,False,2025-09-02,2025-09-18,content_download,3,0,0,36,631,23,0.231,1
+LEAD_000169,Real Estate Company 169,Contact 169,contact169@company169.com,Operations Manager,Real Estate,51-200,MEA,paid,False,2025-06-05,2025-06-25,demo_request,4,5,1,93,2374,51,0.514,0
+LEAD_000170,Education Company 170,Contact 170,contact170@company170.com,CEO,Education,1-10,NA,referral,False,2024-12-12,2025-01-04,email_open,2,0,0,166,153,7,0.076,0
+LEAD_000171,E-commerce Company 171,Contact 171,contact171@company171.com,Sales Manager,E-commerce,11-50,NA,direct,False,2024-11-13,2024-12-10,demo_request,6,3,1,7,366,54,0.54,0
+LEAD_000172,Technology Company 172,Contact 172,contact172@company172.com,VP Sales,Technology,1-10,APAC,social,False,2024-12-13,2024-12-27,case_study_view,0,0,1,22,501,19,0.198,0
+LEAD_000173,E-commerce Company 173,Contact 173,contact173@company173.com,Sales Manager,E-commerce,201-1000,MEA,direct,True,2025-08-08,2025-08-14,contact_form,1,0,1,21,1499,29,0.294,1
+LEAD_000174,Retail Company 174,Contact 174,contact174@company174.com,Product Manager,Retail,51-200,NA,social,True,2024-10-03,2024-10-30,contact_form,9,0,0,23,265,34,0.345,0
+LEAD_000175,SaaS Company 175,Contact 175,contact175@company175.com,Product Manager,SaaS,1-10,EU,direct,False,2024-11-06,2024-12-01,content_download,4,0,1,31,1013,35,0.351,1
+LEAD_000176,Education Company 176,Contact 176,contact176@company176.com,CFO,Education,11-50,NA,organic,False,2024-11-19,2024-11-21,ad_click,7,0,0,22,754,22,0.223,0
+LEAD_000177,E-commerce Company 177,Contact 177,contact177@company177.com,Marketing Director,E-commerce,1-10,NA,organic,False,2024-10-23,2024-11-16,trial_signup,9,7,2,177,109,61,0.61,0
+LEAD_000178,SaaS Company 178,Contact 178,contact178@company178.com,CFO,SaaS,11-50,EU,paid,False,2025-08-20,2025-08-25,contact_form,11,1,2,25,3668,66,0.663,1
+LEAD_000179,Healthcare Company 179,Contact 179,contact179@company179.com,Marketing Director,Healthcare,201-1000,NA,referral,False,2025-03-08,2025-04-03,product_tour,12,4,0,124,4727,50,0.509,0
+LEAD_000180,Manufacturing Company 180,Contact 180,contact180@company180.com,IT Director,Manufacturing,5000+,EU,direct,False,2024-12-08,2024-12-10,pricing_page,4,0,0,23,4543,27,0.276,0
+LEAD_000181,Healthcare Company 181,Contact 181,contact181@company181.com,IT Director,Healthcare,201-1000,LATAM,referral,False,2025-03-22,2025-03-28,trial_signup,5,1,2,106,572,58,0.587,1
+LEAD_000182,SaaS Company 182,Contact 182,contact182@company182.com,Product Manager,SaaS,201-1000,NA,direct,False,2025-01-13,2025-02-11,webinar,4,0,2,167,1080,54,0.54,0
+LEAD_000183,Retail Company 183,Contact 183,contact183@company183.com,CFO,Retail,1001-5000,NA,direct,True,2025-06-15,2025-06-25,contact_form,6,0,0,110,858,34,0.348,0
+LEAD_000184,Retail Company 184,Contact 184,contact184@company184.com,Product Manager,Retail,11-50,EU,paid,True,2025-04-02,2025-04-25,contact_form,6,4,4,94,128,72,0.724,1
+LEAD_000185,Consulting Company 185,Contact 185,contact185@company185.com,Operations Manager,Consulting,1-10,EU,organic,True,2025-07-11,2025-08-05,content_download,8,1,2,32,1277,45,0.459,0
+LEAD_000186,SaaS Company 186,Contact 186,contact186@company186.com,Operations Manager,SaaS,11-50,NA,organic,False,2025-03-07,2025-03-14,trial_signup,6,0,2,97,687,66,0.666,1
+LEAD_000187,SaaS Company 187,Contact 187,contact187@company187.com,VP Sales,SaaS,5000+,NA,direct,False,2025-07-12,2025-07-19,product_tour,4,0,1,98,1804,41,0.416,1
+LEAD_000188,Consulting Company 188,Contact 188,contact188@company188.com,IT Director,Consulting,11-50,NA,organic,False,2025-04-09,2025-04-18,ad_click,4,0,2,150,516,43,0.434,1
+LEAD_000189,Education Company 189,Contact 189,contact189@company189.com,Operations Manager,Education,201-1000,NA,social,False,2025-01-29,2025-02-13,trial_signup,11,3,3,151,1439,84,0.845,1
+LEAD_000190,Technology Company 190,Contact 190,contact190@company190.com,VP Sales,Technology,11-50,NA,paid,False,2025-02-14,2025-03-16,ad_click,11,5,0,40,1644,44,0.443,1
+LEAD_000191,Finance Company 191,Contact 191,contact191@company191.com,CEO,Finance,51-200,APAC,direct,False,2025-06-10,2025-06-14,product_tour,3,0,1,93,253,35,0.352,0
+LEAD_000192,Healthcare Company 192,Contact 192,contact192@company192.com,Marketing Director,Healthcare,201-1000,EU,organic,False,2025-03-22,2025-04-04,contact_form,9,1,3,36,350,77,0.77,1
+LEAD_000193,Retail Company 193,Contact 193,contact193@company193.com,CTO,Retail,1-10,NA,paid,False,2024-11-27,2024-12-21,content_download,10,0,1,86,163,37,0.371,0
+LEAD_000194,Finance Company 194,Contact 194,contact194@company194.com,CTO,Finance,201-1000,EU,paid,False,2024-12-23,2025-01-10,pricing_page,10,5,2,140,582,71,0.718,0
+LEAD_000195,SaaS Company 195,Contact 195,contact195@company195.com,CTO,SaaS,201-1000,APAC,organic,True,2025-04-25,2025-05-23,contact_form,5,0,0,7,1400,36,0.368,0
+LEAD_000196,E-commerce Company 196,Contact 196,contact196@company196.com,Marketing Director,E-commerce,201-1000,APAC,paid,True,2024-09-28,2024-10-07,webinar,4,1,1,77,4498,38,0.383,1
+LEAD_000197,Retail Company 197,Contact 197,contact197@company197.com,Product Manager,Retail,11-50,EU,organic,True,2024-11-15,2024-12-09,content_download,4,1,2,67,3098,40,0.408,1
+LEAD_000198,Healthcare Company 198,Contact 198,contact198@company198.com,CFO,Healthcare,11-50,NA,paid,False,2025-07-03,2025-07-28,contact_form,7,0,0,64,59,32,0.327,0
+LEAD_000199,SaaS Company 199,Contact 199,contact199@company199.com,CFO,SaaS,1-10,NA,direct,False,2025-01-31,2025-02-28,email_open,5,2,1,53,877,37,0.377,0
+LEAD_000200,E-commerce Company 200,Contact 200,contact200@company200.com,Marketing Director,E-commerce,51-200,NA,referral,False,2024-10-25,2024-10-29,webinar,10,6,2,159,380,60,0.6,1
+LEAD_000201,Consulting Company 201,Contact 201,contact201@company201.com,Sales Manager,Consulting,5000+,APAC,referral,True,2025-08-13,2025-09-08,content_download,6,3,3,97,2908,61,0.616,0
+LEAD_000202,SaaS Company 202,Contact 202,contact202@company202.com,CEO,SaaS,1001-5000,EU,direct,False,2025-05-13,2025-06-07,case_study_view,2,3,1,159,1224,44,0.441,0
+LEAD_000203,E-commerce Company 203,Contact 203,contact203@company203.com,Product Manager,E-commerce,1-10,APAC,referral,False,2025-04-06,2025-04-17,trial_signup,6,2,2,150,63,52,0.521,0
+LEAD_000204,E-commerce Company 204,Contact 204,contact204@company204.com,Operations Manager,E-commerce,5000+,NA,direct,False,2024-09-08,2024-10-08,case_study_view,8,3,4,49,622,76,0.764,0
+LEAD_000205,SaaS Company 205,Contact 205,contact205@company205.com,CTO,SaaS,5000+,EU,paid,False,2025-07-03,2025-07-07,demo_request,4,0,0,169,8482,45,0.45,0
+LEAD_000206,E-commerce Company 206,Contact 206,contact206@company206.com,CEO,E-commerce,1-10,EU,social,False,2025-09-03,2025-09-19,webinar,9,3,0,32,135,30,0.303,0
+LEAD_000207,E-commerce Company 207,Contact 207,contact207@company207.com,Operations Manager,E-commerce,1-10,NA,social,True,2024-12-13,2025-01-07,email_open,4,2,0,97,385,17,0.177,0
+LEAD_000208,SaaS Company 208,Contact 208,contact208@company208.com,CTO,SaaS,5000+,MEA,referral,True,2025-08-05,2025-08-06,webinar,4,0,1,31,7393,41,0.412,0
+LEAD_000209,Healthcare Company 209,Contact 209,contact209@company209.com,Business Analyst,Healthcare,201-1000,APAC,organic,True,2024-10-20,2024-10-31,case_study_view,1,1,3,146,6581,54,0.543,0
+LEAD_000210,SaaS Company 210,Contact 210,contact210@company210.com,Business Analyst,SaaS,11-50,APAC,organic,True,2025-04-14,2025-05-12,trial_signup,6,6,3,26,1932,75,0.759,1
+LEAD_000211,Finance Company 211,Contact 211,contact211@company211.com,Sales Manager,Finance,51-200,APAC,organic,False,2024-10-02,2024-10-30,demo_request,5,0,2,157,5278,60,0.607,1
+LEAD_000212,Education Company 212,Contact 212,contact212@company212.com,CEO,Education,51-200,NA,paid,False,2025-04-04,2025-04-11,trial_signup,4,0,0,70,555,31,0.318,0
+LEAD_000213,SaaS Company 213,Contact 213,contact213@company213.com,CTO,SaaS,51-200,NA,paid,True,2025-07-25,2025-08-24,ad_click,4,1,0,160,4546,30,0.304,0
+LEAD_000214,Retail Company 214,Contact 214,contact214@company214.com,Operations Manager,Retail,1-10,NA,organic,False,2024-12-14,2024-12-28,case_study_view,4,0,4,158,143,55,0.552,0
+LEAD_000215,E-commerce Company 215,Contact 215,contact215@company215.com,IT Director,E-commerce,5000+,NA,organic,True,2025-04-19,2025-05-03,content_download,2,0,1,160,27199,34,0.341,0
+LEAD_000216,Technology Company 216,Contact 216,contact216@company216.com,CFO,Technology,11-50,APAC,organic,False,2025-05-20,2025-06-14,webinar,5,0,1,76,358,39,0.392,1
+LEAD_000217,E-commerce Company 217,Contact 217,contact217@company217.com,CEO,E-commerce,1001-5000,NA,paid,False,2024-12-08,2024-12-26,contact_form,8,1,1,145,945,55,0.557,1
+LEAD_000218,Retail Company 218,Contact 218,contact218@company218.com,VP Sales,Retail,51-200,EU,referral,False,2025-03-03,2025-03-26,demo_request,7,4,2,16,1705,62,0.62,1
+LEAD_000219,E-commerce Company 219,Contact 219,contact219@company219.com,Sales Manager,E-commerce,1-10,EU,social,False,2025-03-12,2025-04-08,ad_click,9,0,1,24,244,29,0.298,0
+LEAD_000220,Finance Company 220,Contact 220,contact220@company220.com,CTO,Finance,11-50,APAC,organic,True,2025-09-05,2025-10-03,webinar,1,1,3,101,494,48,0.485,1
+LEAD_000221,SaaS Company 221,Contact 221,contact221@company221.com,Marketing Director,SaaS,11-50,MEA,direct,False,2025-07-09,2025-08-01,product_tour,6,4,1,48,2357,45,0.459,0
+LEAD_000222,Technology Company 222,Contact 222,contact222@company222.com,Business Analyst,Technology,1-10,EU,organic,False,2025-06-13,2025-07-08,webinar,4,4,2,6,261,45,0.456,1
+LEAD_000223,Real Estate Company 223,Contact 223,contact223@company223.com,Product Manager,Real Estate,1-10,APAC,referral,False,2024-10-29,2024-11-22,demo_request,10,1,1,7,94,48,0.483,1
+LEAD_000224,Real Estate Company 224,Contact 224,contact224@company224.com,CFO,Real Estate,201-1000,EU,paid,False,2025-01-31,2025-02-07,pricing_page,10,3,0,80,3179,43,0.434,0
+LEAD_000225,Education Company 225,Contact 225,contact225@company225.com,CEO,Education,1001-5000,NA,referral,False,2025-06-21,2025-07-01,webinar,5,0,6,1,1599,73,0.738,0
+LEAD_000226,Healthcare Company 226,Contact 226,contact226@company226.com,Marketing Director,Healthcare,5000+,EU,paid,False,2025-04-15,2025-05-09,contact_form,7,0,1,127,1083,49,0.495,1
+LEAD_000227,Consulting Company 227,Contact 227,contact227@company227.com,Marketing Director,Consulting,201-1000,EU,paid,False,2025-04-12,2025-05-03,content_download,2,0,1,11,1038,34,0.34,1
+LEAD_000228,SaaS Company 228,Contact 228,contact228@company228.com,CTO,SaaS,11-50,APAC,referral,False,2025-01-27,2025-02-25,trial_signup,7,5,5,141,1123,84,0.848,1
+LEAD_000229,Healthcare Company 229,Contact 229,contact229@company229.com,CEO,Healthcare,1001-5000,APAC,paid,False,2025-07-01,2025-07-10,contact_form,2,1,2,136,1850,52,0.524,1
+LEAD_000230,Finance Company 230,Contact 230,contact230@company230.com,IT Director,Finance,1001-5000,EU,paid,False,2025-04-18,2025-05-16,product_tour,11,5,1,73,2683,60,0.604,1
+LEAD_000231,Technology Company 231,Contact 231,contact231@company231.com,VP Sales,Technology,1-10,NA,referral,True,2025-06-26,2025-07-20,pricing_page,7,4,1,8,75,49,0.494,0
+LEAD_000232,Real Estate Company 232,Contact 232,contact232@company232.com,Operations Manager,Real Estate,51-200,NA,referral,False,2024-11-28,2024-12-20,email_open,11,0,6,19,2885,74,0.749,0
+LEAD_000233,SaaS Company 233,Contact 233,contact233@company233.com,Marketing Director,SaaS,11-50,EU,referral,False,2025-01-25,2025-02-05,contact_form,5,2,2,12,750,56,0.56,0
+LEAD_000234,Education Company 234,Contact 234,contact234@company234.com,Business Analyst,Education,1-10,APAC,social,False,2024-10-02,2024-10-14,email_open,4,0,3,41,290,41,0.419,1
+LEAD_000235,E-commerce Company 235,Contact 235,contact235@company235.com,Marketing Director,E-commerce,201-1000,LATAM,referral,True,2025-03-31,2025-04-07,email_open,3,0,1,101,727,32,0.322,1
+LEAD_000236,Finance Company 236,Contact 236,contact236@company236.com,Sales Manager,Finance,1-10,NA,social,True,2025-02-03,2025-03-01,content_download,7,3,1,97,495,43,0.43,1
+LEAD_000237,Healthcare Company 237,Contact 237,contact237@company237.com,Operations Manager,Healthcare,1-10,NA,direct,True,2024-09-28,2024-10-25,case_study_view,8,2,2,155,192,49,0.492,0
+LEAD_000238,Finance Company 238,Contact 238,contact238@company238.com,CFO,Finance,11-50,NA,direct,True,2024-11-02,2024-11-26,pricing_page,10,3,3,109,175,77,0.77,0
+LEAD_000239,SaaS Company 239,Contact 239,contact239@company239.com,CEO,SaaS,1001-5000,NA,organic,False,2025-06-25,2025-07-19,email_open,5,1,1,129,2800,51,0.513,1
+LEAD_000240,SaaS Company 240,Contact 240,contact240@company240.com,Sales Manager,SaaS,1-10,LATAM,organic,False,2024-10-25,2024-11-18,trial_signup,9,4,2,52,1678,67,0.671,0
+LEAD_000241,E-commerce Company 241,Contact 241,contact241@company241.com,CEO,E-commerce,11-50,NA,organic,False,2025-05-03,2025-05-16,ad_click,4,0,3,72,2667,50,0.507,1
+LEAD_000242,SaaS Company 242,Contact 242,contact242@company242.com,CEO,SaaS,5000+,NA,organic,False,2025-03-13,2025-03-17,content_download,8,0,2,9,2457,64,0.645,1
+LEAD_000243,E-commerce Company 243,Contact 243,contact243@company243.com,CEO,E-commerce,201-1000,LATAM,direct,False,2025-07-20,2025-08-03,ad_click,8,1,3,34,6434,59,0.59,1
+LEAD_000244,SaaS Company 244,Contact 244,contact244@company244.com,Product Manager,SaaS,1-10,APAC,referral,False,2025-06-23,2025-07-08,demo_request,9,0,1,131,872,56,0.565,0
+LEAD_000245,Real Estate Company 245,Contact 245,contact245@company245.com,Sales Manager,Real Estate,11-50,LATAM,paid,True,2024-12-05,2024-12-07,product_tour,6,0,1,68,369,27,0.274,0
+LEAD_000246,E-commerce Company 246,Contact 246,contact246@company246.com,CTO,E-commerce,201-1000,APAC,paid,True,2025-02-21,2025-02-27,case_study_view,5,2,0,59,2974,24,0.249,0
+LEAD_000247,SaaS Company 247,Contact 247,contact247@company247.com,VP Sales,SaaS,1-10,NA,referral,False,2025-08-14,2025-08-18,webinar,5,2,1,136,248,39,0.398,1
+LEAD_000248,Retail Company 248,Contact 248,contact248@company248.com,CFO,Retail,1001-5000,EU,referral,False,2025-08-05,2025-08-26,content_download,4,1,0,77,5486,31,0.314,0
+LEAD_000249,SaaS Company 249,Contact 249,contact249@company249.com,CEO,SaaS,1-10,EU,direct,False,2025-05-28,2025-06-10,product_tour,2,0,1,112,745,28,0.284,1
+LEAD_000250,Healthcare Company 250,Contact 250,contact250@company250.com,CTO,Healthcare,1001-5000,APAC,organic,False,2024-10-09,2024-11-05,content_download,9,2,1,88,3598,49,0.49,0
+LEAD_000251,Retail Company 251,Contact 251,contact251@company251.com,VP Sales,Retail,1001-5000,NA,paid,False,2024-11-21,2024-12-14,case_study_view,4,0,2,57,2906,48,0.483,0
+LEAD_000252,SaaS Company 252,Contact 252,contact252@company252.com,Operations Manager,SaaS,1-10,NA,organic,False,2025-07-23,2025-08-18,email_open,5,1,4,84,1279,70,0.704,1
+LEAD_000253,Consulting Company 253,Contact 253,contact253@company253.com,CTO,Consulting,1-10,APAC,organic,True,2024-11-19,2024-12-06,demo_request,4,0,4,143,189,67,0.677,1
+LEAD_000254,E-commerce Company 254,Contact 254,contact254@company254.com,Operations Manager,E-commerce,11-50,APAC,paid,False,2025-04-04,2025-04-25,product_tour,2,4,1,172,3070,27,0.275,0
+LEAD_000255,E-commerce Company 255,Contact 255,contact255@company255.com,CFO,E-commerce,5000+,NA,referral,False,2024-09-22,2024-10-06,contact_form,10,3,1,152,3140,59,0.591,1
+LEAD_000256,Healthcare Company 256,Contact 256,contact256@company256.com,Sales Manager,Healthcare,1-10,APAC,social,False,2024-11-24,2024-12-12,product_tour,8,2,1,156,826,38,0.387,0
+LEAD_000257,Healthcare Company 257,Contact 257,contact257@company257.com,CEO,Healthcare,51-200,NA,paid,False,2024-11-06,2024-11-11,ad_click,4,0,4,100,667,69,0.691,1
+LEAD_000258,Healthcare Company 258,Contact 258,contact258@company258.com,Product Manager,Healthcare,51-200,EU,paid,False,2024-09-29,2024-10-01,case_study_view,7,0,1,31,857,38,0.389,1
+LEAD_000259,Healthcare Company 259,Contact 259,contact259@company259.com,CFO,Healthcare,1-10,APAC,referral,False,2024-09-08,2024-09-19,content_download,5,0,1,131,271,30,0.307,0
+LEAD_000260,Consulting Company 260,Contact 260,contact260@company260.com,Operations Manager,Consulting,1-10,EU,paid,True,2025-06-21,2025-07-18,content_download,7,2,1,128,1657,33,0.331,0
+LEAD_000261,SaaS Company 261,Contact 261,contact261@company261.com,IT Director,SaaS,11-50,LATAM,organic,False,2025-04-28,2025-05-28,content_download,1,0,5,134,1317,59,0.598,0
+LEAD_000262,Education Company 262,Contact 262,contact262@company262.com,Marketing Director,Education,11-50,MEA,organic,True,2025-01-09,2025-01-18,trial_signup,1,1,0,80,234,20,0.201,0
+LEAD_000263,Finance Company 263,Contact 263,contact263@company263.com,Marketing Director,Finance,1-10,NA,organic,False,2025-07-13,2025-07-22,pricing_page,8,9,2,159,922,61,0.615,1
+LEAD_000264,Healthcare Company 264,Contact 264,contact264@company264.com,CFO,Healthcare,1-10,NA,referral,False,2025-01-10,2025-01-16,pricing_page,3,1,4,144,285,63,0.638,1
+LEAD_000265,SaaS Company 265,Contact 265,contact265@company265.com,CEO,SaaS,1-10,EU,direct,False,2025-01-18,2025-02-07,webinar,5,3,1,107,84,40,0.406,0
+LEAD_000266,E-commerce Company 266,Contact 266,contact266@company266.com,Operations Manager,E-commerce,51-200,NA,organic,True,2025-03-06,2025-03-28,pricing_page,6,1,1,69,1661,44,0.442,1
+LEAD_000267,SaaS Company 267,Contact 267,contact267@company267.com,VP Sales,SaaS,11-50,APAC,paid,False,2025-05-31,2025-06-24,contact_form,5,5,7,26,642,78,0.789,0
+LEAD_000268,Real Estate Company 268,Contact 268,contact268@company268.com,CEO,Real Estate,51-200,EU,referral,False,2025-05-12,2025-06-10,pricing_page,8,5,2,87,1773,61,0.611,0
+LEAD_000269,Finance Company 269,Contact 269,contact269@company269.com,CTO,Finance,1001-5000,NA,direct,False,2024-10-18,2024-11-09,contact_form,5,0,2,127,2542,56,0.569,1
+LEAD_000270,Retail Company 270,Contact 270,contact270@company270.com,CEO,Retail,1-10,EU,organic,True,2025-05-02,2025-05-11,product_tour,6,4,0,9,12,22,0.22,0
+LEAD_000271,Manufacturing Company 271,Contact 271,contact271@company271.com,Business Analyst,Manufacturing,5000+,EU,paid,False,2024-11-02,2024-11-27,pricing_page,7,2,0,31,696,40,0.405,0
+LEAD_000272,SaaS Company 272,Contact 272,contact272@company272.com,Operations Manager,SaaS,11-50,EU,social,False,2025-06-07,2025-06-21,demo_request,3,3,1,6,6474,52,0.528,0
+LEAD_000273,Technology Company 273,Contact 273,contact273@company273.com,IT Director,Technology,1001-5000,EU,paid,False,2024-10-05,2024-10-31,case_study_view,13,5,5,50,3272,95,0.95,1
+LEAD_000274,Healthcare Company 274,Contact 274,contact274@company274.com,Sales Manager,Healthcare,51-200,NA,organic,False,2025-01-20,2025-01-23,content_download,1,0,2,120,663,46,0.46,0
+LEAD_000275,Manufacturing Company 275,Contact 275,contact275@company275.com,Product Manager,Manufacturing,201-1000,APAC,organic,False,2024-11-12,2024-12-11,case_study_view,7,2,3,5,1539,62,0.625,1
+LEAD_000276,Finance Company 276,Contact 276,contact276@company276.com,Business Analyst,Finance,51-200,NA,referral,True,2025-08-11,2025-08-18,email_open,2,0,3,78,1645,52,0.529,0
+LEAD_000277,Manufacturing Company 277,Contact 277,contact277@company277.com,Business Analyst,Manufacturing,51-200,LATAM,paid,True,2025-08-03,2025-08-24,contact_form,6,2,2,179,5329,47,0.477,1
+LEAD_000278,Retail Company 278,Contact 278,contact278@company278.com,CTO,Retail,1-10,APAC,social,True,2024-10-31,2024-11-21,product_tour,8,5,6,57,209,66,0.664,0
+LEAD_000279,Education Company 279,Contact 279,contact279@company279.com,VP Sales,Education,11-50,EU,paid,False,2025-04-21,2025-05-13,demo_request,6,2,2,33,1737,60,0.604,1
+LEAD_000280,Technology Company 280,Contact 280,contact280@company280.com,CEO,Technology,201-1000,NA,paid,True,2024-12-01,2024-12-02,trial_signup,13,0,5,166,363,95,0.95,1
+LEAD_000281,E-commerce Company 281,Contact 281,contact281@company281.com,Business Analyst,E-commerce,1001-5000,EU,paid,True,2024-12-22,2025-01-17,webinar,3,1,2,112,145,48,0.487,1
+LEAD_000282,E-commerce Company 282,Contact 282,contact282@company282.com,CTO,E-commerce,1-10,EU,organic,False,2025-07-21,2025-08-15,pricing_page,7,0,2,163,86,52,0.526,1
+LEAD_000283,Healthcare Company 283,Contact 283,contact283@company283.com,CEO,Healthcare,1001-5000,EU,paid,False,2024-10-25,2024-11-16,webinar,5,1,1,139,4308,47,0.471,1
+LEAD_000284,Education Company 284,Contact 284,contact284@company284.com,CEO,Education,1-10,NA,organic,False,2025-02-26,2025-03-18,pricing_page,10,2,2,169,102,57,0.579,0
+LEAD_000285,Manufacturing Company 285,Contact 285,contact285@company285.com,VP Sales,Manufacturing,5000+,NA,organic,True,2025-05-23,2025-05-27,webinar,6,1,3,154,7199,66,0.662,0
+LEAD_000286,Healthcare Company 286,Contact 286,contact286@company286.com,CEO,Healthcare,1-10,MEA,paid,False,2025-05-13,2025-06-03,case_study_view,9,5,3,106,2863,61,0.611,1
+LEAD_000287,SaaS Company 287,Contact 287,contact287@company287.com,CTO,SaaS,1001-5000,NA,paid,False,2025-05-13,2025-06-09,email_open,10,2,1,139,6084,62,0.621,1
+LEAD_000288,Retail Company 288,Contact 288,contact288@company288.com,CEO,Retail,1-10,NA,direct,False,2025-01-20,2025-02-04,pricing_page,3,1,1,63,205,31,0.31,1
+LEAD_000289,Healthcare Company 289,Contact 289,contact289@company289.com,CEO,Healthcare,51-200,APAC,referral,False,2025-07-29,2025-08-18,ad_click,9,2,2,36,931,53,0.536,1
+LEAD_000290,Technology Company 290,Contact 290,contact290@company290.com,VP Sales,Technology,1001-5000,EU,paid,True,2024-12-27,2025-01-26,pricing_page,9,1,1,167,6066,57,0.578,1
+LEAD_000291,Education Company 291,Contact 291,contact291@company291.com,CEO,Education,1-10,APAC,organic,False,2025-03-16,2025-04-10,product_tour,4,1,2,51,331,30,0.306,1
+LEAD_000292,Retail Company 292,Contact 292,contact292@company292.com,Product Manager,Retail,11-50,NA,organic,False,2025-01-18,2025-02-05,ad_click,5,1,2,104,453,42,0.42,0
+LEAD_000293,SaaS Company 293,Contact 293,contact293@company293.com,CEO,SaaS,1-10,NA,organic,False,2024-09-19,2024-10-04,contact_form,4,5,3,134,245,64,0.642,1
+LEAD_000294,Manufacturing Company 294,Contact 294,contact294@company294.com,IT Director,Manufacturing,11-50,MEA,paid,False,2025-05-20,2025-06-14,email_open,9,3,2,88,1257,50,0.504,1
+LEAD_000295,Finance Company 295,Contact 295,contact295@company295.com,Business Analyst,Finance,201-1000,APAC,direct,False,2024-11-04,2024-11-08,pricing_page,9,2,2,8,1570,66,0.666,0
+LEAD_000296,SaaS Company 296,Contact 296,contact296@company296.com,Operations Manager,SaaS,1001-5000,NA,organic,False,2024-10-26,2024-11-02,ad_click,5,0,4,42,3052,77,0.776,0
+LEAD_000297,SaaS Company 297,Contact 297,contact297@company297.com,Operations Manager,SaaS,51-200,LATAM,referral,False,2025-08-08,2025-09-03,webinar,16,6,2,110,617,79,0.793,1
+LEAD_000298,Finance Company 298,Contact 298,contact298@company298.com,Sales Manager,Finance,5000+,NA,organic,True,2025-07-30,2025-08-29,pricing_page,3,1,0,31,14325,37,0.37,1
+LEAD_000299,Healthcare Company 299,Contact 299,contact299@company299.com,CEO,Healthcare,5000+,LATAM,paid,False,2025-04-08,2025-04-18,demo_request,3,1,0,92,15550,37,0.378,1
+LEAD_000300,Healthcare Company 300,Contact 300,contact300@company300.com,VP Sales,Healthcare,201-1000,APAC,referral,False,2025-09-06,2025-09-24,webinar,2,1,0,77,2758,26,0.269,1
+LEAD_000301,Real Estate Company 301,Contact 301,contact301@company301.com,Product Manager,Real Estate,201-1000,APAC,paid,False,2024-12-05,2025-01-01,ad_click,6,0,0,44,1321,25,0.258,1
+LEAD_000302,Manufacturing Company 302,Contact 302,contact302@company302.com,VP Sales,Manufacturing,51-200,APAC,organic,False,2025-05-19,2025-05-22,content_download,0,0,0,28,966,10,0.105,0
+LEAD_000303,Healthcare Company 303,Contact 303,contact303@company303.com,Business Analyst,Healthcare,11-50,NA,organic,False,2025-04-12,2025-04-21,case_study_view,11,8,3,12,385,73,0.736,1
+LEAD_000304,Retail Company 304,Contact 304,contact304@company304.com,CTO,Retail,1-10,EU,organic,False,2025-06-10,2025-06-23,case_study_view,3,1,0,155,538,10,0.109,0
+LEAD_000305,SaaS Company 305,Contact 305,contact305@company305.com,Marketing Director,SaaS,1001-5000,EU,paid,False,2025-02-02,2025-02-24,product_tour,7,5,2,8,2840,69,0.694,1
+LEAD_000306,Consulting Company 306,Contact 306,contact306@company306.com,CFO,Consulting,1-10,EU,paid,False,2024-10-03,2024-10-12,content_download,6,0,3,15,167,49,0.496,1
+LEAD_000307,Education Company 307,Contact 307,contact307@company307.com,CEO,Education,11-50,MEA,direct,False,2025-07-14,2025-08-08,trial_signup,4,0,1,131,139,33,0.339,0
+LEAD_000308,Manufacturing Company 308,Contact 308,contact308@company308.com,Product Manager,Manufacturing,51-200,APAC,direct,False,2025-01-13,2025-02-01,webinar,3,2,4,74,499,63,0.634,1
+LEAD_000309,Consulting Company 309,Contact 309,contact309@company309.com,IT Director,Consulting,11-50,MEA,paid,False,2024-12-13,2025-01-08,content_download,7,4,3,101,322,58,0.584,1
+LEAD_000310,Consulting Company 310,Contact 310,contact310@company310.com,Product Manager,Consulting,51-200,EU,organic,False,2024-11-19,2024-12-10,webinar,10,7,1,66,979,51,0.517,0
+LEAD_000311,SaaS Company 311,Contact 311,contact311@company311.com,CFO,SaaS,11-50,LATAM,organic,False,2025-04-21,2025-05-04,demo_request,5,5,7,108,95,86,0.862,0
+LEAD_000312,Retail Company 312,Contact 312,contact312@company312.com,CTO,Retail,51-200,APAC,paid,True,2024-09-14,2024-09-19,case_study_view,6,1,1,71,97,32,0.322,0
+LEAD_000313,E-commerce Company 313,Contact 313,contact313@company313.com,Product Manager,E-commerce,1-10,NA,social,False,2025-08-14,2025-08-29,email_open,9,3,2,145,347,48,0.485,1
+LEAD_000314,Consulting Company 314,Contact 314,contact314@company314.com,CFO,Consulting,1-10,MEA,paid,False,2025-03-05,2025-03-14,trial_signup,3,0,1,17,604,31,0.316,0
+LEAD_000315,SaaS Company 315,Contact 315,contact315@company315.com,VP Sales,SaaS,51-200,EU,paid,True,2024-09-30,2024-10-26,webinar,3,0,2,111,1197,53,0.536,0
+LEAD_000316,SaaS Company 316,Contact 316,contact316@company316.com,Marketing Director,SaaS,1-10,LATAM,direct,False,2024-09-25,2024-10-05,pricing_page,5,2,0,125,1507,30,0.305,0
+LEAD_000317,Real Estate Company 317,Contact 317,contact317@company317.com,Product Manager,Real Estate,201-1000,NA,paid,False,2025-08-05,2025-08-22,pricing_page,4,1,1,3,1712,42,0.426,1
+LEAD_000318,SaaS Company 318,Contact 318,contact318@company318.com,Product Manager,SaaS,5000+,EU,direct,False,2025-03-16,2025-03-27,product_tour,5,3,1,95,10647,46,0.469,1
+LEAD_000319,Finance Company 319,Contact 319,contact319@company319.com,CEO,Finance,1-10,MEA,paid,True,2025-01-26,2025-02-20,email_open,9,0,2,16,417,46,0.462,1
+LEAD_000320,SaaS Company 320,Contact 320,contact320@company320.com,CFO,SaaS,5000+,EU,social,False,2025-07-21,2025-07-25,contact_form,3,1,3,95,7022,66,0.669,0
+LEAD_000321,SaaS Company 321,Contact 321,contact321@company321.com,CEO,SaaS,51-200,NA,referral,False,2025-08-21,2025-08-25,email_open,3,3,1,68,2994,45,0.459,1
+LEAD_000322,Finance Company 322,Contact 322,contact322@company322.com,Product Manager,Finance,11-50,APAC,paid,False,2025-07-22,2025-07-29,trial_signup,1,1,3,64,6564,56,0.568,1
+LEAD_000323,SaaS Company 323,Contact 323,contact323@company323.com,Product Manager,SaaS,5000+,NA,paid,False,2024-10-02,2024-10-28,content_download,7,3,2,166,11887,60,0.603,1
+LEAD_000324,Finance Company 324,Contact 324,contact324@company324.com,Product Manager,Finance,1-10,EU,organic,False,2024-10-29,2024-11-16,pricing_page,5,6,4,96,154,70,0.703,0
+LEAD_000325,Manufacturing Company 325,Contact 325,contact325@company325.com,VP Sales,Manufacturing,201-1000,NA,social,False,2025-01-12,2025-01-18,email_open,7,0,2,118,492,50,0.503,1
+LEAD_000326,SaaS Company 326,Contact 326,contact326@company326.com,VP Sales,SaaS,51-200,LATAM,paid,True,2025-07-07,2025-07-28,case_study_view,2,0,3,12,4069,50,0.509,0
+LEAD_000327,Healthcare Company 327,Contact 327,contact327@company327.com,CTO,Healthcare,51-200,EU,social,True,2024-12-17,2025-01-01,email_open,9,5,1,106,2293,46,0.462,1
+LEAD_000328,E-commerce Company 328,Contact 328,contact328@company328.com,Operations Manager,E-commerce,11-50,EU,organic,False,2025-04-12,2025-04-14,contact_form,13,0,1,62,415,51,0.519,0
+LEAD_000329,Consulting Company 329,Contact 329,contact329@company329.com,CEO,Consulting,1-10,NA,referral,False,2025-01-27,2025-02-05,case_study_view,1,8,2,176,73,38,0.383,0
+LEAD_000330,Finance Company 330,Contact 330,contact330@company330.com,VP Sales,Finance,51-200,MEA,direct,False,2024-09-17,2024-10-08,email_open,5,1,3,56,3150,61,0.619,0
+LEAD_000331,E-commerce Company 331,Contact 331,contact331@company331.com,CTO,E-commerce,201-1000,EU,paid,False,2025-01-09,2025-01-12,ad_click,1,2,0,156,601,20,0.201,0
+LEAD_000332,SaaS Company 332,Contact 332,contact332@company332.com,CFO,SaaS,11-50,NA,organic,True,2024-11-17,2024-12-15,contact_form,5,0,1,176,2047,47,0.474,0
+LEAD_000333,Education Company 333,Contact 333,contact333@company333.com,Operations Manager,Education,11-50,APAC,organic,False,2024-11-17,2024-11-26,ad_click,11,0,2,161,3694,46,0.463,1
+LEAD_000334,SaaS Company 334,Contact 334,contact334@company334.com,IT Director,SaaS,201-1000,EU,referral,False,2025-04-15,2025-05-07,demo_request,12,1,3,91,5351,93,0.935,1
+LEAD_000335,Real Estate Company 335,Contact 335,contact335@company335.com,VP Sales,Real Estate,11-50,EU,organic,False,2024-11-11,2024-11-15,trial_signup,9,6,2,85,787,65,0.652,0
+LEAD_000336,Retail Company 336,Contact 336,contact336@company336.com,Operations Manager,Retail,51-200,APAC,paid,False,2024-12-16,2024-12-24,product_tour,2,0,3,138,1036,46,0.464,0
+LEAD_000337,SaaS Company 337,Contact 337,contact337@company337.com,VP Sales,SaaS,51-200,NA,organic,False,2024-12-09,2025-01-08,pricing_page,7,3,0,48,977,47,0.477,0
+LEAD_000338,Healthcare Company 338,Contact 338,contact338@company338.com,Product Manager,Healthcare,5000+,EU,organic,False,2024-09-19,2024-10-06,case_study_view,5,1,2,6,3130,46,0.467,1
+LEAD_000339,Real Estate Company 339,Contact 339,contact339@company339.com,Product Manager,Real Estate,201-1000,NA,direct,False,2025-05-29,2025-06-18,case_study_view,11,1,3,107,3522,70,0.7,1
+LEAD_000340,Education Company 340,Contact 340,contact340@company340.com,Operations Manager,Education,201-1000,NA,social,False,2024-09-13,2024-09-22,webinar,5,0,2,110,6467,49,0.492,1
+LEAD_000341,SaaS Company 341,Contact 341,contact341@company341.com,VP Sales,SaaS,51-200,NA,paid,False,2024-11-23,2024-12-04,email_open,7,3,1,75,1596,50,0.501,0
+LEAD_000342,SaaS Company 342,Contact 342,contact342@company342.com,Marketing Director,SaaS,51-200,NA,direct,True,2025-02-12,2025-02-19,contact_form,6,0,0,85,11319,41,0.411,1
+LEAD_000343,Education Company 343,Contact 343,contact343@company343.com,Operations Manager,Education,201-1000,NA,paid,True,2025-07-17,2025-08-12,product_tour,3,2,0,134,2756,23,0.236,0
+LEAD_000344,SaaS Company 344,Contact 344,contact344@company344.com,Sales Manager,SaaS,11-50,EU,direct,True,2024-11-06,2024-11-14,product_tour,2,0,0,39,762,23,0.239,0
+LEAD_000345,Retail Company 345,Contact 345,contact345@company345.com,Business Analyst,Retail,1-10,NA,social,True,2024-12-16,2024-12-23,product_tour,7,0,1,123,135,33,0.33,0
+LEAD_000346,E-commerce Company 346,Contact 346,contact346@company346.com,CFO,E-commerce,5000+,NA,social,False,2025-06-13,2025-06-18,webinar,3,0,3,136,1728,55,0.552,0
+LEAD_000347,Consulting Company 347,Contact 347,contact347@company347.com,CTO,Consulting,1-10,APAC,paid,False,2025-06-16,2025-06-18,pricing_page,2,0,1,21,1156,28,0.282,0
+LEAD_000348,E-commerce Company 348,Contact 348,contact348@company348.com,CEO,E-commerce,51-200,NA,direct,True,2024-12-31,2025-01-25,ad_click,3,1,3,1,2344,50,0.503,0
+LEAD_000349,Retail Company 349,Contact 349,contact349@company349.com,Business Analyst,Retail,11-50,NA,paid,True,2025-05-26,2025-06-09,demo_request,4,0,3,122,309,61,0.617,1
+LEAD_000350,Healthcare Company 350,Contact 350,contact350@company350.com,IT Director,Healthcare,11-50,LATAM,paid,False,2025-02-18,2025-03-20,content_download,2,1,2,78,207,39,0.396,0
+LEAD_000351,E-commerce Company 351,Contact 351,contact351@company351.com,CFO,E-commerce,201-1000,EU,paid,False,2025-08-20,2025-08-26,webinar,11,1,1,165,32161,51,0.512,1
+LEAD_000352,Education Company 352,Contact 352,contact352@company352.com,Product Manager,Education,51-200,NA,direct,True,2025-01-25,2025-01-26,demo_request,6,3,0,25,1128,40,0.404,0
+LEAD_000353,Finance Company 353,Contact 353,contact353@company353.com,VP Sales,Finance,1-10,LATAM,organic,False,2025-02-27,2025-03-07,product_tour,11,2,1,86,1840,42,0.428,1
+LEAD_000354,Manufacturing Company 354,Contact 354,contact354@company354.com,Product Manager,Manufacturing,1-10,EU,direct,True,2025-01-26,2025-02-12,case_study_view,5,3,1,6,55,25,0.255,0
+LEAD_000355,SaaS Company 355,Contact 355,contact355@company355.com,CTO,SaaS,11-50,APAC,social,False,2025-06-05,2025-07-01,email_open,9,3,0,78,1148,41,0.411,0
+LEAD_000356,Finance Company 356,Contact 356,contact356@company356.com,Operations Manager,Finance,11-50,LATAM,organic,True,2025-08-25,2025-09-23,ad_click,5,0,0,48,4018,22,0.225,0
+LEAD_000357,Finance Company 357,Contact 357,contact357@company357.com,CTO,Finance,1-10,EU,organic,False,2024-12-26,2025-01-10,demo_request,7,1,1,68,339,47,0.473,0
+LEAD_000358,Finance Company 358,Contact 358,contact358@company358.com,Sales Manager,Finance,11-50,APAC,paid,False,2024-09-25,2024-10-19,ad_click,4,8,2,35,1326,46,0.464,1
+LEAD_000359,Finance Company 359,Contact 359,contact359@company359.com,IT Director,Finance,11-50,LATAM,direct,False,2025-01-16,2025-02-04,pricing_page,10,1,2,83,1190,59,0.597,0
+LEAD_000360,Healthcare Company 360,Contact 360,contact360@company360.com,Business Analyst,Healthcare,1-10,APAC,paid,False,2024-10-15,2024-11-08,pricing_page,11,2,1,72,495,45,0.45,0
+LEAD_000361,Real Estate Company 361,Contact 361,contact361@company361.com,Product Manager,Real Estate,1001-5000,EU,paid,False,2025-02-18,2025-02-23,contact_form,13,0,3,20,2324,80,0.8,1
+LEAD_000362,SaaS Company 362,Contact 362,contact362@company362.com,Marketing Director,SaaS,11-50,NA,paid,False,2024-11-19,2024-11-26,ad_click,5,0,2,124,564,49,0.491,1
+LEAD_000363,E-commerce Company 363,Contact 363,contact363@company363.com,CTO,E-commerce,11-50,EU,social,True,2025-06-28,2025-07-21,email_open,4,0,0,160,646,19,0.195,0
+LEAD_000364,SaaS Company 364,Contact 364,contact364@company364.com,Marketing Director,SaaS,1001-5000,NA,social,False,2025-03-03,2025-03-05,trial_signup,1,0,2,136,1089,60,0.6,1
+LEAD_000365,Technology Company 365,Contact 365,contact365@company365.com,Operations Manager,Technology,11-50,LATAM,organic,False,2024-11-20,2024-12-05,content_download,7,2,2,94,757,51,0.512,0
+LEAD_000366,Manufacturing Company 366,Contact 366,contact366@company366.com,Product Manager,Manufacturing,201-1000,EU,referral,True,2025-07-02,2025-07-14,demo_request,5,3,0,85,7782,42,0.425,1
+LEAD_000367,E-commerce Company 367,Contact 367,contact367@company367.com,CTO,E-commerce,11-50,NA,organic,False,2025-05-15,2025-05-24,trial_signup,6,1,1,8,283,48,0.48,0
+LEAD_000368,Healthcare Company 368,Contact 368,contact368@company368.com,CTO,Healthcare,11-50,EU,organic,False,2025-06-13,2025-06-21,webinar,4,0,2,41,483,44,0.445,1
+LEAD_000369,Healthcare Company 369,Contact 369,contact369@company369.com,Operations Manager,Healthcare,5000+,NA,organic,False,2025-08-20,2025-09-13,pricing_page,6,0,2,116,1455,58,0.589,1
+LEAD_000370,Real Estate Company 370,Contact 370,contact370@company370.com,VP Sales,Real Estate,51-200,APAC,direct,False,2025-05-14,2025-06-08,demo_request,3,5,4,139,2038,75,0.752,1
+LEAD_000371,Manufacturing Company 371,Contact 371,contact371@company371.com,IT Director,Manufacturing,5000+,NA,direct,False,2025-02-02,2025-02-15,product_tour,4,0,0,90,770,24,0.247,0
+LEAD_000372,Finance Company 372,Contact 372,contact372@company372.com,Business Analyst,Finance,11-50,NA,organic,False,2024-10-01,2024-10-20,case_study_view,6,2,0,55,19540,29,0.294,1
+LEAD_000373,Retail Company 373,Contact 373,contact373@company373.com,VP Sales,Retail,11-50,NA,direct,False,2025-08-13,2025-08-17,contact_form,6,2,0,171,275,30,0.308,0
+LEAD_000374,Technology Company 374,Contact 374,contact374@company374.com,CEO,Technology,1001-5000,LATAM,social,True,2025-06-13,2025-06-22,content_download,7,0,3,20,3616,67,0.676,1
+LEAD_000375,Finance Company 375,Contact 375,contact375@company375.com,Product Manager,Finance,11-50,NA,organic,False,2025-01-04,2025-01-08,pricing_page,7,4,2,56,1852,59,0.59,0
+LEAD_000376,SaaS Company 376,Contact 376,contact376@company376.com,IT Director,SaaS,1-10,APAC,direct,True,2025-07-10,2025-07-29,contact_form,7,4,2,175,451,54,0.547,1
+LEAD_000377,Consulting Company 377,Contact 377,contact377@company377.com,CEO,Consulting,11-50,EU,organic,True,2025-07-13,2025-07-29,ad_click,5,0,1,23,401,34,0.349,0
+LEAD_000378,E-commerce Company 378,Contact 378,contact378@company378.com,Operations Manager,E-commerce,201-1000,EU,referral,False,2024-10-14,2024-10-23,contact_form,8,2,1,99,1847,49,0.497,0
+LEAD_000379,Manufacturing Company 379,Contact 379,contact379@company379.com,Product Manager,Manufacturing,5000+,NA,paid,False,2025-08-28,2025-09-13,pricing_page,3,0,2,110,917,49,0.49,0
+LEAD_000380,SaaS Company 380,Contact 380,contact380@company380.com,Sales Manager,SaaS,1001-5000,NA,paid,False,2025-02-14,2025-03-04,ad_click,3,0,1,46,6783,43,0.435,1
+LEAD_000381,Technology Company 381,Contact 381,contact381@company381.com,CTO,Technology,1-10,APAC,referral,False,2024-12-13,2024-12-18,product_tour,5,2,0,137,1112,21,0.212,0
+LEAD_000382,Real Estate Company 382,Contact 382,contact382@company382.com,CTO,Real Estate,1-10,NA,paid,False,2025-08-20,2025-09-12,webinar,6,0,4,101,3739,64,0.644,0
+LEAD_000383,Consulting Company 383,Contact 383,contact383@company383.com,Product Manager,Consulting,201-1000,APAC,referral,False,2024-11-18,2024-11-29,demo_request,11,6,5,118,586,95,0.95,1
+LEAD_000384,SaaS Company 384,Contact 384,contact384@company384.com,Sales Manager,SaaS,1-10,NA,paid,True,2025-05-22,2025-05-29,webinar,2,0,1,146,229,32,0.328,0
+LEAD_000385,SaaS Company 385,Contact 385,contact385@company385.com,CFO,SaaS,1001-5000,LATAM,direct,True,2025-06-03,2025-06-15,contact_form,2,0,1,114,8501,40,0.404,1
+LEAD_000386,SaaS Company 386,Contact 386,contact386@company386.com,Business Analyst,SaaS,1-10,NA,organic,True,2024-12-19,2025-01-02,product_tour,7,3,4,84,41,73,0.736,1
+LEAD_000387,Technology Company 387,Contact 387,contact387@company387.com,Product Manager,Technology,1001-5000,EU,organic,False,2024-10-13,2024-11-07,pricing_page,2,0,0,173,1079,39,0.393,1
+LEAD_000388,Healthcare Company 388,Contact 388,contact388@company388.com,CEO,Healthcare,51-200,EU,direct,True,2025-07-24,2025-08-15,content_download,9,1,2,64,72,57,0.578,0
+LEAD_000389,E-commerce Company 389,Contact 389,contact389@company389.com,Operations Manager,E-commerce,1-10,APAC,direct,True,2025-06-09,2025-07-01,product_tour,12,2,3,96,182,63,0.63,0
+LEAD_000390,SaaS Company 390,Contact 390,contact390@company390.com,CTO,SaaS,11-50,NA,organic,False,2024-09-20,2024-09-29,product_tour,8,1,3,47,3194,71,0.714,1
+LEAD_000391,Retail Company 391,Contact 391,contact391@company391.com,VP Sales,Retail,11-50,EU,social,False,2025-06-27,2025-07-14,pricing_page,3,2,7,142,293,65,0.653,1
+LEAD_000392,Healthcare Company 392,Contact 392,contact392@company392.com,Business Analyst,Healthcare,201-1000,NA,paid,False,2025-08-03,2025-08-07,demo_request,1,0,4,41,267,76,0.769,1
+LEAD_000393,Healthcare Company 393,Contact 393,contact393@company393.com,Product Manager,Healthcare,1001-5000,NA,paid,True,2025-04-14,2025-05-14,email_open,4,1,2,128,1979,53,0.534,0
+LEAD_000394,Healthcare Company 394,Contact 394,contact394@company394.com,Operations Manager,Healthcare,1-10,NA,paid,False,2025-01-11,2025-01-20,contact_form,4,0,0,18,1177,22,0.223,0
+LEAD_000395,E-commerce Company 395,Contact 395,contact395@company395.com,Business Analyst,E-commerce,1-10,LATAM,paid,False,2025-06-20,2025-06-26,contact_form,2,1,2,61,373,34,0.349,1
+LEAD_000396,Technology Company 396,Contact 396,contact396@company396.com,Product Manager,Technology,201-1000,APAC,paid,False,2025-05-11,2025-06-07,trial_signup,6,2,4,178,16400,87,0.873,1
+LEAD_000397,SaaS Company 397,Contact 397,contact397@company397.com,Business Analyst,SaaS,1001-5000,NA,organic,False,2025-06-28,2025-07-21,email_open,3,2,3,52,6290,67,0.678,0
+LEAD_000398,SaaS Company 398,Contact 398,contact398@company398.com,Marketing Director,SaaS,11-50,EU,organic,False,2025-04-12,2025-04-20,demo_request,10,0,1,113,360,61,0.615,1
+LEAD_000399,Retail Company 399,Contact 399,contact399@company399.com,VP Sales,Retail,1-10,EU,direct,True,2025-08-25,2025-09-01,webinar,7,3,2,157,61,44,0.445,0
+LEAD_000400,Healthcare Company 400,Contact 400,contact400@company400.com,CFO,Healthcare,1001-5000,MEA,referral,False,2024-09-12,2024-09-24,case_study_view,5,4,3,56,3654,64,0.641,1
+LEAD_000401,Healthcare Company 401,Contact 401,contact401@company401.com,CEO,Healthcare,11-50,APAC,paid,True,2024-12-27,2025-01-06,contact_form,7,2,1,168,2373,44,0.44,0
+LEAD_000402,Healthcare Company 402,Contact 402,contact402@company402.com,Operations Manager,Healthcare,51-200,NA,direct,False,2025-02-28,2025-03-12,product_tour,8,10,5,47,370,85,0.859,1
+LEAD_000403,Education Company 403,Contact 403,contact403@company403.com,CTO,Education,1001-5000,APAC,organic,True,2025-08-15,2025-09-02,content_download,4,1,0,3,1351,27,0.274,0
+LEAD_000404,Healthcare Company 404,Contact 404,contact404@company404.com,Operations Manager,Healthcare,11-50,APAC,paid,False,2024-10-22,2024-11-10,pricing_page,3,1,2,38,10067,46,0.461,0
+LEAD_000405,Finance Company 405,Contact 405,contact405@company405.com,VP Sales,Finance,201-1000,LATAM,referral,False,2025-05-06,2025-05-30,contact_form,9,2,3,35,5523,72,0.726,1
+LEAD_000406,SaaS Company 406,Contact 406,contact406@company406.com,CFO,SaaS,5000+,NA,organic,False,2025-03-16,2025-03-24,product_tour,8,2,2,142,1807,65,0.653,1
+LEAD_000407,Retail Company 407,Contact 407,contact407@company407.com,CEO,Retail,201-1000,NA,direct,True,2025-03-03,2025-03-11,product_tour,4,1,1,112,1929,35,0.359,0
+LEAD_000408,SaaS Company 408,Contact 408,contact408@company408.com,Product Manager,SaaS,51-200,APAC,direct,False,2025-07-17,2025-08-02,product_tour,6,0,1,79,1143,44,0.446,0
+LEAD_000409,Healthcare Company 409,Contact 409,contact409@company409.com,CTO,Healthcare,201-1000,EU,social,True,2024-12-10,2024-12-25,webinar,8,0,1,159,4762,45,0.453,0
+LEAD_000410,Healthcare Company 410,Contact 410,contact410@company410.com,Business Analyst,Healthcare,51-200,NA,paid,False,2025-03-18,2025-04-13,webinar,2,0,2,154,748,46,0.466,1
+LEAD_000411,E-commerce Company 411,Contact 411,contact411@company411.com,VP Sales,E-commerce,5000+,EU,referral,False,2024-12-04,2024-12-30,content_download,9,0,5,62,12651,75,0.754,0
+LEAD_000412,E-commerce Company 412,Contact 412,contact412@company412.com,Product Manager,E-commerce,1001-5000,NA,organic,True,2024-09-16,2024-10-09,contact_form,3,0,0,95,498,34,0.343,1
+LEAD_000413,Technology Company 413,Contact 413,contact413@company413.com,Operations Manager,Technology,1-10,NA,organic,False,2025-09-04,2025-10-03,case_study_view,10,7,4,146,500,81,0.81,1
+LEAD_000414,Healthcare Company 414,Contact 414,contact414@company414.com,Sales Manager,Healthcare,1001-5000,EU,organic,False,2024-10-10,2024-11-05,pricing_page,10,0,3,172,3937,78,0.782,1
+LEAD_000415,SaaS Company 415,Contact 415,contact415@company415.com,IT Director,SaaS,11-50,APAC,direct,False,2025-03-03,2025-03-10,ad_click,2,1,2,14,1000,43,0.437,1
+LEAD_000416,Healthcare Company 416,Contact 416,contact416@company416.com,CFO,Healthcare,11-50,NA,paid,True,2025-02-20,2025-03-01,webinar,6,4,1,14,924,45,0.451,0
+LEAD_000417,Education Company 417,Contact 417,contact417@company417.com,IT Director,Education,201-1000,EU,direct,False,2024-12-01,2024-12-30,ad_click,6,4,3,160,2579,58,0.585,0
+LEAD_000418,E-commerce Company 418,Contact 418,contact418@company418.com,Business Analyst,E-commerce,1-10,LATAM,direct,False,2025-04-29,2025-05-22,trial_signup,5,1,2,32,683,40,0.4,0
+LEAD_000419,SaaS Company 419,Contact 419,contact419@company419.com,VP Sales,SaaS,11-50,EU,direct,True,2025-06-03,2025-06-28,email_open,6,0,3,164,921,60,0.607,1
+LEAD_000420,SaaS Company 420,Contact 420,contact420@company420.com,Business Analyst,SaaS,11-50,LATAM,referral,False,2025-01-21,2025-02-08,email_open,4,2,1,37,1141,39,0.393,1
+LEAD_000421,SaaS Company 421,Contact 421,contact421@company421.com,Marketing Director,SaaS,1-10,NA,organic,True,2025-03-14,2025-04-10,content_download,7,4,2,117,202,56,0.567,0
+LEAD_000422,SaaS Company 422,Contact 422,contact422@company422.com,Sales Manager,SaaS,1-10,MEA,paid,False,2025-09-06,2025-09-27,content_download,11,1,2,146,180,57,0.574,1
+LEAD_000423,Retail Company 423,Contact 423,contact423@company423.com,Operations Manager,Retail,1001-5000,APAC,referral,False,2025-06-22,2025-07-17,webinar,2,0,2,92,9848,44,0.44,0
+LEAD_000424,Education Company 424,Contact 424,contact424@company424.com,Business Analyst,Education,11-50,EU,direct,False,2025-02-12,2025-03-01,demo_request,8,2,0,8,257,39,0.391,0
+LEAD_000425,E-commerce Company 425,Contact 425,contact425@company425.com,IT Director,E-commerce,5000+,APAC,paid,False,2025-06-29,2025-07-03,contact_form,10,3,0,102,3393,42,0.427,0
+LEAD_000426,SaaS Company 426,Contact 426,contact426@company426.com,IT Director,SaaS,5000+,MEA,organic,True,2025-06-22,2025-06-30,product_tour,13,0,5,135,1100,86,0.86,0
+LEAD_000427,Healthcare Company 427,Contact 427,contact427@company427.com,Operations Manager,Healthcare,51-200,EU,referral,False,2024-11-03,2024-11-27,webinar,6,6,4,149,997,75,0.752,1
+LEAD_000428,SaaS Company 428,Contact 428,contact428@company428.com,CEO,SaaS,1-10,EU,organic,True,2025-01-10,2025-02-02,email_open,7,1,2,26,3121,50,0.503,0
+LEAD_000429,Retail Company 429,Contact 429,contact429@company429.com,CEO,Retail,11-50,NA,referral,False,2025-03-23,2025-04-04,trial_signup,12,0,1,25,1151,56,0.568,1
+LEAD_000430,Education Company 430,Contact 430,contact430@company430.com,CFO,Education,1001-5000,APAC,social,False,2024-11-14,2024-12-07,trial_signup,4,4,2,168,1299,59,0.596,0
+LEAD_000431,SaaS Company 431,Contact 431,contact431@company431.com,Product Manager,SaaS,5000+,LATAM,direct,True,2025-06-23,2025-07-19,email_open,9,1,1,12,4606,49,0.497,0
+LEAD_000432,Healthcare Company 432,Contact 432,contact432@company432.com,Product Manager,Healthcare,201-1000,NA,paid,False,2025-04-21,2025-05-05,ad_click,6,2,2,127,4873,53,0.532,0
+LEAD_000433,Manufacturing Company 433,Contact 433,contact433@company433.com,Operations Manager,Manufacturing,201-1000,EU,referral,True,2024-10-01,2024-10-14,trial_signup,2,0,2,119,588,49,0.494,1
+LEAD_000434,Technology Company 434,Contact 434,contact434@company434.com,VP Sales,Technology,1-10,EU,referral,False,2024-11-01,2024-11-19,email_open,7,3,4,62,1978,69,0.695,0
+LEAD_000435,Education Company 435,Contact 435,contact435@company435.com,Product Manager,Education,11-50,NA,social,False,2024-09-14,2024-09-15,pricing_page,5,0,0,21,1115,29,0.292,0
+LEAD_000436,SaaS Company 436,Contact 436,contact436@company436.com,IT Director,SaaS,1-10,EU,direct,False,2025-07-30,2025-08-17,product_tour,12,3,4,33,475,84,0.84,1
+LEAD_000437,E-commerce Company 437,Contact 437,contact437@company437.com,CTO,E-commerce,1-10,MEA,paid,True,2024-09-07,2024-09-11,trial_signup,5,5,5,10,1020,70,0.701,1
+LEAD_000438,E-commerce Company 438,Contact 438,contact438@company438.com,Sales Manager,E-commerce,1-10,EU,organic,True,2025-04-26,2025-04-27,trial_signup,4,1,2,157,1356,44,0.443,0
+LEAD_000439,Education Company 439,Contact 439,contact439@company439.com,VP Sales,Education,11-50,EU,social,True,2024-10-12,2024-11-11,demo_request,7,0,3,75,503,66,0.662,1
+LEAD_000440,Real Estate Company 440,Contact 440,contact440@company440.com,CFO,Real Estate,11-50,EU,referral,False,2024-12-21,2024-12-27,case_study_view,8,0,2,68,1445,47,0.472,0
+LEAD_000441,Technology Company 441,Contact 441,contact441@company441.com,Operations Manager,Technology,11-50,EU,referral,True,2024-12-12,2024-12-17,webinar,2,1,0,128,1620,26,0.263,0
+LEAD_000442,Technology Company 442,Contact 442,contact442@company442.com,Marketing Director,Technology,5000+,NA,paid,True,2025-03-25,2025-04-22,demo_request,8,4,3,75,945,87,0.878,1
+LEAD_000443,SaaS Company 443,Contact 443,contact443@company443.com,CFO,SaaS,1001-5000,EU,organic,False,2025-07-08,2025-07-16,content_download,7,3,2,176,3580,66,0.661,0
+LEAD_000444,Technology Company 444,Contact 444,contact444@company444.com,VP Sales,Technology,1001-5000,EU,organic,True,2024-10-10,2024-10-25,trial_signup,5,1,1,76,4088,55,0.556,0
+LEAD_000445,Retail Company 445,Contact 445,contact445@company445.com,CTO,Retail,11-50,MEA,paid,False,2025-04-23,2025-05-06,content_download,5,0,1,172,183,26,0.261,0
+LEAD_000446,Finance Company 446,Contact 446,contact446@company446.com,Sales Manager,Finance,5000+,NA,direct,False,2025-06-15,2025-07-01,case_study_view,4,2,2,159,2299,53,0.53,1
+LEAD_000447,SaaS Company 447,Contact 447,contact447@company447.com,Business Analyst,SaaS,51-200,APAC,organic,True,2025-07-09,2025-08-03,email_open,5,2,2,34,2972,54,0.541,1
+LEAD_000448,Education Company 448,Contact 448,contact448@company448.com,Product Manager,Education,1001-5000,EU,direct,True,2025-02-28,2025-03-11,contact_form,6,8,4,146,1665,78,0.788,1
+LEAD_000449,E-commerce Company 449,Contact 449,contact449@company449.com,Operations Manager,E-commerce,5000+,NA,paid,True,2025-03-14,2025-04-10,ad_click,4,6,2,72,2228,51,0.51,0
+LEAD_000450,E-commerce Company 450,Contact 450,contact450@company450.com,Business Analyst,E-commerce,51-200,EU,organic,False,2024-10-29,2024-11-27,webinar,3,0,0,45,1149,19,0.196,1
+LEAD_000451,SaaS Company 451,Contact 451,contact451@company451.com,VP Sales,SaaS,11-50,LATAM,referral,False,2024-09-10,2024-10-02,webinar,4,0,0,60,5661,22,0.229,0
+LEAD_000452,Retail Company 452,Contact 452,contact452@company452.com,Business Analyst,Retail,51-200,APAC,referral,False,2024-12-11,2024-12-12,ad_click,2,2,2,37,3368,40,0.409,1
+LEAD_000453,Finance Company 453,Contact 453,contact453@company453.com,Product Manager,Finance,201-1000,NA,organic,False,2025-04-18,2025-05-13,trial_signup,5,3,1,34,378,57,0.571,1
+LEAD_000454,Consulting Company 454,Contact 454,contact454@company454.com,VP Sales,Consulting,1-10,LATAM,referral,True,2025-04-24,2025-05-23,product_tour,5,0,2,32,118,35,0.356,0
+LEAD_000455,Education Company 455,Contact 455,contact455@company455.com,Product Manager,Education,1-10,NA,paid,False,2025-04-15,2025-04-28,ad_click,2,0,1,46,187,20,0.208,1
+LEAD_000456,SaaS Company 456,Contact 456,contact456@company456.com,VP Sales,SaaS,1-10,APAC,social,True,2024-11-30,2024-12-15,product_tour,3,0,1,19,932,27,0.278,0
+LEAD_000457,Manufacturing Company 457,Contact 457,contact457@company457.com,Operations Manager,Manufacturing,201-1000,EU,paid,False,2025-08-16,2025-09-14,demo_request,4,1,6,165,5764,77,0.774,0
+LEAD_000458,E-commerce Company 458,Contact 458,contact458@company458.com,CEO,E-commerce,11-50,NA,paid,True,2025-01-02,2025-01-13,contact_form,5,2,1,124,129,39,0.399,0
+LEAD_000459,Healthcare Company 459,Contact 459,contact459@company459.com,CEO,Healthcare,5000+,LATAM,referral,True,2025-07-03,2025-07-14,contact_form,8,1,1,118,5806,41,0.416,0
+LEAD_000460,SaaS Company 460,Contact 460,contact460@company460.com,Product Manager,SaaS,201-1000,NA,organic,False,2025-05-23,2025-05-29,ad_click,6,3,4,30,1877,86,0.864,1
+LEAD_000461,E-commerce Company 461,Contact 461,contact461@company461.com,Operations Manager,E-commerce,51-200,NA,paid,False,2024-11-21,2024-12-21,demo_request,4,0,2,44,313,58,0.584,0
+LEAD_000462,E-commerce Company 462,Contact 462,contact462@company462.com,Product Manager,E-commerce,11-50,EU,paid,False,2025-03-27,2025-04-10,case_study_view,3,3,0,138,806,22,0.222,0
+LEAD_000463,Technology Company 463,Contact 463,contact463@company463.com,Business Analyst,Technology,51-200,EU,paid,False,2025-08-19,2025-09-13,product_tour,6,4,2,52,1278,58,0.583,1
+LEAD_000464,Finance Company 464,Contact 464,contact464@company464.com,CEO,Finance,1001-5000,APAC,paid,False,2024-12-05,2025-01-02,email_open,6,3,2,21,379,59,0.593,1
+LEAD_000465,Manufacturing Company 465,Contact 465,contact465@company465.com,CTO,Manufacturing,51-200,EU,referral,True,2025-04-09,2025-04-24,content_download,8,4,1,113,596,45,0.453,1
+LEAD_000466,Consulting Company 466,Contact 466,contact466@company466.com,Business Analyst,Consulting,11-50,LATAM,referral,False,2024-10-08,2024-10-28,email_open,3,0,4,75,784,54,0.549,0
+LEAD_000467,Manufacturing Company 467,Contact 467,contact467@company467.com,VP Sales,Manufacturing,1-10,MEA,organic,False,2025-07-11,2025-08-05,webinar,8,1,1,95,122,32,0.327,0
+LEAD_000468,Healthcare Company 468,Contact 468,contact468@company468.com,Sales Manager,Healthcare,51-200,EU,direct,False,2024-10-04,2024-10-13,trial_signup,5,3,2,146,2714,59,0.599,1
+LEAD_000469,E-commerce Company 469,Contact 469,contact469@company469.com,Marketing Director,E-commerce,51-200,LATAM,organic,True,2025-08-27,2025-09-22,email_open,6,2,1,151,1882,37,0.379,0
+LEAD_000470,Real Estate Company 470,Contact 470,contact470@company470.com,Product Manager,Real Estate,1-10,NA,referral,False,2025-08-27,2025-09-20,webinar,6,3,2,168,278,46,0.46,1
+LEAD_000471,Finance Company 471,Contact 471,contact471@company471.com,CTO,Finance,1-10,NA,paid,False,2024-12-02,2024-12-20,email_open,4,0,0,79,182,19,0.196,0
+LEAD_000472,Consulting Company 472,Contact 472,contact472@company472.com,Sales Manager,Consulting,1001-5000,NA,social,False,2024-11-18,2024-12-05,pricing_page,5,3,4,77,15036,84,0.841,1
+LEAD_000473,SaaS Company 473,Contact 473,contact473@company473.com,Sales Manager,SaaS,51-200,LATAM,paid,False,2024-10-31,2024-11-22,demo_request,6,1,1,103,1659,52,0.521,0
+LEAD_000474,SaaS Company 474,Contact 474,contact474@company474.com,CEO,SaaS,11-50,LATAM,social,True,2025-04-22,2025-05-08,product_tour,10,2,0,34,2896,37,0.373,0
+LEAD_000475,Real Estate Company 475,Contact 475,contact475@company475.com,CTO,Real Estate,11-50,NA,organic,False,2024-10-07,2024-10-21,demo_request,9,0,0,147,947,42,0.425,1
+LEAD_000476,Education Company 476,Contact 476,contact476@company476.com,Business Analyst,Education,1-10,EU,paid,False,2025-04-12,2025-04-26,email_open,6,3,2,162,177,41,0.412,1
+LEAD_000477,Education Company 477,Contact 477,contact477@company477.com,IT Director,Education,5000+,EU,paid,False,2025-04-22,2025-05-16,product_tour,12,1,1,42,5654,51,0.513,1
+LEAD_000478,Finance Company 478,Contact 478,contact478@company478.com,Marketing Director,Finance,11-50,APAC,organic,True,2025-06-07,2025-06-15,pricing_page,11,5,3,159,949,78,0.787,0
+LEAD_000479,E-commerce Company 479,Contact 479,contact479@company479.com,Sales Manager,E-commerce,11-50,EU,referral,False,2024-09-23,2024-10-21,email_open,5,0,3,64,957,46,0.469,1
+LEAD_000480,Finance Company 480,Contact 480,contact480@company480.com,Product Manager,Finance,1-10,APAC,referral,False,2025-03-04,2025-03-25,email_open,3,1,2,98,1888,40,0.406,0
+LEAD_000481,SaaS Company 481,Contact 481,contact481@company481.com,CEO,SaaS,11-50,NA,paid,False,2025-03-15,2025-03-16,content_download,9,1,1,149,838,52,0.527,1
+LEAD_000482,E-commerce Company 482,Contact 482,contact482@company482.com,Operations Manager,E-commerce,201-1000,LATAM,paid,False,2024-09-23,2024-09-29,trial_signup,5,1,1,126,10192,45,0.452,1
+LEAD_000483,Healthcare Company 483,Contact 483,contact483@company483.com,VP Sales,Healthcare,1-10,NA,organic,False,2025-04-23,2025-05-07,case_study_view,4,0,2,147,179,36,0.362,0
+LEAD_000484,Education Company 484,Contact 484,contact484@company484.com,IT Director,Education,1001-5000,NA,organic,False,2024-12-13,2024-12-30,pricing_page,3,4,2,149,1884,54,0.543,0
+LEAD_000485,Real Estate Company 485,Contact 485,contact485@company485.com,Operations Manager,Real Estate,5000+,NA,direct,False,2025-07-09,2025-07-25,webinar,3,4,2,133,1812,46,0.463,1
+LEAD_000486,E-commerce Company 486,Contact 486,contact486@company486.com,Product Manager,E-commerce,1-10,MEA,paid,False,2025-05-27,2025-06-21,product_tour,4,3,0,86,1306,18,0.189,0
+LEAD_000487,Real Estate Company 487,Contact 487,contact487@company487.com,VP Sales,Real Estate,1001-5000,NA,organic,False,2025-01-13,2025-02-01,contact_form,7,0,1,93,1444,50,0.509,1
+LEAD_000488,Healthcare Company 488,Contact 488,contact488@company488.com,Business Analyst,Healthcare,51-200,NA,paid,False,2024-12-03,2024-12-18,content_download,7,2,1,154,1585,48,0.482,1
+LEAD_000489,Technology Company 489,Contact 489,contact489@company489.com,CTO,Technology,5000+,NA,paid,True,2025-08-01,2025-08-04,pricing_page,14,2,2,170,4609,82,0.822,0
+LEAD_000490,Technology Company 490,Contact 490,contact490@company490.com,IT Director,Technology,1-10,NA,paid,False,2024-12-28,2024-12-31,demo_request,4,1,2,111,571,57,0.571,0
+LEAD_000491,SaaS Company 491,Contact 491,contact491@company491.com,CFO,SaaS,51-200,NA,organic,True,2025-05-09,2025-05-15,demo_request,9,0,1,91,535,66,0.663,1
+LEAD_000492,SaaS Company 492,Contact 492,contact492@company492.com,CTO,SaaS,5000+,MEA,organic,False,2025-04-24,2025-04-29,case_study_view,6,2,4,28,15060,75,0.757,1
+LEAD_000493,SaaS Company 493,Contact 493,contact493@company493.com,CEO,SaaS,51-200,NA,referral,False,2025-04-28,2025-04-29,webinar,6,3,2,32,159,60,0.603,1
+LEAD_000494,E-commerce Company 494,Contact 494,contact494@company494.com,Business Analyst,E-commerce,201-1000,EU,paid,False,2024-11-11,2024-11-28,contact_form,5,0,1,43,363,40,0.406,1
+LEAD_000495,SaaS Company 495,Contact 495,contact495@company495.com,VP Sales,SaaS,51-200,NA,referral,False,2025-05-06,2025-06-03,ad_click,7,6,2,88,3643,63,0.635,1
+LEAD_000496,Healthcare Company 496,Contact 496,contact496@company496.com,Sales Manager,Healthcare,1-10,APAC,organic,False,2025-03-30,2025-04-20,webinar,3,0,3,5,160,43,0.436,0
+LEAD_000497,Technology Company 497,Contact 497,contact497@company497.com,CTO,Technology,11-50,NA,organic,True,2025-04-15,2025-04-16,product_tour,6,1,3,112,1821,64,0.646,0
+LEAD_000498,Finance Company 498,Contact 498,contact498@company498.com,Product Manager,Finance,1001-5000,EU,social,False,2024-10-16,2024-10-24,webinar,9,0,5,66,825,85,0.852,1
+LEAD_000499,Manufacturing Company 499,Contact 499,contact499@company499.com,CEO,Manufacturing,11-50,LATAM,organic,True,2025-07-10,2025-08-06,content_download,10,1,1,90,1988,42,0.424,0
+LEAD_000500,Education Company 500,Contact 500,contact500@company500.com,Operations Manager,Education,1-10,LATAM,referral,False,2024-12-15,2025-01-06,email_open,3,0,1,125,122,15,0.153,1
+LEAD_000501,E-commerce Company 501,Contact 501,contact501@company501.com,VP Sales,E-commerce,1-10,EU,organic,True,2024-11-06,2024-12-01,product_tour,3,2,5,69,4280,55,0.556,1
+LEAD_000502,SaaS Company 502,Contact 502,contact502@company502.com,VP Sales,SaaS,51-200,APAC,direct,False,2025-05-01,2025-05-11,webinar,2,0,0,123,2398,25,0.259,1
+LEAD_000503,Education Company 503,Contact 503,contact503@company503.com,CTO,Education,201-1000,APAC,paid,False,2024-11-10,2024-12-05,content_download,11,3,2,99,2133,62,0.624,0
+LEAD_000504,Real Estate Company 504,Contact 504,contact504@company504.com,CEO,Real Estate,11-50,NA,paid,True,2024-10-21,2024-11-18,pricing_page,14,1,2,24,36,67,0.67,1
+LEAD_000505,SaaS Company 505,Contact 505,contact505@company505.com,Sales Manager,SaaS,5000+,NA,organic,False,2025-04-22,2025-05-03,webinar,3,0,0,80,5907,34,0.341,0
+LEAD_000506,Manufacturing Company 506,Contact 506,contact506@company506.com,IT Director,Manufacturing,51-200,NA,social,False,2025-03-01,2025-03-10,pricing_page,10,2,1,179,980,52,0.525,1
+LEAD_000507,SaaS Company 507,Contact 507,contact507@company507.com,CEO,SaaS,1001-5000,LATAM,organic,False,2025-06-11,2025-06-17,webinar,10,2,1,45,1599,60,0.606,0
+LEAD_000508,Retail Company 508,Contact 508,contact508@company508.com,IT Director,Retail,51-200,EU,direct,False,2025-05-30,2025-06-13,webinar,6,1,6,165,5624,71,0.71,0
+LEAD_000509,Technology Company 509,Contact 509,contact509@company509.com,IT Director,Technology,51-200,NA,paid,False,2025-06-01,2025-06-13,pricing_page,12,5,1,145,1982,67,0.671,1
+LEAD_000510,SaaS Company 510,Contact 510,contact510@company510.com,VP Sales,SaaS,11-50,NA,paid,False,2025-07-17,2025-07-28,trial_signup,5,2,0,74,2004,45,0.456,1
+LEAD_000511,Healthcare Company 511,Contact 511,contact511@company511.com,Product Manager,Healthcare,1-10,EU,referral,False,2025-01-13,2025-01-15,trial_signup,4,5,3,91,2265,60,0.604,1
+LEAD_000512,Real Estate Company 512,Contact 512,contact512@company512.com,Business Analyst,Real Estate,51-200,MEA,organic,False,2025-07-28,2025-08-03,trial_signup,4,2,1,43,157,41,0.413,0
+LEAD_000513,Healthcare Company 513,Contact 513,contact513@company513.com,VP Sales,Healthcare,1-10,NA,organic,False,2025-07-10,2025-07-19,demo_request,13,0,1,177,2635,61,0.614,0
+LEAD_000514,Finance Company 514,Contact 514,contact514@company514.com,Operations Manager,Finance,1-10,APAC,paid,False,2025-09-02,2025-09-15,webinar,6,2,3,23,627,58,0.585,1
+LEAD_000515,Retail Company 515,Contact 515,contact515@company515.com,Sales Manager,Retail,51-200,EU,direct,False,2025-08-08,2025-09-02,product_tour,2,0,2,128,361,35,0.355,0
+LEAD_000516,Real Estate Company 516,Contact 516,contact516@company516.com,Sales Manager,Real Estate,1-10,NA,social,False,2024-11-28,2024-12-15,content_download,3,0,1,157,373,25,0.256,0
+LEAD_000517,SaaS Company 517,Contact 517,contact517@company517.com,VP Sales,SaaS,1001-5000,EU,organic,False,2025-07-28,2025-07-30,email_open,3,0,1,102,2974,44,0.446,1
+LEAD_000518,Manufacturing Company 518,Contact 518,contact518@company518.com,VP Sales,Manufacturing,11-50,NA,paid,False,2024-12-31,2025-01-16,contact_form,3,0,1,92,344,30,0.302,1
+LEAD_000519,Manufacturing Company 519,Contact 519,contact519@company519.com,Sales Manager,Manufacturing,11-50,EU,referral,False,2024-12-16,2024-12-25,content_download,12,4,2,47,553,59,0.592,0
+LEAD_000520,Manufacturing Company 520,Contact 520,contact520@company520.com,Marketing Director,Manufacturing,1-10,EU,direct,False,2025-05-03,2025-05-04,email_open,5,5,2,110,186,42,0.428,1
+LEAD_000521,E-commerce Company 521,Contact 521,contact521@company521.com,Product Manager,E-commerce,5000+,EU,direct,False,2025-07-14,2025-07-27,email_open,5,2,4,145,12046,67,0.673,1
+LEAD_000522,Finance Company 522,Contact 522,contact522@company522.com,Product Manager,Finance,1-10,EU,paid,False,2024-12-22,2025-01-03,ad_click,3,0,1,141,209,26,0.261,1
+LEAD_000523,Manufacturing Company 523,Contact 523,contact523@company523.com,Marketing Director,Manufacturing,1-10,NA,organic,False,2024-10-07,2024-10-26,pricing_page,5,0,1,112,192,33,0.338,1
+LEAD_000524,Technology Company 524,Contact 524,contact524@company524.com,Marketing Director,Technology,11-50,APAC,organic,False,2025-03-04,2025-03-19,product_tour,2,0,1,171,499,31,0.319,1
+LEAD_000525,E-commerce Company 525,Contact 525,contact525@company525.com,CFO,E-commerce,1001-5000,LATAM,paid,False,2025-07-05,2025-07-10,trial_signup,5,0,1,11,27351,45,0.458,1
+LEAD_000526,SaaS Company 526,Contact 526,contact526@company526.com,CFO,SaaS,5000+,APAC,direct,True,2025-01-07,2025-01-12,product_tour,4,2,2,16,11029,53,0.534,1
+LEAD_000527,Healthcare Company 527,Contact 527,contact527@company527.com,IT Director,Healthcare,51-200,NA,direct,True,2024-09-23,2024-10-01,trial_signup,5,0,1,28,1028,48,0.488,1
+LEAD_000528,Technology Company 528,Contact 528,contact528@company528.com,CEO,Technology,1001-5000,MEA,direct,False,2025-01-30,2025-01-31,case_study_view,7,1,2,69,2500,58,0.584,1
+LEAD_000529,SaaS Company 529,Contact 529,contact529@company529.com,CEO,SaaS,51-200,NA,direct,False,2025-07-12,2025-08-03,trial_signup,5,5,3,73,2576,82,0.82,1
+LEAD_000530,Healthcare Company 530,Contact 530,contact530@company530.com,Product Manager,Healthcare,201-1000,EU,paid,False,2025-04-03,2025-04-14,product_tour,6,2,3,5,1564,61,0.612,1
+LEAD_000531,Finance Company 531,Contact 531,contact531@company531.com,Marketing Director,Finance,1-10,APAC,organic,False,2025-05-29,2025-06-16,webinar,7,2,2,160,672,47,0.477,0
+LEAD_000532,SaaS Company 532,Contact 532,contact532@company532.com,CTO,SaaS,51-200,LATAM,organic,False,2025-01-27,2025-02-26,product_tour,4,0,2,79,1479,47,0.476,1
+LEAD_000533,Education Company 533,Contact 533,contact533@company533.com,Marketing Director,Education,11-50,EU,paid,False,2025-06-04,2025-06-16,trial_signup,3,2,2,83,382,48,0.482,0
+LEAD_000534,Real Estate Company 534,Contact 534,contact534@company534.com,Operations Manager,Real Estate,201-1000,LATAM,paid,False,2025-01-06,2025-01-07,demo_request,6,3,4,6,1030,80,0.803,1
+LEAD_000535,Real Estate Company 535,Contact 535,contact535@company535.com,Sales Manager,Real Estate,51-200,NA,direct,True,2025-03-29,2025-04-28,product_tour,5,2,3,1,347,55,0.552,0
+LEAD_000536,E-commerce Company 536,Contact 536,contact536@company536.com,Business Analyst,E-commerce,1-10,LATAM,referral,False,2024-12-13,2024-12-29,ad_click,4,0,1,161,510,22,0.222,0
+LEAD_000537,SaaS Company 537,Contact 537,contact537@company537.com,Product Manager,SaaS,1001-5000,NA,paid,False,2024-10-31,2024-11-30,ad_click,1,0,0,103,4407,31,0.312,0
+LEAD_000538,Finance Company 538,Contact 538,contact538@company538.com,CEO,Finance,1-10,APAC,direct,False,2025-03-21,2025-03-29,email_open,0,0,0,18,324,8,0.084,0
+LEAD_000539,SaaS Company 539,Contact 539,contact539@company539.com,Operations Manager,SaaS,201-1000,EU,organic,False,2025-05-20,2025-05-30,contact_form,5,1,1,61,882,49,0.497,1
+LEAD_000540,Real Estate Company 540,Contact 540,contact540@company540.com,Marketing Director,Real Estate,11-50,NA,organic,False,2025-05-20,2025-06-12,product_tour,5,6,2,10,202,47,0.479,1
+LEAD_000541,Education Company 541,Contact 541,contact541@company541.com,CFO,Education,5000+,NA,referral,False,2025-08-18,2025-08-19,trial_signup,7,0,0,37,4763,39,0.397,0
+LEAD_000542,Healthcare Company 542,Contact 542,contact542@company542.com,Product Manager,Healthcare,11-50,EU,paid,False,2025-03-11,2025-04-03,content_download,3,0,2,39,721,41,0.412,1
+LEAD_000543,E-commerce Company 543,Contact 543,contact543@company543.com,IT Director,E-commerce,51-200,NA,paid,False,2025-03-20,2025-04-13,case_study_view,7,2,4,164,1955,69,0.692,1
+LEAD_000544,SaaS Company 544,Contact 544,contact544@company544.com,Operations Manager,SaaS,5000+,NA,referral,False,2025-04-26,2025-05-13,product_tour,6,1,0,43,513,42,0.427,1
+LEAD_000545,Healthcare Company 545,Contact 545,contact545@company545.com,CTO,Healthcare,11-50,EU,referral,False,2025-05-23,2025-06-07,content_download,5,0,0,98,429,26,0.264,1
+LEAD_000546,Healthcare Company 546,Contact 546,contact546@company546.com,CTO,Healthcare,201-1000,LATAM,organic,False,2024-12-22,2025-01-07,case_study_view,1,0,4,10,1198,56,0.56,1
+LEAD_000547,Finance Company 547,Contact 547,contact547@company547.com,CEO,Finance,1-10,APAC,paid,False,2024-12-26,2025-01-16,contact_form,6,2,1,48,524,36,0.368,0
+LEAD_000548,E-commerce Company 548,Contact 548,contact548@company548.com,IT Director,E-commerce,11-50,APAC,organic,False,2025-08-21,2025-09-15,demo_request,4,0,2,137,3517,53,0.535,1
+LEAD_000549,Manufacturing Company 549,Contact 549,contact549@company549.com,Business Analyst,Manufacturing,11-50,NA,direct,False,2025-05-19,2025-06-15,product_tour,2,1,3,79,884,48,0.485,1
+LEAD_000550,Retail Company 550,Contact 550,contact550@company550.com,IT Director,Retail,1-10,LATAM,referral,False,2025-07-08,2025-07-14,content_download,12,6,3,121,792,65,0.651,1
+LEAD_000551,E-commerce Company 551,Contact 551,contact551@company551.com,Sales Manager,E-commerce,51-200,LATAM,paid,False,2025-03-27,2025-03-28,demo_request,6,2,0,139,3419,41,0.412,0
+LEAD_000552,E-commerce Company 552,Contact 552,contact552@company552.com,Sales Manager,E-commerce,201-1000,APAC,organic,False,2025-06-10,2025-07-03,ad_click,4,2,0,81,1086,26,0.264,0
+LEAD_000553,SaaS Company 553,Contact 553,contact553@company553.com,Business Analyst,SaaS,201-1000,NA,direct,False,2024-09-29,2024-10-23,case_study_view,5,4,3,28,3623,72,0.72,0
+LEAD_000554,Manufacturing Company 554,Contact 554,contact554@company554.com,IT Director,Manufacturing,5000+,EU,organic,False,2024-11-07,2024-11-08,demo_request,8,1,5,13,10846,83,0.838,1
+LEAD_000555,Retail Company 555,Contact 555,contact555@company555.com,VP Sales,Retail,11-50,NA,direct,False,2024-11-15,2024-12-06,demo_request,7,0,1,53,56,49,0.492,1
+LEAD_000556,Education Company 556,Contact 556,contact556@company556.com,CEO,Education,5000+,NA,paid,False,2025-03-08,2025-03-10,pricing_page,10,2,1,140,1919,52,0.529,0
+LEAD_000557,SaaS Company 557,Contact 557,contact557@company557.com,Product Manager,SaaS,11-50,EU,direct,True,2025-04-07,2025-04-14,case_study_view,5,0,1,89,962,38,0.386,0
+LEAD_000558,SaaS Company 558,Contact 558,contact558@company558.com,IT Director,SaaS,1-10,APAC,organic,False,2025-08-10,2025-08-12,webinar,6,0,3,57,3901,61,0.614,1
+LEAD_000559,Finance Company 559,Contact 559,contact559@company559.com,Product Manager,Finance,201-1000,MEA,social,False,2025-05-26,2025-06-14,case_study_view,10,6,1,49,517,52,0.528,1
+LEAD_000560,SaaS Company 560,Contact 560,contact560@company560.com,IT Director,SaaS,1-10,NA,paid,True,2025-08-09,2025-08-17,contact_form,7,2,1,51,247,51,0.515,0
+LEAD_000561,E-commerce Company 561,Contact 561,contact561@company561.com,Sales Manager,E-commerce,5000+,NA,paid,False,2025-02-05,2025-02-19,email_open,9,4,1,120,4281,53,0.539,1
+LEAD_000562,SaaS Company 562,Contact 562,contact562@company562.com,CFO,SaaS,51-200,EU,organic,True,2025-03-31,2025-04-05,ad_click,2,1,0,46,9798,25,0.257,0
+LEAD_000563,E-commerce Company 563,Contact 563,contact563@company563.com,Product Manager,E-commerce,51-200,EU,direct,True,2025-02-23,2025-03-17,email_open,5,0,1,51,925,31,0.316,0
+LEAD_000564,SaaS Company 564,Contact 564,contact564@company564.com,CEO,SaaS,1-10,NA,paid,False,2025-05-22,2025-06-02,content_download,8,0,2,80,101,53,0.532,1
+LEAD_000565,SaaS Company 565,Contact 565,contact565@company565.com,Business Analyst,SaaS,1001-5000,NA,paid,False,2024-10-30,2024-11-02,trial_signup,6,4,5,78,586,95,0.95,1
+LEAD_000566,Retail Company 566,Contact 566,contact566@company566.com,CEO,Retail,1001-5000,EU,organic,True,2025-03-11,2025-03-16,contact_form,7,2,2,126,1951,56,0.569,1
+LEAD_000567,Healthcare Company 567,Contact 567,contact567@company567.com,Business Analyst,Healthcare,11-50,NA,paid,False,2025-06-15,2025-06-19,email_open,6,4,0,54,729,28,0.285,0
+LEAD_000568,Education Company 568,Contact 568,contact568@company568.com,CTO,Education,1001-5000,APAC,social,True,2025-01-30,2025-02-06,demo_request,6,4,2,156,153,66,0.662,1
+LEAD_000569,SaaS Company 569,Contact 569,contact569@company569.com,IT Director,SaaS,1-10,APAC,organic,False,2024-10-31,2024-11-07,demo_request,2,1,2,101,904,51,0.515,0
+LEAD_000570,SaaS Company 570,Contact 570,contact570@company570.com,Operations Manager,SaaS,11-50,EU,organic,True,2025-01-05,2025-01-31,webinar,4,0,1,110,896,44,0.44,0
+LEAD_000571,SaaS Company 571,Contact 571,contact571@company571.com,CEO,SaaS,11-50,NA,organic,False,2024-12-01,2024-12-29,case_study_view,7,3,3,37,1100,68,0.689,0
+LEAD_000572,E-commerce Company 572,Contact 572,contact572@company572.com,CTO,E-commerce,201-1000,EU,organic,True,2025-04-29,2025-05-02,case_study_view,0,0,5,31,2087,60,0.605,1
+LEAD_000573,E-commerce Company 573,Contact 573,contact573@company573.com,Business Analyst,E-commerce,1-10,NA,paid,True,2025-08-11,2025-09-06,contact_form,9,1,5,69,160,69,0.696,1
+LEAD_000574,Finance Company 574,Contact 574,contact574@company574.com,Product Manager,Finance,201-1000,APAC,organic,False,2025-04-01,2025-04-07,case_study_view,3,0,3,98,15171,57,0.579,1
+LEAD_000575,Real Estate Company 575,Contact 575,contact575@company575.com,CFO,Real Estate,1001-5000,LATAM,direct,True,2025-06-25,2025-07-22,trial_signup,15,2,1,104,1997,66,0.666,1
+LEAD_000576,SaaS Company 576,Contact 576,contact576@company576.com,CFO,SaaS,201-1000,EU,paid,False,2024-09-20,2024-10-10,ad_click,8,2,3,138,2202,69,0.691,0
+LEAD_000577,Healthcare Company 577,Contact 577,contact577@company577.com,CFO,Healthcare,11-50,EU,paid,False,2025-05-17,2025-06-01,trial_signup,5,3,3,155,179,66,0.668,1
+LEAD_000578,E-commerce Company 578,Contact 578,contact578@company578.com,CEO,E-commerce,11-50,LATAM,social,False,2025-08-03,2025-08-31,pricing_page,6,4,2,132,790,52,0.522,0
+LEAD_000579,Manufacturing Company 579,Contact 579,contact579@company579.com,Sales Manager,Manufacturing,201-1000,APAC,organic,True,2025-05-16,2025-05-31,trial_signup,10,0,3,38,414,76,0.762,1
+LEAD_000580,Consulting Company 580,Contact 580,contact580@company580.com,IT Director,Consulting,51-200,APAC,referral,False,2025-02-13,2025-02-23,email_open,6,3,3,73,300,55,0.557,0
+LEAD_000581,Finance Company 581,Contact 581,contact581@company581.com,Sales Manager,Finance,1-10,APAC,referral,False,2025-08-03,2025-09-02,content_download,3,1,1,2,131,27,0.277,1
+LEAD_000582,SaaS Company 582,Contact 582,contact582@company582.com,Product Manager,SaaS,11-50,NA,direct,False,2024-11-07,2024-11-12,demo_request,3,2,2,101,676,61,0.61,1
+LEAD_000583,Healthcare Company 583,Contact 583,contact583@company583.com,Business Analyst,Healthcare,201-1000,NA,referral,False,2024-11-07,2024-12-03,webinar,7,2,4,65,584,81,0.812,0
+LEAD_000584,Healthcare Company 584,Contact 584,contact584@company584.com,CTO,Healthcare,201-1000,NA,direct,True,2025-01-14,2025-01-24,demo_request,1,0,0,30,3108,38,0.38,1
+LEAD_000585,Technology Company 585,Contact 585,contact585@company585.com,Marketing Director,Technology,11-50,NA,organic,False,2025-03-27,2025-03-28,content_download,4,0,0,68,302,32,0.325,1
+LEAD_000586,E-commerce Company 586,Contact 586,contact586@company586.com,CFO,E-commerce,11-50,APAC,organic,False,2025-05-31,2025-06-01,content_download,3,1,1,32,1689,28,0.29,0
+LEAD_000587,Healthcare Company 587,Contact 587,contact587@company587.com,CFO,Healthcare,201-1000,MEA,paid,False,2024-12-18,2024-12-22,case_study_view,1,2,0,24,531,22,0.228,0
+LEAD_000588,SaaS Company 588,Contact 588,contact588@company588.com,Business Analyst,SaaS,11-50,NA,direct,True,2025-08-11,2025-08-21,product_tour,8,0,3,139,1668,66,0.662,0
+LEAD_000589,Manufacturing Company 589,Contact 589,contact589@company589.com,VP Sales,Manufacturing,11-50,NA,social,False,2024-11-17,2024-12-05,trial_signup,4,2,2,17,647,49,0.498,1
+LEAD_000590,Technology Company 590,Contact 590,contact590@company590.com,Operations Manager,Technology,11-50,APAC,organic,False,2024-11-16,2024-12-06,content_download,3,0,3,13,1913,53,0.539,1
+LEAD_000591,Real Estate Company 591,Contact 591,contact591@company591.com,IT Director,Real Estate,51-200,EU,paid,False,2025-01-17,2025-01-31,webinar,5,7,4,167,649,71,0.712,0
+LEAD_000592,SaaS Company 592,Contact 592,contact592@company592.com,Operations Manager,SaaS,11-50,NA,organic,False,2025-04-20,2025-05-18,pricing_page,5,1,0,63,6737,39,0.391,0
+LEAD_000593,SaaS Company 593,Contact 593,contact593@company593.com,Sales Manager,SaaS,11-50,NA,organic,False,2024-11-25,2024-12-12,content_download,10,4,2,44,1723,62,0.621,1
+LEAD_000594,E-commerce Company 594,Contact 594,contact594@company594.com,CTO,E-commerce,1-10,MEA,direct,False,2025-07-13,2025-08-03,contact_form,4,0,1,54,296,28,0.281,0
+LEAD_000595,Education Company 595,Contact 595,contact595@company595.com,CFO,Education,11-50,LATAM,direct,False,2025-07-10,2025-07-20,case_study_view,2,7,1,63,475,25,0.25,0
+LEAD_000596,SaaS Company 596,Contact 596,contact596@company596.com,CEO,SaaS,1-10,APAC,referral,False,2025-09-03,2025-09-05,product_tour,7,0,3,107,738,53,0.531,1
+LEAD_000597,E-commerce Company 597,Contact 597,contact597@company597.com,Sales Manager,E-commerce,1-10,NA,paid,False,2025-02-04,2025-02-28,email_open,5,1,2,70,3778,38,0.387,0
+LEAD_000598,Manufacturing Company 598,Contact 598,contact598@company598.com,Product Manager,Manufacturing,201-1000,LATAM,paid,True,2025-02-15,2025-02-21,case_study_view,10,2,4,43,848,76,0.76,0
+LEAD_000599,Healthcare Company 599,Contact 599,contact599@company599.com,VP Sales,Healthcare,51-200,NA,referral,False,2024-11-21,2024-11-29,trial_signup,13,6,1,93,471,72,0.725,1
+LEAD_000600,SaaS Company 600,Contact 600,contact600@company600.com,VP Sales,SaaS,5000+,APAC,organic,False,2025-01-28,2025-02-27,contact_form,7,1,3,54,1648,76,0.765,1
+LEAD_000601,SaaS Company 601,Contact 601,contact601@company601.com,CEO,SaaS,1-10,EU,referral,False,2025-04-11,2025-05-02,trial_signup,7,3,5,58,675,83,0.836,0
+LEAD_000602,Education Company 602,Contact 602,contact602@company602.com,Marketing Director,Education,1-10,LATAM,social,False,2024-10-25,2024-11-04,pricing_page,8,2,3,140,1130,52,0.529,0
+LEAD_000603,Healthcare Company 603,Contact 603,contact603@company603.com,CFO,Healthcare,5000+,EU,social,False,2024-11-27,2024-12-23,contact_form,9,1,1,160,3325,51,0.511,0
+LEAD_000604,Manufacturing Company 604,Contact 604,contact604@company604.com,Operations Manager,Manufacturing,1-10,APAC,direct,False,2024-11-13,2024-11-24,product_tour,5,1,0,130,59,15,0.154,0
+LEAD_000605,Consulting Company 605,Contact 605,contact605@company605.com,VP Sales,Consulting,1-10,APAC,social,False,2025-02-13,2025-03-08,case_study_view,6,1,4,83,518,59,0.596,1
+LEAD_000606,Finance Company 606,Contact 606,contact606@company606.com,Business Analyst,Finance,1-10,LATAM,organic,False,2025-05-06,2025-05-29,webinar,4,2,2,21,5016,37,0.37,1
+LEAD_000607,Retail Company 607,Contact 607,contact607@company607.com,Marketing Director,Retail,201-1000,LATAM,direct,False,2024-10-23,2024-11-22,contact_form,5,0,1,114,628,36,0.364,1
+LEAD_000608,Healthcare Company 608,Contact 608,contact608@company608.com,Business Analyst,Healthcare,11-50,NA,referral,False,2025-03-15,2025-03-26,demo_request,5,0,3,168,1121,68,0.682,0
+LEAD_000609,SaaS Company 609,Contact 609,contact609@company609.com,Marketing Director,SaaS,1001-5000,EU,organic,False,2025-07-27,2025-08-07,case_study_view,5,3,1,42,1608,49,0.498,1
+LEAD_000610,Finance Company 610,Contact 610,contact610@company610.com,CTO,Finance,5000+,NA,referral,False,2024-11-18,2024-12-04,webinar,4,0,0,170,3745,32,0.325,0
+LEAD_000611,E-commerce Company 611,Contact 611,contact611@company611.com,Operations Manager,E-commerce,1-10,NA,referral,False,2025-06-16,2025-06-19,webinar,7,3,1,150,385,38,0.387,0
+LEAD_000612,SaaS Company 612,Contact 612,contact612@company612.com,Operations Manager,SaaS,11-50,MEA,paid,True,2025-02-08,2025-03-08,content_download,2,0,2,96,2787,43,0.43,0
+LEAD_000613,Real Estate Company 613,Contact 613,contact613@company613.com,Marketing Director,Real Estate,11-50,EU,organic,False,2025-07-17,2025-08-02,email_open,5,0,0,149,218,17,0.176,1
+LEAD_000614,Healthcare Company 614,Contact 614,contact614@company614.com,CEO,Healthcare,11-50,NA,organic,True,2024-10-06,2024-10-31,email_open,8,2,0,108,1586,32,0.327,0
+LEAD_000615,Real Estate Company 615,Contact 615,contact615@company615.com,VP Sales,Real Estate,1-10,EU,referral,False,2024-12-04,2024-12-15,email_open,7,5,0,99,168,21,0.214,0
+LEAD_000616,SaaS Company 616,Contact 616,contact616@company616.com,CFO,SaaS,51-200,EU,organic,False,2025-01-18,2025-01-25,pricing_page,10,3,3,7,446,79,0.798,1
+LEAD_000617,E-commerce Company 617,Contact 617,contact617@company617.com,Sales Manager,E-commerce,201-1000,NA,direct,True,2025-03-17,2025-04-08,ad_click,9,0,2,22,1321,55,0.558,0
+LEAD_000618,Consulting Company 618,Contact 618,contact618@company618.com,Operations Manager,Consulting,201-1000,EU,referral,False,2025-07-28,2025-07-29,contact_form,7,2,2,127,655,56,0.567,1
+LEAD_000619,Education Company 619,Contact 619,contact619@company619.com,Marketing Director,Education,51-200,EU,direct,False,2025-01-30,2025-02-19,case_study_view,7,0,1,1,1091,32,0.326,0
+LEAD_000620,E-commerce Company 620,Contact 620,contact620@company620.com,CFO,E-commerce,51-200,MEA,direct,False,2025-05-28,2025-06-13,contact_form,13,1,4,131,520,84,0.84,1
+LEAD_000621,SaaS Company 621,Contact 621,contact621@company621.com,Marketing Director,SaaS,11-50,NA,referral,False,2024-12-11,2024-12-17,webinar,4,0,1,145,1001,42,0.426,0
+LEAD_000622,Healthcare Company 622,Contact 622,contact622@company622.com,Marketing Director,Healthcare,5000+,EU,organic,False,2025-05-27,2025-06-20,trial_signup,7,3,4,73,3725,90,0.905,1
+LEAD_000623,SaaS Company 623,Contact 623,contact623@company623.com,Marketing Director,SaaS,5000+,EU,social,True,2024-12-17,2025-01-15,trial_signup,5,0,3,136,14510,73,0.735,0
+LEAD_000624,Finance Company 624,Contact 624,contact624@company624.com,CTO,Finance,51-200,EU,referral,False,2025-06-23,2025-07-06,demo_request,4,1,4,108,1267,82,0.825,1
+LEAD_000625,Retail Company 625,Contact 625,contact625@company625.com,CFO,Retail,1-10,APAC,paid,True,2025-05-31,2025-06-27,content_download,8,1,4,134,318,60,0.602,1
+LEAD_000626,SaaS Company 626,Contact 626,contact626@company626.com,Business Analyst,SaaS,201-1000,MEA,organic,False,2024-11-24,2024-12-11,case_study_view,6,0,0,10,10615,34,0.346,0
+LEAD_000627,E-commerce Company 627,Contact 627,contact627@company627.com,Product Manager,E-commerce,1-10,APAC,organic,False,2024-09-17,2024-10-17,content_download,8,3,2,121,461,44,0.446,1
+LEAD_000628,SaaS Company 628,Contact 628,contact628@company628.com,CTO,SaaS,11-50,APAC,paid,False,2025-01-22,2025-02-04,product_tour,9,1,1,165,9712,46,0.463,0
+LEAD_000629,Retail Company 629,Contact 629,contact629@company629.com,Marketing Director,Retail,11-50,EU,organic,False,2025-03-28,2025-04-13,content_download,6,1,2,153,471,43,0.435,0
+LEAD_000630,Finance Company 630,Contact 630,contact630@company630.com,Operations Manager,Finance,1-10,APAC,direct,False,2025-04-26,2025-05-17,demo_request,5,0,4,102,527,75,0.756,0
+LEAD_000631,SaaS Company 631,Contact 631,contact631@company631.com,Operations Manager,SaaS,11-50,APAC,organic,False,2024-11-12,2024-12-09,trial_signup,9,0,4,45,1831,87,0.873,1
+LEAD_000632,Healthcare Company 632,Contact 632,contact632@company632.com,Operations Manager,Healthcare,11-50,EU,organic,False,2025-03-06,2025-03-30,trial_signup,2,1,0,60,526,27,0.272,0
+LEAD_000633,Manufacturing Company 633,Contact 633,contact633@company633.com,CTO,Manufacturing,51-200,NA,organic,False,2024-10-01,2024-10-17,ad_click,2,4,2,6,745,44,0.447,1
+LEAD_000634,Finance Company 634,Contact 634,contact634@company634.com,CTO,Finance,11-50,NA,organic,False,2025-06-29,2025-07-20,ad_click,6,0,2,2,219,48,0.484,0
+LEAD_000635,SaaS Company 635,Contact 635,contact635@company635.com,Sales Manager,SaaS,1-10,APAC,paid,True,2024-11-02,2024-11-24,demo_request,7,0,3,141,794,70,0.704,1
+LEAD_000636,Retail Company 636,Contact 636,contact636@company636.com,Operations Manager,Retail,201-1000,LATAM,organic,False,2024-09-11,2024-09-29,email_open,7,4,2,162,142,50,0.508,0
+LEAD_000637,E-commerce Company 637,Contact 637,contact637@company637.com,Product Manager,E-commerce,51-200,NA,organic,False,2025-07-06,2025-07-18,pricing_page,6,0,1,59,2194,46,0.464,0
+LEAD_000638,SaaS Company 638,Contact 638,contact638@company638.com,CTO,SaaS,1001-5000,EU,paid,True,2025-07-06,2025-07-16,webinar,7,5,3,31,1100,77,0.775,1
+LEAD_000639,SaaS Company 639,Contact 639,contact639@company639.com,CEO,SaaS,1001-5000,EU,social,False,2025-03-21,2025-03-23,webinar,5,1,2,2,570,64,0.646,1
+LEAD_000640,Technology Company 640,Contact 640,contact640@company640.com,CTO,Technology,201-1000,NA,organic,True,2024-10-15,2024-11-12,content_download,3,0,1,50,8892,45,0.452,1
+LEAD_000641,Healthcare Company 641,Contact 641,contact641@company641.com,VP Sales,Healthcare,1-10,NA,social,False,2024-12-09,2024-12-20,content_download,10,1,0,75,316,28,0.28,0
+LEAD_000642,Finance Company 642,Contact 642,contact642@company642.com,Operations Manager,Finance,1001-5000,NA,paid,False,2025-09-01,2025-09-13,case_study_view,9,0,2,158,1528,64,0.642,1
+LEAD_000643,E-commerce Company 643,Contact 643,contact643@company643.com,Marketing Director,E-commerce,5000+,LATAM,paid,False,2025-05-17,2025-06-09,content_download,5,0,0,48,8817,26,0.268,0
+LEAD_000644,Healthcare Company 644,Contact 644,contact644@company644.com,Operations Manager,Healthcare,201-1000,LATAM,paid,False,2025-08-17,2025-08-25,email_open,7,2,2,112,1369,53,0.533,1
+LEAD_000645,Healthcare Company 645,Contact 645,contact645@company645.com,Business Analyst,Healthcare,11-50,APAC,direct,False,2025-02-22,2025-02-26,email_open,2,0,3,31,1894,45,0.453,1
+LEAD_000646,Real Estate Company 646,Contact 646,contact646@company646.com,CTO,Real Estate,11-50,EU,referral,True,2025-02-11,2025-02-18,email_open,4,4,1,41,267,36,0.368,0
+LEAD_000647,Technology Company 647,Contact 647,contact647@company647.com,CEO,Technology,11-50,NA,organic,False,2025-07-13,2025-08-03,trial_signup,8,4,2,174,388,67,0.671,1
+LEAD_000648,Healthcare Company 648,Contact 648,contact648@company648.com,Sales Manager,Healthcare,5000+,EU,organic,True,2025-08-13,2025-09-03,demo_request,9,6,3,77,592,89,0.895,1
+LEAD_000649,E-commerce Company 649,Contact 649,contact649@company649.com,CEO,E-commerce,201-1000,LATAM,organic,False,2025-01-30,2025-02-20,content_download,5,0,1,141,437,35,0.355,1
+LEAD_000650,Finance Company 650,Contact 650,contact650@company650.com,VP Sales,Finance,1-10,NA,referral,True,2025-08-11,2025-08-20,ad_click,9,1,1,67,407,43,0.436,1
+LEAD_000651,Manufacturing Company 651,Contact 651,contact651@company651.com,CEO,Manufacturing,5000+,NA,organic,False,2024-12-06,2024-12-12,content_download,1,0,1,30,10320,30,0.307,0
+LEAD_000652,Finance Company 652,Contact 652,contact652@company652.com,CTO,Finance,1001-5000,EU,direct,True,2025-07-16,2025-08-12,pricing_page,5,1,1,59,4303,49,0.496,0
+LEAD_000653,Healthcare Company 653,Contact 653,contact653@company653.com,Marketing Director,Healthcare,11-50,EU,referral,False,2025-09-06,2025-10-03,demo_request,15,3,2,40,571,75,0.758,1
+LEAD_000654,SaaS Company 654,Contact 654,contact654@company654.com,Operations Manager,SaaS,5000+,NA,social,True,2024-09-22,2024-10-18,case_study_view,6,0,2,146,9336,59,0.598,1
+LEAD_000655,SaaS Company 655,Contact 655,contact655@company655.com,CFO,SaaS,11-50,NA,direct,True,2024-10-16,2024-11-05,product_tour,5,1,7,38,1673,74,0.747,0
+LEAD_000656,SaaS Company 656,Contact 656,contact656@company656.com,Operations Manager,SaaS,5000+,LATAM,paid,False,2024-10-10,2024-10-31,product_tour,5,0,1,163,3829,40,0.406,1
+LEAD_000657,Finance Company 657,Contact 657,contact657@company657.com,IT Director,Finance,201-1000,NA,social,False,2025-04-18,2025-04-24,content_download,5,1,3,4,10504,68,0.685,1
+LEAD_000658,Healthcare Company 658,Contact 658,contact658@company658.com,Product Manager,Healthcare,51-200,APAC,organic,False,2024-12-15,2024-12-28,product_tour,5,1,0,28,287,30,0.303,0
+LEAD_000659,Technology Company 659,Contact 659,contact659@company659.com,VP Sales,Technology,11-50,EU,referral,False,2025-07-01,2025-07-21,case_study_view,7,3,2,106,705,54,0.546,1
+LEAD_000660,Healthcare Company 660,Contact 660,contact660@company660.com,Operations Manager,Healthcare,11-50,APAC,organic,False,2025-07-07,2025-07-30,pricing_page,10,8,3,115,564,77,0.775,0
+LEAD_000661,Manufacturing Company 661,Contact 661,contact661@company661.com,Operations Manager,Manufacturing,201-1000,APAC,organic,True,2025-04-30,2025-05-07,demo_request,8,1,1,92,3783,58,0.584,1
+LEAD_000662,Manufacturing Company 662,Contact 662,contact662@company662.com,Product Manager,Manufacturing,51-200,NA,organic,False,2025-05-03,2025-05-11,case_study_view,6,3,3,176,2116,61,0.611,0
+LEAD_000663,SaaS Company 663,Contact 663,contact663@company663.com,Sales Manager,SaaS,51-200,EU,direct,False,2025-05-23,2025-06-04,webinar,9,5,5,7,1725,84,0.847,1
+LEAD_000664,Retail Company 664,Contact 664,contact664@company664.com,VP Sales,Retail,51-200,LATAM,referral,False,2025-05-01,2025-05-14,webinar,10,2,4,128,4060,75,0.759,0
+LEAD_000665,Manufacturing Company 665,Contact 665,contact665@company665.com,Operations Manager,Manufacturing,11-50,NA,paid,False,2025-09-01,2025-09-08,email_open,5,0,4,85,799,65,0.656,0
+LEAD_000666,Real Estate Company 666,Contact 666,contact666@company666.com,Product Manager,Real Estate,1001-5000,NA,paid,True,2025-03-04,2025-03-21,pricing_page,12,1,2,38,4139,70,0.703,0
+LEAD_000667,Finance Company 667,Contact 667,contact667@company667.com,Business Analyst,Finance,201-1000,NA,direct,False,2024-10-11,2024-10-29,pricing_page,9,2,0,176,3288,50,0.506,1
+LEAD_000668,E-commerce Company 668,Contact 668,contact668@company668.com,Marketing Director,E-commerce,1001-5000,NA,referral,False,2025-03-07,2025-03-27,content_download,4,1,3,21,1346,62,0.629,1
+LEAD_000669,E-commerce Company 669,Contact 669,contact669@company669.com,Product Manager,E-commerce,1-10,NA,social,False,2025-04-27,2025-05-23,demo_request,11,4,0,139,209,46,0.468,1
+LEAD_000670,Manufacturing Company 670,Contact 670,contact670@company670.com,Sales Manager,Manufacturing,51-200,LATAM,organic,True,2024-11-22,2024-12-12,ad_click,7,6,2,162,1777,48,0.482,0
+LEAD_000671,SaaS Company 671,Contact 671,contact671@company671.com,CEO,SaaS,5000+,NA,direct,True,2025-02-16,2025-03-06,contact_form,8,0,3,125,8386,79,0.79,0
+LEAD_000672,SaaS Company 672,Contact 672,contact672@company672.com,CFO,SaaS,1001-5000,NA,organic,False,2025-03-03,2025-03-10,product_tour,3,1,0,111,3883,36,0.364,1
+LEAD_000673,Finance Company 673,Contact 673,contact673@company673.com,Marketing Director,Finance,11-50,MEA,organic,False,2024-12-02,2024-12-18,email_open,3,1,0,41,1775,20,0.2,0
+LEAD_000674,Healthcare Company 674,Contact 674,contact674@company674.com,Sales Manager,Healthcare,1-10,EU,organic,False,2024-12-07,2025-01-04,pricing_page,6,0,1,153,6096,39,0.393,0
+LEAD_000675,Retail Company 675,Contact 675,contact675@company675.com,Product Manager,Retail,1-10,EU,referral,True,2025-08-19,2025-09-16,ad_click,5,6,5,72,233,59,0.592,0
+LEAD_000676,Manufacturing Company 676,Contact 676,contact676@company676.com,Operations Manager,Manufacturing,11-50,NA,social,False,2025-04-06,2025-04-11,email_open,8,3,3,125,1146,59,0.595,1
+LEAD_000677,Healthcare Company 677,Contact 677,contact677@company677.com,CEO,Healthcare,1-10,NA,paid,False,2024-09-13,2024-09-26,content_download,12,2,3,136,1478,66,0.661,0
+LEAD_000678,SaaS Company 678,Contact 678,contact678@company678.com,Marketing Director,SaaS,1-10,LATAM,referral,False,2024-10-10,2024-10-29,webinar,6,2,3,12,182,60,0.608,1
+LEAD_000679,SaaS Company 679,Contact 679,contact679@company679.com,Operations Manager,SaaS,1-10,MEA,paid,True,2025-06-14,2025-06-21,trial_signup,5,5,6,171,977,75,0.754,1
+LEAD_000680,Finance Company 680,Contact 680,contact680@company680.com,Marketing Director,Finance,5000+,APAC,organic,False,2025-06-30,2025-07-07,email_open,8,2,2,51,2424,57,0.575,0
+LEAD_000681,SaaS Company 681,Contact 681,contact681@company681.com,VP Sales,SaaS,201-1000,APAC,organic,False,2025-06-24,2025-07-01,pricing_page,10,0,3,138,5805,84,0.849,1
+LEAD_000682,E-commerce Company 682,Contact 682,contact682@company682.com,CTO,E-commerce,1001-5000,NA,organic,False,2025-08-08,2025-08-31,content_download,5,2,0,83,503,33,0.333,0
+LEAD_000683,SaaS Company 683,Contact 683,contact683@company683.com,Product Manager,SaaS,11-50,EU,direct,True,2025-01-15,2025-02-12,contact_form,8,1,2,143,577,64,0.644,1
+LEAD_000684,Healthcare Company 684,Contact 684,contact684@company684.com,Business Analyst,Healthcare,5000+,NA,referral,False,2025-07-06,2025-07-13,ad_click,5,1,1,27,451,41,0.413,0
+LEAD_000685,SaaS Company 685,Contact 685,contact685@company685.com,IT Director,SaaS,1001-5000,APAC,organic,False,2025-07-12,2025-08-10,case_study_view,6,1,1,84,9512,48,0.481,1
+LEAD_000686,Manufacturing Company 686,Contact 686,contact686@company686.com,CEO,Manufacturing,5000+,APAC,organic,False,2025-02-16,2025-03-15,trial_signup,4,2,2,104,2323,57,0.577,0
+LEAD_000687,Retail Company 687,Contact 687,contact687@company687.com,Marketing Director,Retail,201-1000,NA,direct,False,2025-04-13,2025-04-28,trial_signup,2,0,2,117,496,51,0.517,0
+LEAD_000688,SaaS Company 688,Contact 688,contact688@company688.com,Marketing Director,SaaS,201-1000,NA,paid,False,2024-11-18,2024-12-16,webinar,6,0,0,50,2707,42,0.424,0
+LEAD_000689,Retail Company 689,Contact 689,contact689@company689.com,Operations Manager,Retail,1001-5000,EU,direct,False,2025-04-27,2025-05-11,case_study_view,5,1,0,67,3249,34,0.344,0
+LEAD_000690,E-commerce Company 690,Contact 690,contact690@company690.com,CTO,E-commerce,51-200,EU,organic,False,2025-01-03,2025-01-12,demo_request,5,0,2,59,2111,56,0.568,0
+LEAD_000691,SaaS Company 691,Contact 691,contact691@company691.com,Business Analyst,SaaS,11-50,APAC,organic,True,2025-07-22,2025-08-14,demo_request,10,3,4,109,1209,94,0.944,1
+LEAD_000692,Finance Company 692,Contact 692,contact692@company692.com,Marketing Director,Finance,5000+,EU,organic,False,2025-08-27,2025-08-29,trial_signup,10,2,3,91,9511,83,0.839,1
+LEAD_000693,SaaS Company 693,Contact 693,contact693@company693.com,CFO,SaaS,201-1000,NA,organic,True,2025-01-03,2025-01-23,trial_signup,2,0,1,123,17748,50,0.502,1
+LEAD_000694,Technology Company 694,Contact 694,contact694@company694.com,Business Analyst,Technology,201-1000,EU,organic,False,2025-01-30,2025-03-01,contact_form,4,0,3,119,2059,63,0.637,0
+LEAD_000695,Retail Company 695,Contact 695,contact695@company695.com,IT Director,Retail,51-200,APAC,paid,False,2025-04-27,2025-05-11,product_tour,1,2,5,120,905,55,0.554,1
+LEAD_000696,Manufacturing Company 696,Contact 696,contact696@company696.com,IT Director,Manufacturing,201-1000,NA,direct,True,2025-07-15,2025-07-27,trial_signup,2,0,2,5,3429,52,0.529,0
+LEAD_000697,E-commerce Company 697,Contact 697,contact697@company697.com,VP Sales,E-commerce,51-200,APAC,paid,False,2025-09-05,2025-09-16,trial_signup,9,1,2,78,924,60,0.608,1
+LEAD_000698,E-commerce Company 698,Contact 698,contact698@company698.com,Marketing Director,E-commerce,1-10,APAC,paid,False,2024-09-07,2024-09-15,contact_form,2,0,4,118,1904,52,0.527,0
+LEAD_000699,Consulting Company 699,Contact 699,contact699@company699.com,Marketing Director,Consulting,1-10,EU,paid,False,2024-11-23,2024-12-15,webinar,3,1,1,92,230,22,0.225,0
+LEAD_000700,Retail Company 700,Contact 700,contact700@company700.com,CEO,Retail,51-200,APAC,paid,False,2025-03-08,2025-04-05,email_open,10,2,3,55,871,57,0.58,1
+LEAD_000701,E-commerce Company 701,Contact 701,contact701@company701.com,CTO,E-commerce,1-10,EU,organic,False,2025-02-12,2025-02-20,trial_signup,6,2,1,143,77,43,0.436,1
+LEAD_000702,SaaS Company 702,Contact 702,contact702@company702.com,Business Analyst,SaaS,201-1000,EU,referral,False,2025-02-20,2025-03-16,contact_form,3,4,1,81,21028,52,0.529,0
+LEAD_000703,SaaS Company 703,Contact 703,contact703@company703.com,CTO,SaaS,1-10,EU,organic,False,2025-02-18,2025-03-08,webinar,5,2,0,69,1804,28,0.286,0
+LEAD_000704,E-commerce Company 704,Contact 704,contact704@company704.com,VP Sales,E-commerce,201-1000,MEA,organic,False,2024-12-24,2024-12-30,pricing_page,11,5,5,177,339,89,0.899,1
+LEAD_000705,SaaS Company 705,Contact 705,contact705@company705.com,Product Manager,SaaS,1-10,EU,paid,True,2025-02-06,2025-02-25,demo_request,2,2,3,48,3806,65,0.652,1
+LEAD_000706,SaaS Company 706,Contact 706,contact706@company706.com,Product Manager,SaaS,11-50,NA,direct,True,2024-11-07,2024-11-11,webinar,6,0,0,25,1183,34,0.348,0
+LEAD_000707,E-commerce Company 707,Contact 707,contact707@company707.com,CFO,E-commerce,11-50,NA,paid,True,2024-09-08,2024-09-26,contact_form,7,0,0,64,37,32,0.328,1
+LEAD_000708,Finance Company 708,Contact 708,contact708@company708.com,CTO,Finance,5000+,NA,paid,False,2024-11-28,2024-12-13,content_download,4,0,0,132,2104,35,0.35,0
+LEAD_000709,SaaS Company 709,Contact 709,contact709@company709.com,Product Manager,SaaS,51-200,APAC,direct,False,2025-01-01,2025-01-18,case_study_view,4,0,1,92,1322,40,0.403,0
+LEAD_000710,Technology Company 710,Contact 710,contact710@company710.com,CEO,Technology,1-10,NA,referral,False,2025-06-08,2025-06-20,ad_click,9,2,4,179,441,76,0.761,1
+LEAD_000711,SaaS Company 711,Contact 711,contact711@company711.com,IT Director,SaaS,11-50,APAC,referral,True,2025-08-20,2025-09-12,trial_signup,4,2,1,130,720,49,0.495,0
+LEAD_000712,SaaS Company 712,Contact 712,contact712@company712.com,CTO,SaaS,1001-5000,NA,direct,False,2025-05-04,2025-05-28,demo_request,5,1,4,175,9852,93,0.932,1
+LEAD_000713,Education Company 713,Contact 713,contact713@company713.com,CFO,Education,11-50,EU,organic,False,2025-05-24,2025-06-23,email_open,2,3,3,144,106,45,0.452,0
+LEAD_000714,Consulting Company 714,Contact 714,contact714@company714.com,Business Analyst,Consulting,1-10,APAC,paid,False,2025-04-10,2025-04-24,contact_form,2,0,0,27,69,12,0.129,0
+LEAD_000715,SaaS Company 715,Contact 715,contact715@company715.com,CTO,SaaS,11-50,NA,organic,False,2025-04-28,2025-05-05,trial_signup,12,1,1,116,7117,66,0.669,1
+LEAD_000716,Technology Company 716,Contact 716,contact716@company716.com,CTO,Technology,1-10,NA,referral,True,2025-02-12,2025-03-05,webinar,5,0,2,103,190,46,0.463,0
+LEAD_000717,Finance Company 717,Contact 717,contact717@company717.com,VP Sales,Finance,11-50,EU,organic,False,2025-03-24,2025-04-13,email_open,3,0,0,178,2328,20,0.205,0
+LEAD_000718,E-commerce Company 718,Contact 718,contact718@company718.com,VP Sales,E-commerce,201-1000,APAC,direct,False,2024-09-17,2024-10-06,contact_form,4,0,2,81,4392,49,0.495,0
+LEAD_000719,Education Company 719,Contact 719,contact719@company719.com,Operations Manager,Education,5000+,EU,direct,False,2025-03-15,2025-04-08,product_tour,3,4,3,125,18074,51,0.519,0
+LEAD_000720,Technology Company 720,Contact 720,contact720@company720.com,Marketing Director,Technology,51-200,MEA,paid,True,2024-12-04,2024-12-18,trial_signup,10,4,4,139,298,94,0.94,1
+LEAD_000721,Manufacturing Company 721,Contact 721,contact721@company721.com,CEO,Manufacturing,51-200,LATAM,organic,False,2024-11-04,2024-11-15,content_download,10,0,5,9,513,71,0.713,1
+LEAD_000722,Manufacturing Company 722,Contact 722,contact722@company722.com,CTO,Manufacturing,11-50,LATAM,paid,False,2024-12-31,2025-01-01,content_download,5,0,2,40,998,35,0.359,0
+LEAD_000723,Consulting Company 723,Contact 723,contact723@company723.com,Marketing Director,Consulting,11-50,NA,direct,False,2024-12-08,2024-12-14,webinar,9,7,5,14,1156,80,0.802,1
+LEAD_000724,SaaS Company 724,Contact 724,contact724@company724.com,Sales Manager,SaaS,5000+,APAC,social,False,2024-10-09,2024-11-08,product_tour,4,0,3,12,2677,62,0.628,1
+LEAD_000725,SaaS Company 725,Contact 725,contact725@company725.com,CTO,SaaS,1-10,LATAM,organic,False,2025-05-07,2025-05-28,product_tour,7,1,1,16,508,34,0.346,0
+LEAD_000726,Education Company 726,Contact 726,contact726@company726.com,VP Sales,Education,1-10,EU,referral,True,2025-04-29,2025-05-13,product_tour,6,6,2,110,218,41,0.418,1
+LEAD_000727,Retail Company 727,Contact 727,contact727@company727.com,CEO,Retail,1-10,LATAM,social,True,2025-08-11,2025-08-27,ad_click,5,2,0,74,55,13,0.135,0
+LEAD_000728,SaaS Company 728,Contact 728,contact728@company728.com,Operations Manager,SaaS,11-50,APAC,organic,False,2024-10-12,2024-10-25,pricing_page,5,0,1,30,1164,46,0.463,1
+LEAD_000729,Healthcare Company 729,Contact 729,contact729@company729.com,CFO,Healthcare,201-1000,NA,referral,True,2024-10-06,2024-10-18,trial_signup,5,4,3,12,881,74,0.748,1
+LEAD_000730,SaaS Company 730,Contact 730,contact730@company730.com,IT Director,SaaS,51-200,NA,referral,True,2025-08-24,2025-09-05,contact_form,2,0,3,93,1880,64,0.646,0
+LEAD_000731,SaaS Company 731,Contact 731,contact731@company731.com,Sales Manager,SaaS,201-1000,NA,direct,False,2025-08-10,2025-08-21,content_download,8,2,3,78,3164,76,0.765,0
+LEAD_000732,Consulting Company 732,Contact 732,contact732@company732.com,CFO,Consulting,11-50,EU,direct,False,2025-06-18,2025-06-22,content_download,9,1,1,77,1788,41,0.419,1
+LEAD_000733,Healthcare Company 733,Contact 733,contact733@company733.com,Product Manager,Healthcare,201-1000,NA,organic,False,2025-01-13,2025-01-20,pricing_page,9,4,6,97,1523,88,0.885,1
+LEAD_000734,SaaS Company 734,Contact 734,contact734@company734.com,Business Analyst,SaaS,11-50,NA,organic,False,2025-08-11,2025-09-05,trial_signup,14,2,7,122,179,95,0.95,1
+LEAD_000735,Retail Company 735,Contact 735,contact735@company735.com,CTO,Retail,51-200,LATAM,organic,True,2025-01-10,2025-01-14,webinar,3,0,1,77,80,31,0.314,0
+LEAD_000736,Manufacturing Company 736,Contact 736,contact736@company736.com,Product Manager,Manufacturing,201-1000,LATAM,organic,False,2025-02-07,2025-02-13,contact_form,6,0,2,12,982,50,0.503,0
+LEAD_000737,SaaS Company 737,Contact 737,contact737@company737.com,CTO,SaaS,1001-5000,MEA,direct,True,2024-09-28,2024-10-15,contact_form,7,3,1,57,979,57,0.577,0
+LEAD_000738,Finance Company 738,Contact 738,contact738@company738.com,Marketing Director,Finance,51-200,LATAM,organic,False,2025-04-13,2025-05-10,email_open,3,3,1,74,592,31,0.311,0
+LEAD_000739,Healthcare Company 739,Contact 739,contact739@company739.com,Marketing Director,Healthcare,5000+,APAC,social,False,2024-11-02,2024-11-29,case_study_view,12,1,2,50,2276,62,0.622,1
+LEAD_000740,Consulting Company 740,Contact 740,contact740@company740.com,CEO,Consulting,11-50,APAC,direct,False,2024-11-03,2024-11-15,ad_click,7,1,2,54,485,46,0.46,0
+LEAD_000741,SaaS Company 741,Contact 741,contact741@company741.com,CFO,SaaS,1001-5000,EU,paid,False,2025-08-08,2025-08-30,ad_click,4,0,4,43,4609,72,0.728,1
+LEAD_000742,E-commerce Company 742,Contact 742,contact742@company742.com,CFO,E-commerce,11-50,MEA,social,False,2024-11-01,2024-11-06,pricing_page,12,1,5,138,349,79,0.796,1
+LEAD_000743,Education Company 743,Contact 743,contact743@company743.com,Operations Manager,Education,1-10,EU,organic,True,2025-03-08,2025-03-30,contact_form,6,1,2,118,370,44,0.444,1
+LEAD_000744,Manufacturing Company 744,Contact 744,contact744@company744.com,Business Analyst,Manufacturing,5000+,NA,referral,False,2025-06-05,2025-06-27,ad_click,4,0,4,124,520,66,0.661,1
+LEAD_000745,SaaS Company 745,Contact 745,contact745@company745.com,CEO,SaaS,11-50,APAC,social,True,2025-06-30,2025-07-06,trial_signup,2,0,0,5,1024,30,0.302,0
+LEAD_000746,Real Estate Company 746,Contact 746,contact746@company746.com,CEO,Real Estate,5000+,LATAM,organic,True,2025-03-23,2025-04-02,trial_signup,12,2,3,117,2413,81,0.813,0
+LEAD_000747,Retail Company 747,Contact 747,contact747@company747.com,Business Analyst,Retail,11-50,MEA,paid,False,2024-11-28,2024-12-08,webinar,2,0,0,148,4902,13,0.133,1
+LEAD_000748,SaaS Company 748,Contact 748,contact748@company748.com,CFO,SaaS,201-1000,EU,direct,True,2025-05-15,2025-05-31,product_tour,1,1,1,126,1060,37,0.37,1
+LEAD_000749,Manufacturing Company 749,Contact 749,contact749@company749.com,Marketing Director,Manufacturing,5000+,NA,organic,False,2025-03-02,2025-03-03,webinar,4,1,5,53,7504,66,0.669,0
+LEAD_000750,Education Company 750,Contact 750,contact750@company750.com,Marketing Director,Education,1-10,NA,referral,False,2025-02-08,2025-02-17,pricing_page,11,1,4,126,184,73,0.736,0
+LEAD_000751,E-commerce Company 751,Contact 751,contact751@company751.com,Business Analyst,E-commerce,5000+,APAC,organic,False,2025-04-10,2025-04-22,webinar,6,3,2,121,2407,53,0.535,0
+LEAD_000752,Retail Company 752,Contact 752,contact752@company752.com,Business Analyst,Retail,51-200,NA,organic,False,2025-04-25,2025-05-04,webinar,2,0,2,90,1185,39,0.394,0
+LEAD_000753,Retail Company 753,Contact 753,contact753@company753.com,CTO,Retail,51-200,EU,social,False,2024-10-11,2024-10-13,ad_click,8,2,2,174,11107,50,0.505,1
+LEAD_000754,Education Company 754,Contact 754,contact754@company754.com,VP Sales,Education,1-10,APAC,paid,True,2025-06-04,2025-06-17,ad_click,6,1,0,120,442,15,0.154,0
+LEAD_000755,SaaS Company 755,Contact 755,contact755@company755.com,Operations Manager,SaaS,11-50,EU,organic,False,2025-01-12,2025-01-31,trial_signup,7,3,6,94,1114,87,0.87,1
+LEAD_000756,Finance Company 756,Contact 756,contact756@company756.com,Operations Manager,Finance,5000+,LATAM,referral,False,2025-07-23,2025-08-01,contact_form,4,0,1,68,2112,42,0.422,1
+LEAD_000757,SaaS Company 757,Contact 757,contact757@company757.com,CFO,SaaS,51-200,LATAM,organic,False,2024-12-01,2024-12-05,pricing_page,4,1,2,174,1180,53,0.539,1
+LEAD_000758,Manufacturing Company 758,Contact 758,contact758@company758.com,IT Director,Manufacturing,51-200,MEA,direct,False,2025-05-20,2025-05-27,pricing_page,2,0,1,17,383,31,0.317,0
+LEAD_000759,SaaS Company 759,Contact 759,contact759@company759.com,IT Director,SaaS,1001-5000,APAC,social,True,2024-10-07,2024-11-06,trial_signup,7,3,2,6,1162,71,0.718,1
+LEAD_000760,Retail Company 760,Contact 760,contact760@company760.com,VP Sales,Retail,1001-5000,EU,paid,False,2025-08-17,2025-09-02,contact_form,7,3,3,53,2918,70,0.709,0
+LEAD_000761,Manufacturing Company 761,Contact 761,contact761@company761.com,Marketing Director,Manufacturing,201-1000,APAC,social,True,2024-11-18,2024-12-05,content_download,9,1,0,107,268,36,0.365,0
+LEAD_000762,Manufacturing Company 762,Contact 762,contact762@company762.com,CFO,Manufacturing,201-1000,APAC,organic,False,2025-02-22,2025-03-12,demo_request,4,2,2,173,873,61,0.614,1
+LEAD_000763,Healthcare Company 763,Contact 763,contact763@company763.com,IT Director,Healthcare,1-10,NA,paid,True,2025-03-09,2025-03-21,trial_signup,5,5,2,50,773,56,0.561,0
+LEAD_000764,Manufacturing Company 764,Contact 764,contact764@company764.com,VP Sales,Manufacturing,1001-5000,EU,organic,True,2025-06-12,2025-07-07,contact_form,3,0,1,48,2593,38,0.388,1
+LEAD_000765,Healthcare Company 765,Contact 765,contact765@company765.com,IT Director,Healthcare,1001-5000,NA,referral,True,2025-07-08,2025-07-30,email_open,3,0,1,115,7696,37,0.379,0
+LEAD_000766,Education Company 766,Contact 766,contact766@company766.com,Marketing Director,Education,11-50,LATAM,organic,True,2025-03-20,2025-04-13,case_study_view,7,1,1,156,645,30,0.308,0
+LEAD_000767,SaaS Company 767,Contact 767,contact767@company767.com,CTO,SaaS,201-1000,APAC,organic,False,2024-09-23,2024-10-05,content_download,7,3,1,27,2885,55,0.558,1
+LEAD_000768,Technology Company 768,Contact 768,contact768@company768.com,IT Director,Technology,201-1000,NA,referral,True,2025-02-07,2025-02-26,demo_request,12,0,0,13,9803,62,0.626,1
+LEAD_000769,SaaS Company 769,Contact 769,contact769@company769.com,IT Director,SaaS,5000+,APAC,organic,True,2025-01-09,2025-01-18,demo_request,3,3,3,47,2647,76,0.767,1
+LEAD_000770,E-commerce Company 770,Contact 770,contact770@company770.com,Sales Manager,E-commerce,51-200,EU,referral,False,2025-01-14,2025-01-23,ad_click,11,5,3,86,1040,69,0.691,1
+LEAD_000771,SaaS Company 771,Contact 771,contact771@company771.com,Sales Manager,SaaS,11-50,NA,paid,False,2024-09-07,2024-09-29,case_study_view,5,1,1,68,826,40,0.401,0
+LEAD_000772,Healthcare Company 772,Contact 772,contact772@company772.com,CTO,Healthcare,1-10,EU,referral,False,2024-12-04,2024-12-25,case_study_view,9,0,1,147,2147,38,0.386,1
+LEAD_000773,SaaS Company 773,Contact 773,contact773@company773.com,VP Sales,SaaS,11-50,NA,paid,True,2024-09-24,2024-10-09,product_tour,4,4,1,148,1635,42,0.429,0
+LEAD_000774,Manufacturing Company 774,Contact 774,contact774@company774.com,Business Analyst,Manufacturing,5000+,APAC,organic,False,2024-11-26,2024-12-16,ad_click,4,0,0,16,1615,21,0.211,0
+LEAD_000775,E-commerce Company 775,Contact 775,contact775@company775.com,Sales Manager,E-commerce,51-200,NA,organic,False,2024-10-08,2024-11-07,content_download,5,3,3,167,2436,60,0.608,1
+LEAD_000776,Finance Company 776,Contact 776,contact776@company776.com,Marketing Director,Finance,1-10,NA,organic,False,2025-08-13,2025-08-22,webinar,2,3,3,146,734,51,0.519,0
+LEAD_000777,SaaS Company 777,Contact 777,contact777@company777.com,CTO,SaaS,11-50,EU,organic,False,2025-02-10,2025-02-27,demo_request,5,2,3,69,340,74,0.749,1
+LEAD_000778,SaaS Company 778,Contact 778,contact778@company778.com,Sales Manager,SaaS,1-10,EU,social,False,2025-03-10,2025-03-18,case_study_view,4,0,1,173,108,31,0.312,1
+LEAD_000779,SaaS Company 779,Contact 779,contact779@company779.com,CFO,SaaS,201-1000,NA,paid,False,2025-01-01,2025-01-20,product_tour,6,4,4,160,13142,82,0.821,1
+LEAD_000780,E-commerce Company 780,Contact 780,contact780@company780.com,IT Director,E-commerce,201-1000,NA,organic,False,2025-06-27,2025-07-02,case_study_view,6,3,1,107,1586,46,0.468,0
+LEAD_000781,E-commerce Company 781,Contact 781,contact781@company781.com,Sales Manager,E-commerce,1-10,EU,social,True,2024-12-04,2024-12-10,ad_click,10,3,2,124,1073,46,0.464,1
+LEAD_000782,Finance Company 782,Contact 782,contact782@company782.com,Marketing Director,Finance,1-10,LATAM,direct,False,2025-06-06,2025-07-04,demo_request,9,1,0,10,550,42,0.42,1
+LEAD_000783,SaaS Company 783,Contact 783,contact783@company783.com,Business Analyst,SaaS,51-200,EU,paid,False,2025-04-02,2025-04-03,demo_request,8,3,1,106,14030,65,0.656,1
+LEAD_000784,Consulting Company 784,Contact 784,contact784@company784.com,Product Manager,Consulting,5000+,EU,organic,False,2025-04-17,2025-05-09,demo_request,6,1,2,18,1218,64,0.649,1
+LEAD_000785,Finance Company 785,Contact 785,contact785@company785.com,VP Sales,Finance,201-1000,EU,paid,True,2025-04-18,2025-05-12,contact_form,3,0,1,29,43672,38,0.389,0
+LEAD_000786,Finance Company 786,Contact 786,contact786@company786.com,IT Director,Finance,1001-5000,NA,paid,True,2025-01-05,2025-01-15,demo_request,12,6,1,16,1363,77,0.774,1
+LEAD_000787,SaaS Company 787,Contact 787,contact787@company787.com,Sales Manager,SaaS,51-200,APAC,direct,False,2025-03-03,2025-03-12,webinar,6,2,3,175,1918,67,0.67,1
+LEAD_000788,Healthcare Company 788,Contact 788,contact788@company788.com,Sales Manager,Healthcare,11-50,NA,direct,True,2024-10-06,2024-10-20,content_download,10,0,1,69,1800,46,0.46,0
+LEAD_000789,Finance Company 789,Contact 789,contact789@company789.com,Business Analyst,Finance,201-1000,LATAM,direct,False,2025-02-19,2025-03-11,trial_signup,14,2,4,113,5271,95,0.95,1
+LEAD_000790,Manufacturing Company 790,Contact 790,contact790@company790.com,Marketing Director,Manufacturing,11-50,NA,organic,False,2025-03-12,2025-03-19,product_tour,3,1,2,134,3190,42,0.421,1
+LEAD_000791,E-commerce Company 791,Contact 791,contact791@company791.com,Sales Manager,E-commerce,11-50,LATAM,organic,True,2025-03-04,2025-03-17,pricing_page,7,5,3,168,831,64,0.648,1
+LEAD_000792,Finance Company 792,Contact 792,contact792@company792.com,Marketing Director,Finance,51-200,MEA,organic,False,2024-11-02,2024-11-19,contact_form,4,1,0,53,1827,31,0.31,0
+LEAD_000793,Retail Company 793,Contact 793,contact793@company793.com,Operations Manager,Retail,5000+,EU,paid,False,2025-05-09,2025-05-27,contact_form,5,3,2,3,2771,50,0.508,0
+LEAD_000794,Real Estate Company 794,Contact 794,contact794@company794.com,VP Sales,Real Estate,1-10,APAC,social,False,2024-12-21,2025-01-08,product_tour,4,1,0,38,338,14,0.143,0
+LEAD_000795,SaaS Company 795,Contact 795,contact795@company795.com,VP Sales,SaaS,11-50,NA,paid,False,2024-12-02,2024-12-10,trial_signup,4,1,1,60,479,52,0.524,0
+LEAD_000796,E-commerce Company 796,Contact 796,contact796@company796.com,IT Director,E-commerce,5000+,APAC,referral,False,2025-06-17,2025-06-26,trial_signup,10,5,2,127,2675,68,0.688,0
+LEAD_000797,Retail Company 797,Contact 797,contact797@company797.com,Business Analyst,Retail,5000+,APAC,organic,False,2025-01-20,2025-01-26,content_download,8,1,3,125,985,61,0.614,1
+LEAD_000798,Retail Company 798,Contact 798,contact798@company798.com,CEO,Retail,11-50,APAC,social,False,2025-05-08,2025-05-10,webinar,5,3,5,39,45,63,0.634,1
+LEAD_000799,Education Company 799,Contact 799,contact799@company799.com,Operations Manager,Education,11-50,EU,referral,True,2024-11-12,2024-11-27,email_open,8,2,3,87,729,58,0.586,1
+LEAD_000800,Education Company 800,Contact 800,contact800@company800.com,IT Director,Education,51-200,EU,paid,True,2025-08-16,2025-08-27,email_open,7,2,3,164,1727,57,0.578,1
+LEAD_000801,Healthcare Company 801,Contact 801,contact801@company801.com,Product Manager,Healthcare,201-1000,APAC,social,False,2025-04-25,2025-04-30,demo_request,6,4,3,8,2406,78,0.786,1
+LEAD_000802,SaaS Company 802,Contact 802,contact802@company802.com,Sales Manager,SaaS,51-200,EU,organic,True,2025-08-19,2025-09-01,content_download,7,2,1,18,744,52,0.525,0
+LEAD_000803,Retail Company 803,Contact 803,contact803@company803.com,IT Director,Retail,11-50,EU,organic,True,2024-12-12,2024-12-18,trial_signup,9,4,3,87,65,74,0.747,1
+LEAD_000804,Manufacturing Company 804,Contact 804,contact804@company804.com,CTO,Manufacturing,5000+,APAC,organic,False,2025-06-23,2025-07-20,email_open,4,0,1,29,2324,34,0.345,0
+LEAD_000805,SaaS Company 805,Contact 805,contact805@company805.com,IT Director,SaaS,201-1000,EU,social,False,2025-06-12,2025-06-23,pricing_page,11,3,2,145,22925,77,0.772,1
+LEAD_000806,Technology Company 806,Contact 806,contact806@company806.com,CEO,Technology,11-50,APAC,direct,False,2025-02-25,2025-03-02,pricing_page,10,0,2,126,285,65,0.653,1
+LEAD_000807,Retail Company 807,Contact 807,contact807@company807.com,CEO,Retail,5000+,EU,organic,False,2025-03-03,2025-03-11,ad_click,3,1,1,157,6286,30,0.305,1
+LEAD_000808,Education Company 808,Contact 808,contact808@company808.com,Operations Manager,Education,51-200,APAC,referral,False,2024-11-24,2024-12-19,demo_request,6,0,0,177,660,35,0.359,1
+LEAD_000809,Retail Company 809,Contact 809,contact809@company809.com,IT Director,Retail,1-10,EU,paid,True,2025-02-17,2025-03-11,content_download,2,0,0,53,116,14,0.142,0
+LEAD_000810,Education Company 810,Contact 810,contact810@company810.com,CFO,Education,11-50,APAC,referral,False,2025-06-02,2025-06-23,demo_request,2,4,5,72,1429,70,0.709,0
+LEAD_000811,SaaS Company 811,Contact 811,contact811@company811.com,Product Manager,SaaS,201-1000,NA,direct,False,2025-07-27,2025-08-18,email_open,8,1,3,50,1177,72,0.723,1
+LEAD_000812,Finance Company 812,Contact 812,contact812@company812.com,Business Analyst,Finance,51-200,NA,organic,False,2025-03-24,2025-04-18,product_tour,7,1,3,82,2717,64,0.647,1
+LEAD_000813,Healthcare Company 813,Contact 813,contact813@company813.com,Operations Manager,Healthcare,11-50,NA,direct,False,2025-08-15,2025-08-21,webinar,5,1,2,132,3498,50,0.504,0
+LEAD_000814,Retail Company 814,Contact 814,contact814@company814.com,CTO,Retail,5000+,NA,organic,False,2024-11-21,2024-12-06,webinar,3,0,0,41,5607,25,0.253,0
+LEAD_000815,Manufacturing Company 815,Contact 815,contact815@company815.com,Business Analyst,Manufacturing,1-10,NA,referral,False,2025-05-24,2025-06-15,email_open,6,2,2,137,169,38,0.384,0
+LEAD_000816,Manufacturing Company 816,Contact 816,contact816@company816.com,Sales Manager,Manufacturing,201-1000,APAC,direct,False,2024-11-17,2024-11-26,case_study_view,2,0,1,51,2414,32,0.324,0
+LEAD_000817,Education Company 817,Contact 817,contact817@company817.com,CEO,Education,1-10,EU,direct,False,2025-05-12,2025-05-28,ad_click,4,0,1,7,943,18,0.189,0
+LEAD_000818,SaaS Company 818,Contact 818,contact818@company818.com,Business Analyst,SaaS,201-1000,NA,paid,False,2025-05-03,2025-05-31,content_download,2,0,1,101,2273,46,0.465,1
+LEAD_000819,E-commerce Company 819,Contact 819,contact819@company819.com,Operations Manager,E-commerce,201-1000,LATAM,social,False,2024-09-18,2024-10-17,contact_form,8,0,0,52,1151,30,0.3,1
+LEAD_000820,Education Company 820,Contact 820,contact820@company820.com,Operations Manager,Education,201-1000,MEA,paid,False,2025-09-03,2025-09-05,contact_form,6,0,4,155,1075,70,0.706,0
+LEAD_000821,E-commerce Company 821,Contact 821,contact821@company821.com,CFO,E-commerce,1001-5000,APAC,paid,False,2025-06-28,2025-07-11,pricing_page,9,3,2,121,6257,66,0.667,0
+LEAD_000822,Consulting Company 822,Contact 822,contact822@company822.com,Business Analyst,Consulting,11-50,MEA,organic,False,2024-11-01,2024-11-11,trial_signup,1,0,1,55,230,32,0.32,0
+LEAD_000823,E-commerce Company 823,Contact 823,contact823@company823.com,Operations Manager,E-commerce,51-200,EU,paid,False,2025-05-08,2025-05-12,demo_request,6,7,7,106,575,86,0.868,0
+LEAD_000824,SaaS Company 824,Contact 824,contact824@company824.com,Business Analyst,SaaS,1-10,MEA,organic,False,2025-07-06,2025-07-27,case_study_view,1,2,1,11,411,20,0.209,0
+LEAD_000825,Healthcare Company 825,Contact 825,contact825@company825.com,Marketing Director,Healthcare,1-10,EU,referral,False,2024-11-17,2024-11-27,demo_request,4,0,0,99,692,29,0.299,1
+LEAD_000826,Manufacturing Company 826,Contact 826,contact826@company826.com,Marketing Director,Manufacturing,51-200,APAC,organic,False,2024-10-13,2024-11-12,trial_signup,7,0,2,104,1948,55,0.555,1
+LEAD_000827,Finance Company 827,Contact 827,contact827@company827.com,IT Director,Finance,1-10,APAC,organic,True,2025-07-07,2025-08-03,contact_form,13,4,1,123,61,56,0.562,0
+LEAD_000828,SaaS Company 828,Contact 828,contact828@company828.com,Business Analyst,SaaS,1-10,LATAM,direct,False,2025-07-19,2025-07-28,case_study_view,5,1,1,59,798,32,0.329,0
+LEAD_000829,Education Company 829,Contact 829,contact829@company829.com,VP Sales,Education,1-10,LATAM,referral,False,2025-01-19,2025-02-10,demo_request,11,2,4,160,452,77,0.775,0
+LEAD_000830,Healthcare Company 830,Contact 830,contact830@company830.com,Product Manager,Healthcare,51-200,EU,referral,False,2025-04-02,2025-04-03,pricing_page,6,2,3,39,225,63,0.638,1
+LEAD_000831,E-commerce Company 831,Contact 831,contact831@company831.com,Product Manager,E-commerce,51-200,NA,paid,True,2024-09-24,2024-10-21,product_tour,4,0,0,105,1210,22,0.228,0
+LEAD_000832,Technology Company 832,Contact 832,contact832@company832.com,CEO,Technology,51-200,EU,direct,False,2025-03-21,2025-04-04,email_open,4,3,0,157,1892,33,0.33,0
+LEAD_000833,E-commerce Company 833,Contact 833,contact833@company833.com,IT Director,E-commerce,5000+,NA,direct,False,2025-04-22,2025-04-27,case_study_view,6,3,4,82,1424,75,0.759,1
+LEAD_000834,Finance Company 834,Contact 834,contact834@company834.com,Sales Manager,Finance,11-50,NA,paid,False,2025-03-06,2025-03-23,email_open,12,1,2,126,468,58,0.586,1
+LEAD_000835,Education Company 835,Contact 835,contact835@company835.com,Sales Manager,Education,11-50,NA,referral,False,2025-07-06,2025-07-30,content_download,2,0,0,13,3515,13,0.139,0
+LEAD_000836,Finance Company 836,Contact 836,contact836@company836.com,Sales Manager,Finance,201-1000,NA,direct,False,2025-06-12,2025-07-04,ad_click,9,7,2,103,267,67,0.677,1
+LEAD_000837,SaaS Company 837,Contact 837,contact837@company837.com,CEO,SaaS,51-200,EU,direct,False,2025-06-21,2025-07-05,content_download,3,0,1,141,1148,39,0.394,1
+LEAD_000838,Education Company 838,Contact 838,contact838@company838.com,Operations Manager,Education,5000+,NA,paid,True,2025-04-20,2025-05-13,email_open,7,0,4,91,3132,70,0.707,1
+LEAD_000839,Real Estate Company 839,Contact 839,contact839@company839.com,Sales Manager,Real Estate,51-200,EU,social,True,2025-05-06,2025-05-27,ad_click,4,4,3,148,15067,55,0.551,0
+LEAD_000840,Real Estate Company 840,Contact 840,contact840@company840.com,VP Sales,Real Estate,1-10,MEA,paid,False,2025-03-09,2025-03-12,contact_form,5,0,2,68,430,34,0.34,0
+LEAD_000841,Healthcare Company 841,Contact 841,contact841@company841.com,Operations Manager,Healthcare,51-200,EU,organic,False,2024-12-01,2024-12-30,case_study_view,4,3,4,117,406,65,0.656,1
+LEAD_000842,E-commerce Company 842,Contact 842,contact842@company842.com,Product Manager,E-commerce,1-10,NA,organic,False,2025-04-26,2025-05-06,contact_form,9,6,6,163,129,78,0.784,1
+LEAD_000843,Healthcare Company 843,Contact 843,contact843@company843.com,Product Manager,Healthcare,5000+,MEA,direct,False,2025-05-22,2025-05-25,product_tour,4,1,2,19,1754,47,0.472,1
+LEAD_000844,Manufacturing Company 844,Contact 844,contact844@company844.com,VP Sales,Manufacturing,11-50,NA,paid,False,2025-07-11,2025-07-18,content_download,3,3,1,48,1044,34,0.344,1
+LEAD_000845,Manufacturing Company 845,Contact 845,contact845@company845.com,Product Manager,Manufacturing,1-10,EU,referral,True,2025-05-24,2025-05-30,contact_form,3,0,0,75,696,18,0.187,0
+LEAD_000846,E-commerce Company 846,Contact 846,contact846@company846.com,Operations Manager,E-commerce,51-200,APAC,paid,False,2025-05-30,2025-06-11,webinar,4,0,0,108,810,23,0.233,0
+LEAD_000847,Retail Company 847,Contact 847,contact847@company847.com,Sales Manager,Retail,11-50,MEA,organic,False,2024-12-23,2025-01-01,demo_request,4,6,3,54,375,63,0.634,1
+LEAD_000848,Healthcare Company 848,Contact 848,contact848@company848.com,Operations Manager,Healthcare,51-200,NA,paid,False,2025-08-23,2025-09-05,case_study_view,4,0,2,103,1110,47,0.477,1
+LEAD_000849,SaaS Company 849,Contact 849,contact849@company849.com,Business Analyst,SaaS,11-50,APAC,referral,False,2024-12-05,2025-01-01,trial_signup,4,2,2,20,774,61,0.616,1
+LEAD_000850,E-commerce Company 850,Contact 850,contact850@company850.com,Marketing Director,E-commerce,201-1000,NA,direct,False,2025-01-14,2025-02-10,trial_signup,7,1,3,82,1118,72,0.724,0
+LEAD_000851,Finance Company 851,Contact 851,contact851@company851.com,CTO,Finance,5000+,LATAM,paid,False,2025-06-13,2025-07-06,trial_signup,1,0,1,49,1981,38,0.387,1
+LEAD_000852,Healthcare Company 852,Contact 852,contact852@company852.com,CEO,Healthcare,11-50,APAC,organic,False,2025-02-14,2025-03-14,case_study_view,9,4,2,84,177,54,0.542,1
+LEAD_000853,E-commerce Company 853,Contact 853,contact853@company853.com,IT Director,E-commerce,1001-5000,NA,referral,True,2025-08-15,2025-08-21,contact_form,1,0,1,76,2113,36,0.369,0
+LEAD_000854,Real Estate Company 854,Contact 854,contact854@company854.com,Sales Manager,Real Estate,1-10,NA,organic,True,2025-05-30,2025-06-02,product_tour,7,3,1,12,47,35,0.359,1
+LEAD_000855,Healthcare Company 855,Contact 855,contact855@company855.com,VP Sales,Healthcare,5000+,NA,paid,True,2025-01-23,2025-02-01,webinar,7,2,3,174,5054,71,0.718,1
+LEAD_000856,Manufacturing Company 856,Contact 856,contact856@company856.com,IT Director,Manufacturing,1-10,NA,paid,False,2025-04-11,2025-05-07,trial_signup,9,7,0,96,156,44,0.441,0
+LEAD_000857,Education Company 857,Contact 857,contact857@company857.com,Sales Manager,Education,5000+,EU,paid,False,2024-10-27,2024-10-31,email_open,5,2,2,66,15558,44,0.448,0
+LEAD_000858,Education Company 858,Contact 858,contact858@company858.com,IT Director,Education,1001-5000,MEA,referral,False,2025-02-03,2025-02-14,product_tour,4,2,2,91,3326,44,0.442,1
+LEAD_000859,Healthcare Company 859,Contact 859,contact859@company859.com,CFO,Healthcare,1-10,NA,organic,False,2024-10-20,2024-11-09,ad_click,7,2,2,84,429,44,0.448,0
+LEAD_000860,Education Company 860,Contact 860,contact860@company860.com,Business Analyst,Education,51-200,NA,organic,True,2025-01-26,2025-02-07,contact_form,6,1,3,25,375,58,0.583,1
+LEAD_000861,Healthcare Company 861,Contact 861,contact861@company861.com,CEO,Healthcare,11-50,EU,paid,False,2024-12-30,2025-01-18,product_tour,7,5,3,77,1306,63,0.634,1
+LEAD_000862,Education Company 862,Contact 862,contact862@company862.com,Sales Manager,Education,51-200,EU,referral,False,2024-09-25,2024-10-06,ad_click,3,1,4,46,1385,59,0.599,1
+LEAD_000863,E-commerce Company 863,Contact 863,contact863@company863.com,CEO,E-commerce,11-50,EU,direct,True,2024-10-12,2024-11-06,webinar,6,1,1,88,864,37,0.377,1
+LEAD_000864,SaaS Company 864,Contact 864,contact864@company864.com,CFO,SaaS,11-50,APAC,social,True,2025-07-02,2025-07-28,case_study_view,2,1,1,87,821,30,0.308,0
+LEAD_000865,Healthcare Company 865,Contact 865,contact865@company865.com,CEO,Healthcare,51-200,APAC,organic,False,2024-09-13,2024-09-28,webinar,7,1,2,123,2753,53,0.536,1
+LEAD_000866,Retail Company 866,Contact 866,contact866@company866.com,CFO,Retail,5000+,APAC,social,True,2025-04-28,2025-05-21,case_study_view,7,1,2,49,8978,43,0.437,0
+LEAD_000867,Consulting Company 867,Contact 867,contact867@company867.com,CEO,Consulting,11-50,APAC,organic,False,2024-09-28,2024-10-22,email_open,5,1,2,6,2314,39,0.395,1
+LEAD_000868,Real Estate Company 868,Contact 868,contact868@company868.com,CTO,Real Estate,51-200,NA,referral,True,2025-03-30,2025-04-23,trial_signup,8,0,1,51,1318,54,0.544,1
+LEAD_000869,Healthcare Company 869,Contact 869,contact869@company869.com,Business Analyst,Healthcare,5000+,LATAM,referral,False,2024-10-19,2024-11-08,trial_signup,6,8,3,21,11975,75,0.758,0
+LEAD_000870,Healthcare Company 870,Contact 870,contact870@company870.com,Operations Manager,Healthcare,201-1000,MEA,referral,False,2025-04-10,2025-04-30,trial_signup,1,2,3,171,2575,61,0.611,1
+LEAD_000871,Real Estate Company 871,Contact 871,contact871@company871.com,Business Analyst,Real Estate,5000+,NA,direct,False,2024-10-24,2024-10-29,webinar,6,4,2,151,3889,58,0.585,0
+LEAD_000872,Manufacturing Company 872,Contact 872,contact872@company872.com,CTO,Manufacturing,51-200,NA,direct,True,2024-11-04,2024-11-20,content_download,3,3,3,90,9328,57,0.571,1
+LEAD_000873,Consulting Company 873,Contact 873,contact873@company873.com,CEO,Consulting,11-50,APAC,paid,False,2025-01-03,2025-01-20,case_study_view,7,0,3,112,587,53,0.53,1
+LEAD_000874,Real Estate Company 874,Contact 874,contact874@company874.com,Business Analyst,Real Estate,1001-5000,NA,paid,True,2025-04-26,2025-05-13,pricing_page,3,1,3,26,4948,65,0.657,1
+LEAD_000875,SaaS Company 875,Contact 875,contact875@company875.com,Sales Manager,SaaS,1001-5000,LATAM,paid,False,2025-06-22,2025-07-02,content_download,8,0,2,166,3838,61,0.61,1
+LEAD_000876,Finance Company 876,Contact 876,contact876@company876.com,Sales Manager,Finance,1001-5000,EU,social,False,2024-12-29,2025-01-22,pricing_page,3,0,1,106,417,45,0.455,0
+LEAD_000877,Manufacturing Company 877,Contact 877,contact877@company877.com,Sales Manager,Manufacturing,11-50,EU,social,False,2025-03-04,2025-03-27,case_study_view,4,0,3,172,267,44,0.443,0
+LEAD_000878,Real Estate Company 878,Contact 878,contact878@company878.com,CTO,Real Estate,1-10,NA,organic,True,2025-05-03,2025-05-14,webinar,9,0,1,58,280,37,0.377,0
+LEAD_000879,Finance Company 879,Contact 879,contact879@company879.com,Business Analyst,Finance,201-1000,NA,referral,False,2025-07-19,2025-07-24,ad_click,5,1,5,59,6092,71,0.714,1
+LEAD_000880,E-commerce Company 880,Contact 880,contact880@company880.com,IT Director,E-commerce,51-200,EU,referral,False,2025-08-24,2025-09-01,case_study_view,5,0,1,52,868,31,0.313,0
+LEAD_000881,SaaS Company 881,Contact 881,contact881@company881.com,Business Analyst,SaaS,1-10,NA,social,False,2025-05-08,2025-05-22,ad_click,2,0,1,109,240,27,0.277,0
+LEAD_000882,SaaS Company 882,Contact 882,contact882@company882.com,Business Analyst,SaaS,11-50,EU,referral,False,2024-09-22,2024-10-22,demo_request,2,2,0,3,1072,39,0.398,0
+LEAD_000883,Finance Company 883,Contact 883,contact883@company883.com,Product Manager,Finance,51-200,NA,referral,True,2025-07-17,2025-07-23,trial_signup,7,0,0,6,10703,44,0.44,1
+LEAD_000884,Technology Company 884,Contact 884,contact884@company884.com,CEO,Technology,1001-5000,EU,direct,False,2025-05-15,2025-06-11,trial_signup,9,8,4,109,1082,95,0.95,1
+LEAD_000885,Manufacturing Company 885,Contact 885,contact885@company885.com,CEO,Manufacturing,201-1000,EU,referral,False,2025-01-26,2025-02-20,ad_click,5,2,2,28,4265,48,0.484,1
+LEAD_000886,Finance Company 886,Contact 886,contact886@company886.com,Product Manager,Finance,201-1000,NA,direct,True,2025-06-26,2025-07-05,product_tour,3,3,2,44,2287,51,0.518,1
+LEAD_000887,Manufacturing Company 887,Contact 887,contact887@company887.com,IT Director,Manufacturing,11-50,NA,organic,False,2024-09-18,2024-09-28,contact_form,10,7,5,126,100,87,0.877,1
+LEAD_000888,Manufacturing Company 888,Contact 888,contact888@company888.com,Operations Manager,Manufacturing,11-50,NA,referral,True,2025-08-21,2025-08-28,trial_signup,4,3,1,92,1275,43,0.43,1
+LEAD_000889,Healthcare Company 889,Contact 889,contact889@company889.com,VP Sales,Healthcare,1-10,NA,organic,False,2025-06-18,2025-07-02,pricing_page,10,0,2,64,506,59,0.593,1
+LEAD_000890,Finance Company 890,Contact 890,contact890@company890.com,IT Director,Finance,5000+,NA,direct,True,2024-10-07,2024-11-02,content_download,1,0,0,37,9396,25,0.253,0
+LEAD_000891,Technology Company 891,Contact 891,contact891@company891.com,Product Manager,Technology,5000+,EU,paid,False,2025-02-09,2025-02-27,email_open,7,1,4,165,6820,79,0.797,0
+LEAD_000892,Manufacturing Company 892,Contact 892,contact892@company892.com,Business Analyst,Manufacturing,11-50,MEA,paid,False,2025-08-19,2025-08-27,contact_form,3,1,2,111,524,42,0.424,1
+LEAD_000893,Healthcare Company 893,Contact 893,contact893@company893.com,IT Director,Healthcare,1-10,EU,organic,False,2025-03-27,2025-03-28,contact_form,8,3,1,87,153,41,0.415,1
+LEAD_000894,Manufacturing Company 894,Contact 894,contact894@company894.com,Marketing Director,Manufacturing,51-200,APAC,organic,False,2025-08-20,2025-08-28,product_tour,8,7,1,24,1895,45,0.457,0
+LEAD_000895,E-commerce Company 895,Contact 895,contact895@company895.com,CTO,E-commerce,201-1000,NA,social,True,2024-12-27,2024-12-30,ad_click,3,4,0,33,479,28,0.285,0
+LEAD_000896,Technology Company 896,Contact 896,contact896@company896.com,IT Director,Technology,51-200,NA,paid,True,2025-07-31,2025-08-02,webinar,3,0,1,149,3619,42,0.425,1
+LEAD_000897,E-commerce Company 897,Contact 897,contact897@company897.com,Marketing Director,E-commerce,201-1000,EU,organic,True,2025-07-04,2025-07-05,trial_signup,8,2,0,149,1063,44,0.444,1
+LEAD_000898,SaaS Company 898,Contact 898,contact898@company898.com,Product Manager,SaaS,5000+,NA,paid,False,2025-08-05,2025-08-29,trial_signup,8,0,1,45,9539,64,0.644,1
+LEAD_000899,Finance Company 899,Contact 899,contact899@company899.com,Marketing Director,Finance,11-50,NA,paid,False,2025-06-18,2025-07-04,case_study_view,9,0,3,5,676,65,0.651,0
+LEAD_000900,Healthcare Company 900,Contact 900,contact900@company900.com,Marketing Director,Healthcare,201-1000,LATAM,organic,False,2024-12-09,2025-01-04,email_open,9,4,0,75,740,40,0.405,0
+LEAD_000901,Technology Company 901,Contact 901,contact901@company901.com,CFO,Technology,11-50,MEA,direct,False,2025-05-12,2025-05-18,pricing_page,4,2,2,160,421,50,0.504,1
+LEAD_000902,Technology Company 902,Contact 902,contact902@company902.com,CEO,Technology,5000+,NA,referral,False,2024-12-28,2025-01-23,webinar,5,0,1,30,9727,50,0.5,1
+LEAD_000903,Finance Company 903,Contact 903,contact903@company903.com,Sales Manager,Finance,1001-5000,NA,paid,True,2025-07-22,2025-08-10,email_open,7,1,2,11,635,60,0.607,1
+LEAD_000904,Finance Company 904,Contact 904,contact904@company904.com,CEO,Finance,11-50,APAC,organic,False,2024-12-22,2025-01-18,ad_click,5,0,1,64,3243,35,0.351,0
+LEAD_000905,SaaS Company 905,Contact 905,contact905@company905.com,CFO,SaaS,51-200,EU,direct,True,2024-10-10,2024-10-30,ad_click,4,5,1,111,2264,43,0.436,0
+LEAD_000906,Technology Company 906,Contact 906,contact906@company906.com,CEO,Technology,1-10,APAC,organic,True,2024-11-04,2024-11-26,contact_form,12,1,0,6,255,41,0.417,1
+LEAD_000907,Healthcare Company 907,Contact 907,contact907@company907.com,CEO,Healthcare,5000+,APAC,referral,True,2025-04-09,2025-04-28,trial_signup,3,1,2,50,4794,54,0.548,1
+LEAD_000908,E-commerce Company 908,Contact 908,contact908@company908.com,Sales Manager,E-commerce,51-200,NA,referral,False,2025-05-09,2025-06-01,content_download,2,0,0,97,693,21,0.217,0
+LEAD_000909,Consulting Company 909,Contact 909,contact909@company909.com,Sales Manager,Consulting,51-200,EU,social,True,2024-11-10,2024-11-17,ad_click,14,2,1,74,552,54,0.548,1
+LEAD_000910,Healthcare Company 910,Contact 910,contact910@company910.com,IT Director,Healthcare,201-1000,LATAM,paid,False,2024-09-12,2024-09-17,email_open,5,0,2,61,540,45,0.457,1
+LEAD_000911,Healthcare Company 911,Contact 911,contact911@company911.com,CFO,Healthcare,5000+,EU,paid,True,2024-11-05,2024-12-05,webinar,2,3,0,158,606,26,0.262,1
+LEAD_000912,Technology Company 912,Contact 912,contact912@company912.com,VP Sales,Technology,201-1000,APAC,social,True,2024-12-18,2025-01-01,contact_form,3,0,2,32,1542,49,0.497,0
+LEAD_000913,Retail Company 913,Contact 913,contact913@company913.com,CFO,Retail,1001-5000,NA,direct,False,2025-02-12,2025-03-03,email_open,1,1,3,127,2473,53,0.535,0
+LEAD_000914,SaaS Company 914,Contact 914,contact914@company914.com,Business Analyst,SaaS,11-50,LATAM,organic,False,2025-09-03,2025-09-06,email_open,3,0,1,53,7847,33,0.339,0
+LEAD_000915,SaaS Company 915,Contact 915,contact915@company915.com,Product Manager,SaaS,11-50,MEA,paid,False,2025-05-20,2025-06-16,webinar,7,2,2,55,2513,56,0.564,1
+LEAD_000916,Education Company 916,Contact 916,contact916@company916.com,CEO,Education,5000+,NA,organic,False,2025-03-27,2025-04-26,product_tour,0,0,3,56,1076,47,0.47,0
+LEAD_000917,Healthcare Company 917,Contact 917,contact917@company917.com,CFO,Healthcare,201-1000,NA,paid,False,2024-11-19,2024-12-07,content_download,1,0,0,174,2983,24,0.243,1
+LEAD_000918,Healthcare Company 918,Contact 918,contact918@company918.com,CFO,Healthcare,51-200,NA,organic,False,2025-08-23,2025-09-11,content_download,8,2,0,167,6700,36,0.366,0
+LEAD_000919,Healthcare Company 919,Contact 919,contact919@company919.com,Marketing Director,Healthcare,11-50,EU,social,False,2024-12-14,2025-01-01,demo_request,9,4,2,89,898,70,0.708,0
+LEAD_000920,SaaS Company 920,Contact 920,contact920@company920.com,Marketing Director,SaaS,1-10,APAC,referral,False,2025-07-01,2025-07-19,case_study_view,6,0,4,60,163,64,0.648,1
+LEAD_000921,E-commerce Company 921,Contact 921,contact921@company921.com,Product Manager,E-commerce,11-50,NA,social,True,2025-04-16,2025-05-03,contact_form,3,1,4,155,503,66,0.66,1
+LEAD_000922,SaaS Company 922,Contact 922,contact922@company922.com,CFO,SaaS,201-1000,LATAM,paid,True,2024-09-09,2024-10-03,pricing_page,6,1,0,95,246,41,0.417,1
+LEAD_000923,SaaS Company 923,Contact 923,contact923@company923.com,CEO,SaaS,11-50,LATAM,organic,True,2025-01-26,2025-01-27,pricing_page,6,0,4,79,277,77,0.773,1
+LEAD_000924,E-commerce Company 924,Contact 924,contact924@company924.com,Business Analyst,E-commerce,1-10,NA,organic,False,2024-12-16,2024-12-20,demo_request,2,5,0,106,937,29,0.298,0
+LEAD_000925,E-commerce Company 925,Contact 925,contact925@company925.com,Operations Manager,E-commerce,51-200,APAC,organic,False,2025-09-01,2025-09-25,contact_form,5,3,1,29,1395,41,0.418,0
+LEAD_000926,SaaS Company 926,Contact 926,contact926@company926.com,CTO,SaaS,1-10,LATAM,organic,False,2025-05-25,2025-05-26,contact_form,7,0,2,176,3549,52,0.524,0
+LEAD_000927,SaaS Company 927,Contact 927,contact927@company927.com,Product Manager,SaaS,1-10,NA,organic,True,2024-11-16,2024-12-14,email_open,3,0,2,133,574,41,0.411,0
+LEAD_000928,Manufacturing Company 928,Contact 928,contact928@company928.com,Product Manager,Manufacturing,1-10,EU,direct,False,2024-12-19,2024-12-30,demo_request,4,0,1,121,188,36,0.36,0
+LEAD_000929,SaaS Company 929,Contact 929,contact929@company929.com,Product Manager,SaaS,11-50,NA,referral,False,2024-10-25,2024-11-13,trial_signup,3,1,1,145,3304,50,0.506,0
+LEAD_000930,Manufacturing Company 930,Contact 930,contact930@company930.com,Sales Manager,Manufacturing,1001-5000,APAC,paid,False,2024-10-27,2024-11-07,case_study_view,8,1,2,7,689,55,0.559,1
+LEAD_000931,Retail Company 931,Contact 931,contact931@company931.com,VP Sales,Retail,1001-5000,APAC,organic,True,2025-08-07,2025-08-17,trial_signup,4,0,2,178,1832,54,0.549,1
+LEAD_000932,Healthcare Company 932,Contact 932,contact932@company932.com,VP Sales,Healthcare,1-10,APAC,paid,False,2025-01-24,2025-02-04,email_open,6,2,0,98,64,20,0.205,0
+LEAD_000933,SaaS Company 933,Contact 933,contact933@company933.com,Business Analyst,SaaS,1001-5000,EU,referral,False,2025-02-19,2025-02-28,product_tour,6,0,0,71,1336,36,0.369,1
+LEAD_000934,Manufacturing Company 934,Contact 934,contact934@company934.com,Operations Manager,Manufacturing,11-50,MEA,paid,False,2025-06-07,2025-07-04,product_tour,10,4,3,125,224,61,0.616,1
+LEAD_000935,SaaS Company 935,Contact 935,contact935@company935.com,Sales Manager,SaaS,1-10,NA,organic,False,2025-04-20,2025-04-30,case_study_view,4,1,3,45,550,52,0.529,0
+LEAD_000936,Retail Company 936,Contact 936,contact936@company936.com,VP Sales,Retail,201-1000,EU,paid,False,2024-12-22,2024-12-27,pricing_page,3,0,2,35,2020,48,0.486,1
+LEAD_000937,Healthcare Company 937,Contact 937,contact937@company937.com,CEO,Healthcare,1-10,MEA,referral,False,2025-08-31,2025-09-13,product_tour,7,0,2,154,1455,42,0.427,0
+LEAD_000938,Manufacturing Company 938,Contact 938,contact938@company938.com,VP Sales,Manufacturing,1001-5000,LATAM,direct,False,2024-09-27,2024-09-29,pricing_page,5,0,1,45,8187,41,0.411,0
+LEAD_000939,Manufacturing Company 939,Contact 939,contact939@company939.com,Marketing Director,Manufacturing,5000+,NA,organic,False,2025-07-26,2025-08-15,trial_signup,7,4,3,150,261,76,0.768,1
+LEAD_000940,E-commerce Company 940,Contact 940,contact940@company940.com,CTO,E-commerce,11-50,EU,paid,False,2025-07-12,2025-08-01,ad_click,4,1,2,110,152,42,0.427,0
+LEAD_000941,E-commerce Company 941,Contact 941,contact941@company941.com,CTO,E-commerce,1-10,LATAM,referral,True,2025-06-02,2025-06-20,contact_form,4,1,3,170,224,49,0.492,1
+LEAD_000942,SaaS Company 942,Contact 942,contact942@company942.com,Product Manager,SaaS,201-1000,APAC,referral,False,2024-11-28,2024-12-18,webinar,5,3,1,18,2479,52,0.523,1
+LEAD_000943,Finance Company 943,Contact 943,contact943@company943.com,Sales Manager,Finance,201-1000,APAC,direct,False,2025-02-20,2025-03-12,product_tour,7,5,3,152,677,70,0.703,1
+LEAD_000944,Finance Company 944,Contact 944,contact944@company944.com,Marketing Director,Finance,11-50,EU,organic,False,2024-12-09,2024-12-11,product_tour,12,1,3,37,704,73,0.738,1
+LEAD_000945,SaaS Company 945,Contact 945,contact945@company945.com,CEO,SaaS,51-200,EU,social,False,2025-09-05,2025-09-16,case_study_view,6,2,0,82,774,35,0.351,0
+LEAD_000946,Retail Company 946,Contact 946,contact946@company946.com,Marketing Director,Retail,201-1000,APAC,organic,False,2025-06-26,2025-07-21,content_download,6,1,1,40,3551,39,0.393,0
+LEAD_000947,Real Estate Company 947,Contact 947,contact947@company947.com,CTO,Real Estate,1-10,NA,organic,False,2025-08-30,2025-09-01,case_study_view,9,5,3,160,111,60,0.601,1
+LEAD_000948,Healthcare Company 948,Contact 948,contact948@company948.com,Sales Manager,Healthcare,11-50,NA,organic,True,2025-07-06,2025-07-18,case_study_view,5,1,1,166,478,37,0.371,0
+LEAD_000949,Healthcare Company 949,Contact 949,contact949@company949.com,Operations Manager,Healthcare,201-1000,APAC,referral,False,2025-04-07,2025-05-01,email_open,4,0,1,72,9647,35,0.355,0
+LEAD_000950,Education Company 950,Contact 950,contact950@company950.com,CEO,Education,1-10,MEA,organic,False,2025-05-23,2025-05-25,email_open,7,3,4,38,31,58,0.585,1
+LEAD_000951,Manufacturing Company 951,Contact 951,contact951@company951.com,Sales Manager,Manufacturing,1-10,EU,direct,False,2024-10-19,2024-10-31,case_study_view,4,2,1,9,257,22,0.223,0
+LEAD_000952,Real Estate Company 952,Contact 952,contact952@company952.com,Sales Manager,Real Estate,1-10,EU,social,True,2025-06-30,2025-07-05,pricing_page,4,0,2,33,698,43,0.431,0
+LEAD_000953,Real Estate Company 953,Contact 953,contact953@company953.com,IT Director,Real Estate,1-10,LATAM,paid,True,2025-05-18,2025-06-10,product_tour,4,1,2,159,845,33,0.334,1
+LEAD_000954,Manufacturing Company 954,Contact 954,contact954@company954.com,Sales Manager,Manufacturing,11-50,APAC,direct,False,2025-01-07,2025-01-27,trial_signup,5,1,1,148,359,43,0.439,1
+LEAD_000955,Real Estate Company 955,Contact 955,contact955@company955.com,Operations Manager,Real Estate,201-1000,MEA,direct,False,2024-12-03,2024-12-21,demo_request,7,1,4,62,1705,85,0.859,1
+LEAD_000956,Consulting Company 956,Contact 956,contact956@company956.com,IT Director,Consulting,201-1000,LATAM,organic,False,2024-10-20,2024-11-04,content_download,6,1,1,178,5737,37,0.379,1
+LEAD_000957,SaaS Company 957,Contact 957,contact957@company957.com,Operations Manager,SaaS,1-10,APAC,organic,False,2025-05-24,2025-06-21,contact_form,5,1,1,80,1588,42,0.427,1
+LEAD_000958,Finance Company 958,Contact 958,contact958@company958.com,CFO,Finance,201-1000,APAC,organic,False,2024-12-27,2025-01-14,content_download,5,3,2,64,2321,57,0.577,0
+LEAD_000959,Finance Company 959,Contact 959,contact959@company959.com,Product Manager,Finance,11-50,NA,referral,False,2024-12-03,2024-12-21,webinar,11,5,6,11,667,86,0.866,1
+LEAD_000960,SaaS Company 960,Contact 960,contact960@company960.com,IT Director,SaaS,1-10,NA,referral,True,2024-11-28,2024-12-27,case_study_view,3,0,1,160,561,31,0.313,0
+LEAD_000961,Finance Company 961,Contact 961,contact961@company961.com,Operations Manager,Finance,11-50,EU,organic,False,2025-08-14,2025-09-10,product_tour,4,0,0,21,461,23,0.235,0
+LEAD_000962,Consulting Company 962,Contact 962,contact962@company962.com,Business Analyst,Consulting,1001-5000,APAC,social,False,2025-07-14,2025-07-25,contact_form,3,2,1,43,2331,43,0.438,0
+LEAD_000963,SaaS Company 963,Contact 963,contact963@company963.com,Marketing Director,SaaS,201-1000,APAC,organic,False,2025-03-14,2025-04-13,demo_request,5,0,4,53,7247,90,0.904,1
+LEAD_000964,Healthcare Company 964,Contact 964,contact964@company964.com,Sales Manager,Healthcare,51-200,APAC,social,True,2025-04-30,2025-05-30,contact_form,7,0,3,70,3486,58,0.587,0
+LEAD_000965,Education Company 965,Contact 965,contact965@company965.com,Sales Manager,Education,5000+,NA,organic,False,2025-06-19,2025-07-17,demo_request,3,0,2,31,3999,54,0.547,1
+LEAD_000966,Healthcare Company 966,Contact 966,contact966@company966.com,Marketing Director,Healthcare,201-1000,EU,paid,False,2024-11-06,2024-11-16,product_tour,4,2,0,105,1514,30,0.309,0
+LEAD_000967,Education Company 967,Contact 967,contact967@company967.com,IT Director,Education,1-10,NA,social,False,2024-12-18,2024-12-26,ad_click,6,3,1,86,76,32,0.32,0
+LEAD_000968,Manufacturing Company 968,Contact 968,contact968@company968.com,CFO,Manufacturing,201-1000,LATAM,referral,True,2024-12-16,2024-12-22,pricing_page,3,0,0,23,882,27,0.271,0
+LEAD_000969,E-commerce Company 969,Contact 969,contact969@company969.com,CFO,E-commerce,201-1000,LATAM,organic,True,2025-05-11,2025-06-03,case_study_view,1,2,1,75,5902,28,0.284,0
+LEAD_000970,Real Estate Company 970,Contact 970,contact970@company970.com,Product Manager,Real Estate,51-200,NA,direct,False,2025-04-21,2025-05-04,email_open,6,1,2,123,762,48,0.484,0
+LEAD_000971,SaaS Company 971,Contact 971,contact971@company971.com,IT Director,SaaS,11-50,NA,paid,False,2025-04-16,2025-05-07,pricing_page,8,1,0,120,380,43,0.433,0
+LEAD_000972,Finance Company 972,Contact 972,contact972@company972.com,Operations Manager,Finance,201-1000,APAC,organic,False,2025-06-21,2025-07-16,case_study_view,6,1,1,63,2582,45,0.452,0
+LEAD_000973,Education Company 973,Contact 973,contact973@company973.com,Business Analyst,Education,11-50,NA,referral,True,2025-05-21,2025-05-28,email_open,11,0,2,120,436,51,0.517,0
+LEAD_000974,SaaS Company 974,Contact 974,contact974@company974.com,CTO,SaaS,201-1000,EU,organic,False,2025-04-02,2025-04-29,pricing_page,3,0,0,5,652,37,0.372,0
+LEAD_000975,Manufacturing Company 975,Contact 975,contact975@company975.com,CEO,Manufacturing,51-200,MEA,direct,True,2025-03-03,2025-03-19,product_tour,10,1,1,77,2910,41,0.41,0
+LEAD_000976,E-commerce Company 976,Contact 976,contact976@company976.com,Operations Manager,E-commerce,1001-5000,MEA,paid,False,2025-04-02,2025-04-27,contact_form,0,1,1,117,3720,33,0.333,1
+LEAD_000977,SaaS Company 977,Contact 977,contact977@company977.com,Business Analyst,SaaS,1001-5000,EU,organic,False,2025-01-26,2025-01-27,contact_form,7,2,2,18,11561,65,0.652,0
+LEAD_000978,Healthcare Company 978,Contact 978,contact978@company978.com,Sales Manager,Healthcare,51-200,EU,referral,False,2025-07-21,2025-08-03,email_open,4,3,0,28,132,24,0.249,1
+LEAD_000979,Finance Company 979,Contact 979,contact979@company979.com,CFO,Finance,11-50,NA,paid,False,2024-09-27,2024-10-03,case_study_view,3,0,0,91,8165,23,0.237,0
+LEAD_000980,SaaS Company 980,Contact 980,contact980@company980.com,Marketing Director,SaaS,51-200,MEA,paid,False,2025-02-15,2025-03-04,case_study_view,15,1,1,30,2667,62,0.626,0
+LEAD_000981,Retail Company 981,Contact 981,contact981@company981.com,Marketing Director,Retail,201-1000,EU,social,False,2024-11-27,2024-12-17,content_download,6,0,1,126,653,38,0.381,0
+LEAD_000982,E-commerce Company 982,Contact 982,contact982@company982.com,Product Manager,E-commerce,5000+,EU,social,False,2025-02-06,2025-02-18,email_open,1,2,2,3,1700,43,0.435,1
+LEAD_000983,Real Estate Company 983,Contact 983,contact983@company983.com,IT Director,Real Estate,201-1000,NA,paid,True,2025-06-28,2025-07-08,webinar,6,1,0,163,969,31,0.316,0
+LEAD_000984,Consulting Company 984,Contact 984,contact984@company984.com,CTO,Consulting,11-50,NA,direct,False,2025-02-05,2025-02-09,ad_click,4,0,0,138,234,23,0.231,1
+LEAD_000985,Education Company 985,Contact 985,contact985@company985.com,VP Sales,Education,51-200,NA,organic,False,2025-08-06,2025-08-29,pricing_page,3,1,5,27,3094,67,0.679,1
+LEAD_000986,Retail Company 986,Contact 986,contact986@company986.com,Product Manager,Retail,201-1000,NA,organic,True,2025-08-13,2025-09-04,pricing_page,3,0,2,41,4956,47,0.472,1
+LEAD_000987,Retail Company 987,Contact 987,contact987@company987.com,Sales Manager,Retail,51-200,APAC,referral,False,2024-10-11,2024-11-05,ad_click,7,0,1,81,1182,36,0.365,0
+LEAD_000988,Finance Company 988,Contact 988,contact988@company988.com,CFO,Finance,201-1000,NA,paid,False,2025-03-22,2025-04-05,ad_click,4,1,1,130,2280,41,0.414,1
+LEAD_000989,Healthcare Company 989,Contact 989,contact989@company989.com,Business Analyst,Healthcare,201-1000,LATAM,organic,False,2025-05-23,2025-06-17,content_download,4,0,1,3,2984,36,0.366,1
+LEAD_000990,Finance Company 990,Contact 990,contact990@company990.com,Sales Manager,Finance,1-10,MEA,social,False,2025-02-22,2025-03-03,product_tour,9,4,2,36,508,51,0.518,1
+LEAD_000991,Healthcare Company 991,Contact 991,contact991@company991.com,Business Analyst,Healthcare,51-200,MEA,paid,False,2025-08-02,2025-08-10,contact_form,6,2,1,119,818,40,0.404,1
+LEAD_000992,E-commerce Company 992,Contact 992,contact992@company992.com,Sales Manager,E-commerce,11-50,NA,paid,True,2024-11-18,2024-11-24,product_tour,6,5,3,82,996,63,0.637,1
+LEAD_000993,Consulting Company 993,Contact 993,contact993@company993.com,IT Director,Consulting,11-50,EU,organic,False,2025-07-13,2025-07-31,contact_form,6,2,6,102,74,69,0.697,0
+LEAD_000994,Finance Company 994,Contact 994,contact994@company994.com,IT Director,Finance,201-1000,LATAM,referral,False,2024-09-08,2024-10-01,demo_request,9,1,2,174,3840,69,0.693,0
+LEAD_000995,E-commerce Company 995,Contact 995,contact995@company995.com,Sales Manager,E-commerce,51-200,NA,paid,False,2024-10-07,2024-10-29,ad_click,4,0,1,51,1962,32,0.327,0
+LEAD_000996,Consulting Company 996,Contact 996,contact996@company996.com,Operations Manager,Consulting,1001-5000,NA,organic,True,2025-03-14,2025-03-27,ad_click,10,4,2,142,1340,64,0.644,1
+LEAD_000997,Retail Company 997,Contact 997,contact997@company997.com,Product Manager,Retail,1-10,APAC,organic,True,2024-10-30,2024-11-17,contact_form,4,0,0,155,276,14,0.141,0
+LEAD_000998,E-commerce Company 998,Contact 998,contact998@company998.com,CTO,E-commerce,51-200,LATAM,paid,False,2024-10-30,2024-11-27,pricing_page,6,2,0,115,2717,32,0.329,1
+LEAD_000999,Technology Company 999,Contact 999,contact999@company999.com,Marketing Director,Technology,51-200,NA,referral,False,2025-01-02,2025-01-05,contact_form,3,0,1,113,8554,44,0.44,0
+LEAD_001000,E-commerce Company 1000,Contact 1000,contact1000@company1000.com,CFO,E-commerce,51-200,NA,organic,False,2024-12-05,2024-12-28,content_download,4,0,1,171,240,35,0.354,1

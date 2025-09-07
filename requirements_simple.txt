@@ -1,0 +1,10 @@
+# Core dependencies for running the app
+pandas
+numpy
+scikit-learn
+xgboost
+joblib
+fastapi
+uvicorn[standard]
+pydantic
+python-multipart

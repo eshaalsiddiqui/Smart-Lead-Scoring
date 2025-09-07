@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API Test</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        button { padding: 10px 20px; margin: 10px; background: #007bff; color: white; border: none; border-radius: 5px; cursor: pointer; }
+        button:hover { background: #0056b3; }
+        #result { margin-top: 20px; padding: 10px; background: #f8f9fa; border-radius: 5px; }
+    </style>
+</head>
+<body>
+    <h1>API Test Page</h1>
+    <button onclick="testAPI()">Test API Connection</button>
+    <button onclick="testPrediction()">Test Prediction</button>
+    <div id="result"></div>
+
+    <script>
+        async function testAPI() {
+            const resultDiv = document.getElementById('result');
+            resultDiv.innerHTML = 'Testing API connection...';
+            
+            try {
+                const response = await fetch('http://localhost:8000/health');
+                const data = await response.json();
+                resultDiv.innerHTML = '<h3>API Health Check:</h3><pre>' + JSON.stringify(data, null, 2) + '</pre>';
+            } catch (error) {
+                resultDiv.innerHTML = '<h3>Error:</h3><p>' + error.message + '</p>';
+            }
+        }
+
+        async function testPrediction() {
+            const resultDiv = document.getElementById('result');
+            resultDiv.innerHTML = 'Testing prediction...';
+            
+            const data = {
+                company_name: "Test Company",
+                email: "test@test.com",
+                industry: "Technology",
+                company_size: "51-200",
+                region: "NA",
+                deal_size_estimate: 25000,
+                page_views_7d: 10,
+                emails_opened_30d: 5,
+                calls_last_30d: 1
+            };
+
+            try {
+                const response = await fetch('http://localhost:8000/predict/single', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify(data)
+                });
+
+                if (!response.ok) {
+                    const errorText = await response.text();
+                    resultDiv.innerHTML = '<h3>API Error:</h3><p>' + response.status + ' - ' + errorText + '</p>';
+                    return;
+                }
+
+                const result = await response.json();
+                resultDiv.innerHTML = '<h3>Prediction Result:</h3><pre>' + JSON.stringify(result, null, 2) + '</pre>';
+            } catch (error) {
+                resultDiv.innerHTML = '<h3>Error:</h3><p>' + error.message + '</p>';
+            }
+        }
+    </script>
+</body>
+</html>

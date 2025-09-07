@@ -1,0 +1,24 @@
+runtime: python39
+
+env_variables:
+  MLFLOW_BACKEND_STORE_URI: "postgresql://postgres:password@/leadscoring?host=/cloudsql/PROJECT_ID:REGION:INSTANCE_NAME"
+  MLFLOW_DEFAULT_ARTIFACT_ROOT: "gs://PROJECT_ID-mlflow-artifacts"
+
+automatic_scaling:
+  min_instances: 1
+  max_instances: 10
+  target_cpu_utilization: 0.6
+
+resources:
+  cpu: 2
+  memory_gb: 4
+  disk_size_gb: 10
+
+handlers:
+- url: /.*
+  script: auto
+  secure: always
+
+# Cloud SQL connection
+beta_settings:
+  cloud_sql_instances: PROJECT_ID:REGION:INSTANCE_NAME

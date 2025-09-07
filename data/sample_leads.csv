@@ -1,0 +1,5 @@
+lead_id,industry,company_size,region,last_touch,page_views_7d,emails_opened_30d,calls_last_30d,deal_size_estimate,converted
+1,SaaS,51-200,NA,demo_request,7,3,1,5000,1
+2,Retail,11-50,EU,email_open,1,5,0,1000,0
+3,Finance,201-1000,APAC,webinar,4,1,0,2500,1
+4,Healthcare,1-10,LATAM,ad_click,2,0,0,500,0

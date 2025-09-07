@@ -1,0 +1,27 @@
+{
+  "feature_columns": [
+    "industry",
+    "company_size",
+    "region",
+    "last_touch",
+    "page_views_7d",
+    "emails_opened_30d",
+    "calls_last_30d",
+    "deal_size_estimate"
+  ],
+  "categorical_columns": [
+    "industry",
+    "company_size",
+    "region",
+    "last_touch"
+  ],
+  "numerical_columns": [
+    "page_views_7d",
+    "emails_opened_30d",
+    "calls_last_30d",
+    "deal_size_estimate"
+  ],
+  "model_type": "XGBClassifier",
+  "auc_score": 0.6374637463746375,
+  "trained_at": "2025-09-07T17:17:22.921264"
+}

@@ -1,0 +1,25 @@
+{
+    "records": [
+      {
+        "industry": "SaaS",
+        "company_size": "51-200",
+        "region": "NA",
+        "last_touch": "demo_request",
+        "page_views_7d": 7,
+        "emails_opened_30d": 3,
+        "calls_last_30d": 1,
+        "deal_size_estimate": 5000
+      },
+      {
+        "industry": "Retail",
+        "company_size": "11-50",
+        "region": "EU",
+        "last_touch": "email_open",
+        "page_views_7d": 1,
+        "emails_opened_30d": 5,
+        "calls_last_30d": 0,
+        "deal_size_estimate": 1000
+      }
+    ]
+  }
+  
