@@ -28,7 +28,7 @@ A comprehensive ML-powered CRM tool that scores leads by conversion likelihood a
 - **CI/CD Pipeline**: GitHub Actions for automated testing and deployment
 - **Monitoring**: Health checks, performance metrics, and error tracking
 
-## 🏗️ Architecture
+## Architecture
 
 ```
 ┌─────────────────┐    ┌─────────────────┐    ┌─────────────────┐
@@ -44,7 +44,7 @@ A comprehensive ML-powered CRM tool that scores leads by conversion likelihood a
 └─────────────────┘    └─────────────────┘    └─────────────────┘
 ```
 
-## 🚀 Quick Start
+## Start
 
 ### Prerequisites
 - Python 3.9+
@@ -122,7 +122,7 @@ gcloud services enable sqladmin.googleapis.com
 gcloud builds submit --config gcp/cloudbuild.yaml
 ```
 
-## 📊 Usage
+## Usage
 
 ### API Endpoints
 
@@ -177,7 +177,7 @@ Try these queries in the chatbot:
 - "Show me leads that need immediate attention"
 - "What's our revenue forecast?"
 
-## 🔧 Configuration
+## Configuration
 
 ### Environment Variables
 
@@ -223,7 +223,7 @@ The system supports multiple ML models:
 - Request/response logging
 - Error tracking and alerting
 
-## 🧪 Testing
+## Testing
 
 ### Run Tests
 ```bash
@@ -247,7 +247,7 @@ pip install locust
 locust -f tests/load_test.py --host=http://localhost:8000
 ```
 
-## 🚀 CI/CD Pipeline
+## CI/CD Pipeline
 
 The project includes a comprehensive CI/CD pipeline:
 
@@ -258,7 +258,7 @@ The project includes a comprehensive CI/CD pipeline:
 5. **Deploy**: Automated deployment to staging/production
 6. **Monitoring**: Health checks and notifications
 
-## 📚 API Documentation
+## API Documentation
 
 ### Interactive Docs
 - Swagger UI: http://localhost:8000/docs
@@ -273,32 +273,3 @@ The project includes a comprehensive CI/CD pipeline:
 | `/predict/batch` | POST | Batch lead prediction |
 | `/predict/top-leads` | GET | Get top performing leads |
 | `/model/info` | GET | Model information |
-
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Add tests
-5. Submit a pull request
-
-## 📄 License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-## 🆘 Support
-
-For support and questions:
-- Create an issue in the repository
-- Check the documentation
-- Review the API docs at `/docs`
-
-## 🔮 Roadmap
-
-- [ ] Advanced analytics dashboard
-- [ ] Email campaign integration
-- [ ] CRM system integration (Salesforce, HubSpot)
-- [ ] Advanced ML features (deep learning, ensemble methods)
-- [ ] Real-time data streaming
-- [ ] Mobile app
-- [ ] Advanced chatbot with GPT integration
