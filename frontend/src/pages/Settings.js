@@ -1,5 +1,5 @@
 import React from 'react';
-import { Settings as SettingsIcon, User, Bell, Shield, Database } from 'lucide-react';
+import { User, Bell, Shield, Database } from 'lucide-react';
 
 const Settings = () => {
   return (
