@@ -16,7 +16,7 @@ const Leads = () => {
   const fetchLeads = async () => {
     try {
       setLoading(true);
-      const response = await apiService.getLeads();
+      const response = await apiService.getLeads({ limit: 100 });
       setLeads(response.data.leads);
     } catch (error) {
       console.error('Error fetching leads:', error);
@@ -95,7 +95,7 @@ const Leads = () => {
         </div>
         <div className="divide-y divide-gray-200">
           {filteredLeads.map((lead) => (
-            <LeadCard key={lead.id} lead={lead} />
+            <LeadCard key={lead.lead_id} lead={lead} />
           ))}
         </div>
       </div>

@@ -48,8 +48,8 @@ const LeadCard = ({ lead }) => {
           <Building2 className="w-5 h-5 text-gray-600" />
         </div>
         <div>
-          <h4 className="font-semibold text-gray-900">{lead.company}</h4>
-          <p className="text-sm text-gray-600">{lead.contact}</p>
+          <h4 className="font-semibold text-gray-900">{lead.company_name}</h4>
+          <p className="text-sm text-gray-600">{lead.contact_name}</p>
           <p className="text-xs text-gray-500">{lead.industry}</p>
         </div>
       </div>
@@ -58,14 +58,14 @@ const LeadCard = ({ lead }) => {
         <div className="text-center">
           <p className="text-sm text-gray-600">Conversion</p>
           <p className="font-semibold text-gray-900">
-            {(lead.conversionProb * 100).toFixed(1)}%
+            {(lead.conversion_probability * 100).toFixed(1)}%
           </p>
         </div>
 
         <div className="text-center">
           <p className="text-sm text-gray-600">Revenue Impact</p>
           <p className="font-semibold text-gray-900">
-            ${lead.revenueImpact.toLocaleString()}
+            ${Math.round(lead.revenue_impact).toLocaleString()}
           </p>
         </div>
 
@@ -73,9 +73,9 @@ const LeadCard = ({ lead }) => {
           <span className={`px-2 py-1 rounded-full text-xs font-medium ${getStatusColor(lead.status)}`}>
             {lead.status.toUpperCase()}
           </span>
-          <span className={`px-2 py-1 rounded-full text-xs font-medium flex items-center space-x-1 ${getActionColor(lead.nextAction)}`}>
-            {getActionIcon(lead.nextAction)}
-            <span>{lead.nextAction}</span>
+          <span className={`px-2 py-1 rounded-full text-xs font-medium flex items-center space-x-1 ${getActionColor(lead.next_best_action)}`}>
+            {getActionIcon(lead.next_best_action)}
+            <span>{lead.next_best_action}</span>
           </span>
         </div>
 

@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, LineChart, Line, PieChart, Pie, Cell } from 'recharts';
+import { apiService } from '../services/api';
 
 const Analytics = () => {
   const [analytics, setAnalytics] = useState(null);
@@ -12,29 +13,8 @@ const Analytics = () => {
   const fetchAnalytics = async () => {
     try {
       setLoading(true);
-      // Mock data for now
-      const mockData = {
-        conversionRate: 0.234,
-        totalLeads: 1247,
-        totalRevenue: 2840000,
-        highPriorityLeads: 89,
-        industryBreakdown: [
-          { industry: 'Technology', leads: 350, conversions: 108 },
-          { industry: 'Finance', leads: 275, conversions: 71 },
-          { industry: 'Healthcare', leads: 225, conversions: 54 },
-          { industry: 'E-commerce', leads: 187, conversions: 39 },
-          { industry: 'Manufacturing', leads: 150, conversions: 28 }
-        ],
-        monthlyTrend: [
-          { month: 'Jan', leads: 120, conversions: 28 },
-          { month: 'Feb', leads: 150, conversions: 35 },
-          { month: 'Mar', leads: 180, conversions: 42 },
-          { month: 'Apr', leads: 200, conversions: 48 },
-          { month: 'May', leads: 220, conversions: 52 },
-          { month: 'Jun', leads: 250, conversions: 58 }
-        ]
-      };
-      setAnalytics(mockData);
+      const response = await apiService.getAnalytics();
+      setAnalytics(response.data);
     } catch (error) {
       console.error('Error fetching analytics:', error);
     } finally {

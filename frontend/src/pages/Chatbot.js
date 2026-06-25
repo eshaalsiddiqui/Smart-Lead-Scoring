@@ -38,20 +38,17 @@ const Chatbot = () => {
     setIsLoading(true);
 
     try {
-      // Simulate API call to chatbot service
-      const response = await simulateChatbotResponse(inputMessage);
-      
+      const apiResponse = await apiService.sendChatMessage(inputMessage);
+
       const botMessage = {
         id: Date.now() + 1,
         type: 'bot',
-        content: response,
+        content: apiResponse.data.response,
         timestamp: new Date()
       };
 
-      setTimeout(() => {
-        setMessages(prev => [...prev, botMessage]);
-        setIsLoading(false);
-      }, 1000);
+      setMessages(prev => [...prev, botMessage]);
+      setIsLoading(false);
 
     } catch (error) {
       console.error('Error sending message:', error);
@@ -64,133 +61,6 @@ const Chatbot = () => {
       setMessages(prev => [...prev, errorMessage]);
       setIsLoading(false);
     }
-  };
-
-  const simulateChatbotResponse = async (message) => {
-    // Simulate RAG-lite responses based on common queries
-    const lowerMessage = message.toLowerCase();
-    
-    if (lowerMessage.includes('top leads') || lowerMessage.includes('best leads')) {
-      return `Here are your top 10 leads this week:
-
-1. **TechCorp Inc.** - 89% conversion probability, $45K revenue impact
-2. **Finance Solutions** - 76% conversion probability, $32K revenue impact  
-3. **HealthTech Ltd** - 68% conversion probability, $28K revenue impact
-4. **DataFlow Systems** - 65% conversion probability, $25K revenue impact
-5. **CloudTech Partners** - 62% conversion probability, $22K revenue impact
-
-These leads show high engagement and strong conversion potential. I recommend prioritizing calls to the top 3 leads immediately.`;
-    }
-    
-    if (lowerMessage.includes('conversion rate') || lowerMessage.includes('performance')) {
-      return `Your current conversion metrics:
-
-📊 **Overall Performance:**
-- Conversion Rate: 23.4% (up 2.1% from last month)
-- Total Pipeline Value: $2.84M
-- High Priority Leads: 89
-- Average Deal Size: $12,500
-
-📈 **Trends:**
-- Leads are up 15% this month
-- Email engagement increased by 8%
-- Call response rate improved to 34%
-
-The AI model is performing well with 94% accuracy in predictions.`;
-    }
-    
-    if (lowerMessage.includes('industry') || lowerMessage.includes('sector')) {
-      return `Industry breakdown of your leads:
-
-🏢 **Top Performing Industries:**
-1. Technology - 28% of leads, 31% conversion rate
-2. Finance - 22% of leads, 26% conversion rate
-3. Healthcare - 18% of leads, 24% conversion rate
-4. E-commerce - 15% of leads, 21% conversion rate
-5. Manufacturing - 12% of leads, 19% conversion rate
-
-Technology and Finance sectors show the highest conversion rates and deal sizes. Consider focusing your outreach efforts on these industries.`;
-    }
-    
-    if (lowerMessage.includes('action') || lowerMessage.includes('next step')) {
-      return `Recommended actions for today:
-
-🎯 **Immediate Actions (Next 2 hours):**
-- Call 5 high-priority leads (TechCorp, Finance Solutions, HealthTech)
-- Send follow-up emails to 12 warm leads
-- Schedule demos for 3 qualified prospects
-
-📧 **Email Campaigns:**
-- Nurture sequence for 45 medium-priority leads
-- Re-engagement campaign for 23 dormant leads
-- Industry-specific content for 67 new leads
-
-📊 **Analytics Review:**
-- Check conversion funnel performance
-- Review A/B test results for email templates
-- Analyze competitor activity in your top industries`;
-    }
-    
-    if (lowerMessage.includes('revenue') || lowerMessage.includes('pipeline')) {
-      return `Revenue and pipeline analysis:
-
-💰 **Pipeline Value: $2.84M**
-- High probability deals: $1.2M (42%)
-- Medium probability deals: $1.1M (39%)
-- Low probability deals: $540K (19%)
-
-📈 **Revenue Forecast:**
-- This month: $340K (based on current pipeline)
-- Next month: $420K (with new leads)
-- Quarter target: $1.2M (on track)
-
-🎯 **Top Revenue Opportunities:**
-1. TechCorp Inc. - $45K (89% probability)
-2. Finance Solutions - $32K (76% probability)
-3. HealthTech Ltd - $28K (68% probability)
-
-Focus on closing the high-probability deals first to maximize revenue.`;
-    }
-    
-    if (lowerMessage.includes('help') || lowerMessage.includes('what can you do')) {
-      return `I can help you with:
-
-🔍 **Lead Analysis:**
-- Find top performing leads
-- Analyze conversion patterns
-- Identify high-value opportunities
-
-📊 **Performance Insights:**
-- Conversion rate analysis
-- Industry performance breakdown
-- Revenue forecasting
-
-🎯 **Action Planning:**
-- Next best actions for leads
-- Priority recommendations
-- Campaign suggestions
-
-💡 **Quick Queries:**
-- "Show me top 10 leads this week"
-- "What's our conversion rate by industry?"
-- "Which leads need immediate attention?"
-- "What's our revenue forecast?"
-
-Just ask me anything about your leads and I'll provide insights!`;
-    }
-    
-    // Default response
-    return `I understand you're asking about "${message}". 
-
-I can help you analyze your leads, check performance metrics, find top opportunities, or answer questions about your CRM data. 
-
-Try asking me:
-- "Who are my top 10 leads this week?"
-- "What's our conversion rate by industry?"
-- "Show me leads that need immediate attention"
-- "What's our revenue forecast?"
-
-What specific information would you like to know?`;
   };
 
   const handleKeyPress = (e) => {

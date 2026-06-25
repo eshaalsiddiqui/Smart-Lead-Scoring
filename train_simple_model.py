@@ -20,27 +20,26 @@ def train_model():
     """Train a simple lead scoring model"""
     print("Loading data...")
     
-    # Load the generated data
-    df = pd.read_csv("data/generated_leads.csv")
+    # Load the generated data. keep_default_na=False prevents pandas from
+    # silently treating the literal region code "NA" (North America) as a missing value.
+    df = pd.read_csv("data/generated_leads.csv", keep_default_na=False, na_values=[])
     print(f"Loaded {len(df)} leads")
     
-    # Prepare features
-    feature_cols = ['industry', 'company_size', 'region', 'last_touch', 
-                   'page_views_7d', 'emails_opened_30d', 'calls_last_30d', 'deal_size_estimate']
-    
+    # Prepare features. This must match the LeadData fields the API accepts
+    # (see api/enhanced_main.py) so requests map cleanly onto the trained columns.
+    cat_cols = ['industry', 'company_size', 'region', 'source_channel', 'last_touch', 'job_title']
+    num_cols = ['page_views_7d', 'emails_opened_30d', 'calls_last_30d', 'days_in_pipeline', 'deal_size_estimate']
+    feature_cols = cat_cols + num_cols
+
     X = df[feature_cols]
     y = df['converted']
-    
-    # Identify categorical and numerical columns
-    cat_cols = X.select_dtypes(include=['object']).columns.tolist()
-    num_cols = [c for c in X.columns if c not in cat_cols]
-    
+
     print(f"Categorical features: {cat_cols}")
     print(f"Numerical features: {num_cols}")
-    
+
     # Create preprocessing pipeline
     preprocessor = ColumnTransformer([
-        ('cat', OneHotEncoder(handle_unknown='ignore'), cat_cols),
+        ('cat', OneHotEncoder(handle_unknown='ignore', sparse_output=False), cat_cols),
         ('num', StandardScaler(), num_cols)
     ])
     

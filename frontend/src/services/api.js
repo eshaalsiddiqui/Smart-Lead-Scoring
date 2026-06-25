@@ -59,72 +59,19 @@ export const apiService = {
     return api.get(`/predict/top-leads?${queryParams}`);
   },
 
-  // Lead management (mock endpoints for demo)
+  // Lead management
   getLeads: (params = {}) => {
-    // Mock implementation - in production, this would call your actual API
-    return Promise.resolve({
-      data: {
-        leads: [
-          {
-            id: 'LEAD_001',
-            company_name: 'TechCorp Inc.',
-            contact_name: 'John Smith',
-            email: 'john@techcorp.com',
-            industry: 'Technology',
-            company_size: '51-200',
-            region: 'NA',
-            conversion_probability: 0.89,
-            revenue_impact: 45000,
-            next_best_action: 'Call',
-            status: 'high'
-          },
-          {
-            id: 'LEAD_002',
-            company_name: 'Finance Solutions',
-            contact_name: 'Sarah Johnson',
-            email: 'sarah@financesolutions.com',
-            industry: 'Finance',
-            company_size: '201-1000',
-            region: 'EU',
-            conversion_probability: 0.76,
-            revenue_impact: 32000,
-            next_best_action: 'Email',
-            status: 'high'
-          }
-        ],
-        total: 2,
-        page: 1,
-        limit: 10
-      }
-    });
+    return api.get('/leads', { params });
   },
 
   // Analytics data
   getAnalytics: () => {
-    // Mock implementation
-    return Promise.resolve({
-      data: {
-        conversionRate: 0.234,
-        totalLeads: 1247,
-        totalRevenue: 2840000,
-        highPriorityLeads: 89,
-        industryBreakdown: [
-          { industry: 'Technology', leads: 350, conversions: 108 },
-          { industry: 'Finance', leads: 275, conversions: 71 },
-          { industry: 'Healthcare', leads: 225, conversions: 54 },
-          { industry: 'E-commerce', leads: 187, conversions: 39 },
-          { industry: 'Manufacturing', leads: 150, conversions: 28 }
-        ],
-        monthlyTrend: [
-          { month: 'Jan', leads: 120, conversions: 28 },
-          { month: 'Feb', leads: 150, conversions: 35 },
-          { month: 'Mar', leads: 180, conversions: 42 },
-          { month: 'Apr', leads: 200, conversions: 48 },
-          { month: 'May', leads: 220, conversions: 52 },
-          { month: 'Jun', leads: 250, conversions: 58 }
-        ]
-      }
-    });
+    return api.get('/analytics/summary');
+  },
+
+  // AI Assistant
+  sendChatMessage: (message) => {
+    return api.post('/chatbot/query', { message });
   },
 
   // Lead actions

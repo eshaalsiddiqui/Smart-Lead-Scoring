@@ -22,18 +22,31 @@ from sklearn.metrics import (
 from sklearn.pipeline import Pipeline
 from sklearn.ensemble import GradientBoostingClassifier, RandomForestClassifier
 from sklearn.linear_model import LogisticRegression
-import xgboost as xgb
-import lightgbm as lgb
 
 import mlflow
 import mlflow.sklearn
-import mlflow.xgboost
-import mlflow.lightgbm
 from mlflow.tracking import MlflowClient
 
 # Configure logging
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
+
+# xgboost/lightgbm need a native OpenMP runtime (libomp) that isn't always
+# present (e.g. macOS without Homebrew's libomp). Degrade gracefully rather
+# than failing the whole training run when they can't be loaded.
+try:
+    import xgboost as xgb
+    import mlflow.xgboost
+except Exception as e:
+    xgb = None
+    logger.warning(f"xgboost unavailable, skipping it: {e}")
+
+try:
+    import lightgbm as lgb
+    import mlflow.lightgbm
+except Exception as e:
+    lgb = None
+    logger.warning(f"lightgbm unavailable, skipping it: {e}")
 
 class LeadScoringModel:
     def __init__(self, experiment_name: str = "lead_scoring"):
@@ -41,6 +54,9 @@ class LeadScoringModel:
         self.model = None
         self.preprocessor = None
         self.feature_columns = None
+        self.categorical_columns = None
+        self.numerical_columns = None
+        self.best_auc_score = None
         self.label_encoders = {}
         
         # Set up MLflow
@@ -54,7 +70,9 @@ class LeadScoringModel:
         if data_path.endswith('.parquet'):
             df = pd.read_parquet(data_path)
         else:
-            df = pd.read_csv(data_path)
+            # keep_default_na=False prevents pandas from silently treating the
+            # literal region code "NA" (North America) as a missing value.
+            df = pd.read_csv(data_path, keep_default_na=False, na_values=[])
         
         logger.info(f"Loaded {len(df)} records with {len(df.columns)} features")
         return df
@@ -83,7 +101,9 @@ class LeadScoringModel:
         available_num = [col for col in numerical_features if col in df.columns]
         
         self.feature_columns = available_cat + available_num
-        
+        self.categorical_columns = available_cat
+        self.numerical_columns = available_num
+
         # Prepare target
         if 'converted' in df.columns:
             y = df['converted']
@@ -161,22 +181,26 @@ class LeadScoringModel:
         # Create preprocessor
         self.preprocessor = self.create_preprocessor(X_train)
         
-        # Define models to test
-        models = {
-            'xgboost': xgb.XGBClassifier(
+        # Define models to test. xgboost/lightgbm are only included if their
+        # native libraries loaded successfully (see imports above).
+        models = {}
+        if xgb is not None:
+            models['xgboost'] = xgb.XGBClassifier(
                 eval_metric='logloss',
                 random_state=42,
                 n_estimators=100,
                 max_depth=6,
                 learning_rate=0.1
-            ),
-            'lightgbm': lgb.LGBMClassifier(
+            )
+        if lgb is not None:
+            models['lightgbm'] = lgb.LGBMClassifier(
                 random_state=42,
                 n_estimators=100,
                 max_depth=6,
                 learning_rate=0.1,
                 verbose=-1
-            ),
+            )
+        models.update({
             'gradient_boosting': GradientBoostingClassifier(
                 random_state=42,
                 n_estimators=100,
@@ -192,8 +216,8 @@ class LeadScoringModel:
                 random_state=42,
                 max_iter=1000
             )
-        }
-        
+        })
+
         best_model = None
         best_score = 0
         best_model_name = None
@@ -261,6 +285,7 @@ class LeadScoringModel:
                 logger.info(f"{name} - AUC: {auc_score:.4f}, F1: {f1:.4f}")
         
         self.model = best_model
+        self.best_auc_score = best_score
         logger.info(f"Best model: {best_model_name} with AUC: {best_score:.4f}")
         
         return results
@@ -316,7 +341,10 @@ class LeadScoringModel:
         # Save metadata
         metadata = {
             'feature_columns': self.feature_columns,
+            'categorical_columns': self.categorical_columns,
+            'numerical_columns': self.numerical_columns,
             'model_type': type(self.model.named_steps['classifier']).__name__,
+            'auc_score': float(self.best_auc_score) if self.best_auc_score is not None else None,
             'trained_at': datetime.now().isoformat(),
             'preprocessor_type': type(self.preprocessor).__name__
         }

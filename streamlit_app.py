@@ -23,7 +23,9 @@ def next_best_action(prob):
 
 @st.cache_data
 def load_sample():
-    return pd.read_csv("data/sample_leads.csv")
+    # keep_default_na=False prevents pandas from silently treating the
+    # literal region code "NA" (North America) as a missing value.
+    return pd.read_csv("data/sample_leads.csv", keep_default_na=False, na_values=[])
 
 # Load data
 uploaded = st.file_uploader("Upload your leads CSV", type=["csv"])

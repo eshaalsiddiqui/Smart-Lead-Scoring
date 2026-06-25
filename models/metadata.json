@@ -3,25 +3,32 @@
     "industry",
     "company_size",
     "region",
+    "source_channel",
     "last_touch",
+    "job_title",
     "page_views_7d",
     "emails_opened_30d",
     "calls_last_30d",
+    "days_in_pipeline",
     "deal_size_estimate"
   ],
   "categorical_columns": [
     "industry",
     "company_size",
     "region",
-    "last_touch"
+    "source_channel",
+    "last_touch",
+    "job_title"
   ],
   "numerical_columns": [
     "page_views_7d",
     "emails_opened_30d",
     "calls_last_30d",
+    "days_in_pipeline",
     "deal_size_estimate"
   ],
-  "model_type": "XGBClassifier",
-  "auc_score": 0.6374637463746375,
-  "trained_at": "2025-09-07T17:17:22.921264"
+  "model_type": "LogisticRegression",
+  "auc_score": 0.6881688168816881,
+  "trained_at": "2026-06-25T16:38:50.584896",
+  "preprocessor_type": "ColumnTransformer"
 }

@@ -22,6 +22,8 @@ const Dashboard = () => {
   });
   const [topLeads, setTopLeads] = useState([]);
   const [chartData, setChartData] = useState([]);
+  const [actionStats, setActionStats] = useState([]);
+  const [pieData, setPieData] = useState([]);
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
@@ -31,82 +33,47 @@ const Dashboard = () => {
   const fetchDashboardData = async () => {
     try {
       setLoading(true);
-      
-      // Fetch health status
-      const healthResponse = await apiService.getHealth();
-      
-      // Mock data for demonstration - in production, this would come from your API
-      const mockStats = {
-        totalLeads: 1247,
-        conversionRate: 0.23,
-        totalRevenue: 2840000,
-        highPriorityLeads: 89
-      };
-      
-      const mockTopLeads = [
-        {
-          id: 'LEAD_001',
-          company: 'TechCorp Inc.',
-          contact: 'John Smith',
-          industry: 'Technology',
-          conversionProb: 0.89,
-          revenueImpact: 45000,
-          nextAction: 'Call',
-          status: 'high'
-        },
-        {
-          id: 'LEAD_002',
-          company: 'Finance Solutions',
-          contact: 'Sarah Johnson',
-          industry: 'Finance',
-          conversionProb: 0.76,
-          revenueImpact: 32000,
-          nextAction: 'Email',
-          status: 'high'
-        },
-        {
-          id: 'LEAD_003',
-          company: 'HealthTech Ltd',
-          contact: 'Mike Davis',
-          industry: 'Healthcare',
-          conversionProb: 0.68,
-          revenueImpact: 28000,
-          nextAction: 'Call',
-          status: 'medium'
-        }
-      ];
 
-      const mockChartData = [
-        { name: 'Jan', leads: 120, conversions: 28 },
-        { name: 'Feb', leads: 150, conversions: 35 },
-        { name: 'Mar', leads: 180, conversions: 42 },
-        { name: 'Apr', leads: 200, conversions: 48 },
-        { name: 'May', leads: 220, conversions: 52 },
-        { name: 'Jun', leads: 250, conversions: 58 }
-      ];
+      const [analyticsResponse, topLeadsResponse] = await Promise.all([
+        apiService.getAnalytics(),
+        apiService.getTopLeads({ limit: 5 })
+      ]);
 
-      setStats(mockStats);
-      setTopLeads(mockTopLeads);
-      setChartData(mockChartData);
-      
+      const analytics = analyticsResponse.data;
+
+      setStats({
+        totalLeads: analytics.totalLeads,
+        conversionRate: analytics.conversionRate,
+        totalRevenue: analytics.totalRevenue,
+        highPriorityLeads: analytics.highPriorityLeads
+      });
+
+      setTopLeads(topLeadsResponse.data.leads);
+
+      setChartData(analytics.monthlyTrend.map((m) => ({
+        name: m.month,
+        leads: m.leads,
+        conversions: m.conversions
+      })));
+
+      setActionStats([
+        { name: 'Calls Needed', value: analytics.actionStats.callsNeeded, icon: Phone, color: 'text-blue-600', bgColor: 'bg-blue-100' },
+        { name: 'Emails to Send', value: analytics.actionStats.emailsNeeded, icon: Mail, color: 'text-green-600', bgColor: 'bg-green-100' },
+        { name: 'Nurture Campaign', value: analytics.actionStats.nurtureNeeded, icon: Target, color: 'text-yellow-600', bgColor: 'bg-yellow-100' }
+      ]);
+
+      setPieData([
+        { name: 'High Priority', value: analytics.priorityDistribution.high, color: '#ef4444' },
+        { name: 'Medium Priority', value: analytics.priorityDistribution.medium, color: '#f59e0b' },
+        { name: 'Low Priority', value: analytics.priorityDistribution.low, color: '#10b981' }
+      ]);
+
     } catch (error) {
       console.error('Error fetching dashboard data:', error);
     } finally {
       setLoading(false);
     }
   };
-
-  const actionStats = [
-    { name: 'Calls Needed', value: 23, icon: Phone, color: 'text-blue-600', bgColor: 'bg-blue-100' },
-    { name: 'Emails to Send', value: 45, icon: Mail, color: 'text-green-600', bgColor: 'bg-green-100' },
-    { name: 'Nurture Campaign', value: 67, icon: Target, color: 'text-yellow-600', bgColor: 'bg-yellow-100' }
-  ];
-
-  const pieData = [
-    { name: 'High Priority', value: 89, color: '#ef4444' },
-    { name: 'Medium Priority', value: 156, color: '#f59e0b' },
-    { name: 'Low Priority', value: 1002, color: '#10b981' }
-  ];
 
   if (loading) {
     return (
@@ -258,7 +225,7 @@ const Dashboard = () => {
         </div>
         <div className="space-y-4">
           {topLeads.map((lead) => (
-            <LeadCard key={lead.id} lead={lead} />
+            <LeadCard key={lead.lead_id} lead={lead} />
           ))}
         </div>
       </div>
